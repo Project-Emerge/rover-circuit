@@ -41,6 +41,7 @@ bom/
 # Gerber export output
 out/
 production/
+fabrication-toolkit-options.json
 
 # End of https://www.toptal.com/developers/gitignore/api/kicad
 
