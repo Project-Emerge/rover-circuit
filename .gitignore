@@ -45,3 +45,22 @@ fabrication-toolkit-options.json
 
 # End of https://www.toptal.com/developers/gitignore/api/kicad
 
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Build artifacts
+artifacts/
+release-artifacts/
+gerbers/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+

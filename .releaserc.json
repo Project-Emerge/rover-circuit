@@ -1,0 +1,46 @@
+{
+  "branches": [
+    "main",
+    "master"
+  ],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md"
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "assets": [
+          {
+            "path": "release-artifacts/*.pdf",
+            "label": "Schematic PDFs"
+          },
+          {
+            "path": "release-artifacts/*.step",
+            "label": "3D Models (STEP)"
+          },
+          {
+            "path": "release-artifacts/*-gerbers.zip",
+            "label": "Gerber Files"
+          }
+        ]
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "CHANGELOG.md",
+          "package.json",
+          "package-lock.json"
+        ],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ]
+  ]
+}

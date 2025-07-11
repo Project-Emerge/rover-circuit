@@ -1,0 +1,30 @@
+{
+  "name": "rover-circuit",
+  "version": "1.0.0",
+  "description": "Rover Circuit KiCad Project",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Project-Emerge/rover-circuit.git"
+  },
+  "keywords": [
+    "kicad",
+    "pcb",
+    "electronics",
+    "rover"
+  ],
+  "author": "Nicolas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Project-Emerge/rover-circuit/issues"
+  },
+  "homepage": "https://github.com/Project-Emerge/rover-circuit#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "semantic-release": "^22.0.12"
+  }
+}
