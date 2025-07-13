@@ -1695,10 +1695,6 @@
 					(reference "#PWR059")
 					(unit 1)
 				)
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/b97fe109-99a2-4dfa-a17c-dc37fc9fba40"
-					(reference "#PWR046")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1844,10 +1840,6 @@
 					(reference "U8")
 					(unit 1)
 				)
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/b97fe109-99a2-4dfa-a17c-dc37fc9fba40"
-					(reference "U3")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1926,10 +1918,6 @@
 			(project "rover-circuit"
 				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/56bb1fec-9afe-4bf7-8010-73f9974635dc"
 					(reference "C4")
-					(unit 1)
-				)
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/b97fe109-99a2-4dfa-a17c-dc37fc9fba40"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2012,10 +2000,6 @@
 					(reference "C14")
 					(unit 1)
 				)
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/b97fe109-99a2-4dfa-a17c-dc37fc9fba40"
-					(reference "C12")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2084,10 +2068,6 @@
 					(reference "M5")
 					(unit 1)
 				)
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/b97fe109-99a2-4dfa-a17c-dc37fc9fba40"
-					(reference "M3")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2152,10 +2132,6 @@
 			(project "rover-circuit"
 				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/56bb1fec-9afe-4bf7-8010-73f9974635dc"
 					(reference "#PWR057")
-					(unit 1)
-				)
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/b97fe109-99a2-4dfa-a17c-dc37fc9fba40"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2224,10 +2200,6 @@
 					(reference "#PWR044")
 					(unit 1)
 				)
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/b97fe109-99a2-4dfa-a17c-dc37fc9fba40"
-					(reference "#PWR036")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2292,10 +2264,6 @@
 			(project "rover-circuit"
 				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/56bb1fec-9afe-4bf7-8010-73f9974635dc"
 					(reference "#PWR045")
-					(unit 1)
-				)
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/b97fe109-99a2-4dfa-a17c-dc37fc9fba40"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2366,10 +2334,6 @@
 					(reference "M6")
 					(unit 1)
 				)
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/b97fe109-99a2-4dfa-a17c-dc37fc9fba40"
-					(reference "M4")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2434,10 +2398,6 @@
 			(project "rover-circuit"
 				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/56bb1fec-9afe-4bf7-8010-73f9974635dc"
 					(reference "#PWR043")
-					(unit 1)
-				)
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/b97fe109-99a2-4dfa-a17c-dc37fc9fba40"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2506,10 +2466,6 @@
 					(reference "#PWR058")
 					(unit 1)
 				)
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/b97fe109-99a2-4dfa-a17c-dc37fc9fba40"
-					(reference "#PWR040")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2574,10 +2530,6 @@
 			(project "rover-circuit"
 				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/56bb1fec-9afe-4bf7-8010-73f9974635dc"
 					(reference "#PWR042")
-					(unit 1)
-				)
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/b97fe109-99a2-4dfa-a17c-dc37fc9fba40"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
