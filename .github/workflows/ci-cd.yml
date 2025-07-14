@@ -12,126 +12,37 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout code
+      - name: Checkout Repository
         uses: actions/checkout@v4
+    
+      - name: Run KiCad actions
+        uses: actions-for-kicad/kicad-actions@v1-k9.0
         with:
-          fetch-depth: 0
-
-      - name: Install KiCad
-        run: |
-          sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
-          sudo apt update
-          sudo apt install -y kicad kicad-libraries
-
-      - name: Generate schematic PDFs
-        run: |
-          mkdir -p artifacts
-          
-          # Generate PDF for main schematic
-          if [ -f "rover-circuit.kicad_sch" ]; then
-            kicad-cli sch export pdf \
-              --output artifacts/rover-circuit-schematic.pdf \
-              rover-circuit.kicad_sch
-          fi
-
-      - name: Generate 3D model (STEP)
-        run: |
-          if [ -f "rover-circuit.kicad_pcb" ]; then
-            kicad-cli pcb export step \
-              --output artifacts/rover-circuit-3d.step \
-              rover-circuit.kicad_pcb
-          fi
-
-      - name: Generate Gerber files
-        run: |
-          if [ -f "rover-circuit.kicad_pcb" ]; then
-            mkdir -p artifacts/gerbers
-            kicad-cli pcb export gerbers \
-              --output artifacts/gerbers/ \
-              rover-circuit.kicad_pcb
-            
-            # Generate drill files
-            kicad-cli pcb export drill \
-              --output artifacts/gerbers/ \
-              rover-circuit.kicad_pcb
-          fi
-
-      - name: Upload artifacts
+          schematic_file_name: ./rover-circuit.kicad_sch
+          # symbol_libraries: "symbol-library=./symbol-library.kicad_sym"
+          run_erc: true
+          schematic_output_pdf: true
+    
+          pcb_file_name: ./rover-circuit.kicad_pcb
+          # footprint_libraries: "footprint-library=./footprint-library.pretty"
+          run_drc: true
+          pcb_output_gerbers_and_drill: true
+          pcb_output_image: true
+    
+      - name: Upload schematic
         uses: actions/upload-artifact@v4
         with:
-          name: kicad-artifacts
-          path: artifacts/
-          retention-days: 30
-
-  release:
-    name: Release
-    runs-on: ubuntu-latest
-    needs: check
-    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+          name: Schematic
+          path: ./schematic.pdf
     
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - name: Upload gerbers and drill file
+        uses: actions/upload-artifact@v4
         with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+          name: Gerbers
+          path: ./gerbers
+    
+      - name: Upload image render
+        uses: actions/upload-artifact@v4
         with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: |
-          npm init -y
-          npm install --save-dev semantic-release @semantic-release/changelog @semantic-release/git @semantic-release/github
-
-      - name: Install KiCad
-        run: |
-          sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
-          sudo apt update
-          sudo apt install -y kicad kicad-libraries
-
-      - name: Generate release artifacts
-        run: |
-          mkdir -p release-artifacts
-          
-          # Generate schematic PDFs
-          if [ -f "rover-circuit.kicad_sch" ]; then
-            kicad-cli sch export pdf \
-              --output release-artifacts/rover-circuit-schematic.pdf \
-              rover-circuit.kicad_sch
-          fi
-          
-          # Generate 3D model (STEP)
-          if [ -f "rover-circuit.kicad_pcb" ]; then
-            kicad-cli pcb export step \
-              --output release-artifacts/rover-circuit-3d.step \
-              rover-circuit.kicad_pcb
-          fi
-          
-          # Copy existing STEP file if available
-          if [ -f "rover-circuit.step" ]; then
-            cp rover-circuit.step release-artifacts/
-          fi
-          
-          # Generate Gerber files and zip them
-          mkdir -p gerbers
-          if [ -f "rover-circuit.kicad_pcb" ]; then
-            kicad-cli pcb export gerbers \
-              --output gerbers/ \
-              rover-circuit.kicad_pcb
-            
-            kicad-cli pcb export drill \
-              --output gerbers/ \
-              rover-circuit.kicad_pcb
-            
-            # Create zip file of gerbers
-            cd gerbers && zip -r ../release-artifacts/rover-circuit-gerbers.zip . && cd ..
-          fi
-
-      - name: Semantic Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release
+          name: Image render
+          path: ./pcb.png
