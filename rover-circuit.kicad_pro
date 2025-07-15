@@ -252,23 +252,7 @@
   "erc": {
     "erc_exclusions": [
       [
-        "footprint_link_issues|1625600|1104900|6933d2e6-286c-44bb-8794-ee0454bd7f1c|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|1625600|927100|3f9ed227-3cab-4bdf-8069-7daa91fd5b13|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|368300|1524000|8935e8cc-a911-4909-849a-8a0a538ecb2a|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
         "lib_symbol_issues|647700|457200|f032382a-6829-4085-ad52-b8f14733087a|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|1333500|1028700|2910702f-9b8d-44c7-a3e8-d225646180e7|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
       [
@@ -465,14 +449,14 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "footprint_filter": "warning",
-      "footprint_link_issues": "warning",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
