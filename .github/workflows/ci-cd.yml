@@ -67,62 +67,29 @@ jobs:
         run: |
           TAG_NAME="v$(date +'%Y.%m.%d')-$(echo ${{ github.sha }} | cut -c1-7)"
           echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git tag $TAG_NAME
-          git push origin $TAG_NAME
-      
-      - name: Create release
-        uses: actions/create-release@v1
-        id: create_release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ steps.create_tag.outputs.tag_name }}
-          release_name: Rover Circuit ${{ steps.create_tag.outputs.tag_name }}
-          body: |
-            Automated release of Rover Circuit PCB design
-            
-            This release contains:
-            - 📋 Schematic PDF
-            - 🔧 Gerber files and drill files for manufacturing
-            - 🖼️ PCB render image
-            
-            Generated from commit: ${{ github.sha }}
-          draft: false
-          prerelease: false
-      
-      - name: Upload schematic to release
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./artifacts/Schematic/schematic.pdf
-          asset_name: rover-circuit-schematic.pdf
-          asset_content_type: application/pdf
       
       - name: Create gerbers archive
         run: |
           cd ./artifacts/Gerbers
           zip -r ../../rover-circuit-gerbers.zip .
       
-      - name: Upload gerbers to release
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create release with artifacts
+        uses: softprops/action-gh-release@v1
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./rover-circuit-gerbers.zip
-          asset_name: rover-circuit-gerbers.zip
-          asset_content_type: application/zip
-      
-      - name: Upload PCB image to release
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./artifacts/Image render/pcb.png
-          asset_name: rover-circuit-pcb-render.png
-          asset_content_type: image/png
+          tag_name: ${{ steps.create_tag.outputs.tag_name }}
+          name: Rover Circuit ${{ steps.create_tag.outputs.tag_name }}
+          body: |
+            Automated release of Rover Circuit PCB design
+            
+            This release contains:
+            - 📋 **rover-circuit-schematic.pdf** - Schematic PDF for documentation
+            - 🔧 **rover-circuit-gerbers.zip** - Gerber files and drill files for PCB manufacturing
+            - 🖼️ **rover-circuit-pcb-render.png** - PCB render image for visualization
+            
+            Generated from commit: ${{ github.sha }}
+          files: |
+            ./artifacts/Schematic/schematic.pdf
+            ./rover-circuit-gerbers.zip
+            ./artifacts/Image render/pcb.png
+          draft: false
+          prerelease: false
