@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.65,
-          "height": 0.65,
-          "width": 0.65
+          "drill": 0.0,
+          "height": 1.24,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -477,6 +477,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -665,6 +666,14 @@
     [
       "56bb1fec-9afe-4bf7-8010-73f9974635dc",
       "Rear Wheels"
+    ],
+    [
+      "0d6b5693-2a71-4edb-b834-69af52140ea0",
+      "Power Stage"
+    ],
+    [
+      "d41596c0-af8a-4309-873d-a34cbfae49aa",
+      "Battery Circuit"
     ]
   ],
   "text_variables": {}
