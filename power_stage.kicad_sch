@@ -1170,7 +1170,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1191,7 +1191,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1217,7 +1217,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1235,7 +1235,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1273,7 +1273,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1672,6 +1672,12 @@
 		(uuid "5739312e-58fb-450d-bd82-cbe95c797762")
 	)
 	(junction
+		(at 129.54 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63880b09-bf86-4ef0-9a78-c3ac2b2b40c8")
+	)
+	(junction
 		(at 167.64 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1688,6 +1694,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84071d52-d1bd-48d7-ad28-4bd2fdc052e7")
+	)
+	(junction
+		(at 129.54 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92b7c906-13f4-474a-8320-f438751e4842")
 	)
 	(junction
 		(at 121.92 60.96)
@@ -1773,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 114.3) (xy 129.54 123.19)
+			(xy 129.54 114.3) (xy 129.54 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1840,6 +1852,16 @@
 			(type default)
 		)
 		(uuid "18e40f40-f402-4854-aadb-4a89b2660913")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 138.43 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4809ba-321e-4303-8d06-02413151a8a1")
 	)
 	(wire
 		(pts
@@ -1933,16 +1955,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 119.38) (xy 138.43 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cc64b58-80f7-4fbe-bbbb-0e7e1d6f0312")
-	)
-	(wire
-		(pts
 			(xy 133.35 121.92) (xy 133.35 123.19)
 		)
 		(stroke
@@ -2010,6 +2022,26 @@
 			(type default)
 		)
 		(uuid "5fc9e2c9-35fc-4480-b799-aae470fcf641")
+	)
+	(wire
+		(pts
+			(xy 129.54 57.15) (xy 129.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cbd35e-3106-40bd-b14e-dd6001f2872b")
+	)
+	(wire
+		(pts
+			(xy 129.54 57.15) (xy 138.43 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6616c096-4730-4b40-ad6b-a69f28205dd7")
 	)
 	(wire
 		(pts
@@ -2263,7 +2295,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 52.07) (xy 129.54 60.96)
+			(xy 129.54 52.07) (xy 129.54 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2280,16 +2312,6 @@
 			(type default)
 		)
 		(uuid "b158603c-55ac-40c0-af5c-f55be019254d")
-	)
-	(wire
-		(pts
-			(xy 130.81 57.15) (xy 138.43 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8e3920a-5e59-4195-a1b2-ec7046f79dff")
 	)
 	(wire
 		(pts
@@ -2380,6 +2402,16 @@
 			(type default)
 		)
 		(uuid "e3de420d-e699-4552-a027-dbffd2b09f84")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 129.54 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e472831a-41fd-499d-9bd3-1f59d84fccbe")
 	)
 	(wire
 		(pts
@@ -2565,7 +2597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.4552 69.85 0)
 			(effects
 				(font
@@ -2701,7 +2733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.4552 132.08 0)
 			(effects
 				(font
@@ -2850,7 +2882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 122.8852 132.08 0)
 			(effects
 				(font
@@ -2959,6 +2991,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 179.07 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47c99e11-54c9-4c9d-8ec8-fbd9f9d335ab")
+		(property "Reference" "#PWR010"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 179.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc683aa6-2f4f-434b-b8f6-0749a17ea5da")
+		)
+		(instances
+			(project ""
+				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/0d6b5693-2a71-4edb-b834-69af52140ea0"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 121.92 118.11 0)
 		(unit 1)
@@ -2986,7 +3084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 120.142 118.11 90)
 			(effects
 				(font
@@ -3056,7 +3154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.0352 68.58 0)
 			(effects
 				(font
@@ -3192,7 +3290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.6052 130.81 0)
 			(effects
 				(font
@@ -3328,7 +3426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.6052 68.58 0)
 			(effects
 				(font
@@ -3371,72 +3469,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 179.07 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7503bd20-c28e-4066-8bd5-ec0710add389")
-		(property "Reference" "#PWR062"
-			(at 179.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 179.07 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 179.07 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36ca9af4-1a82-49e9-a6f5-ecb3d67f610e")
-		)
-		(instances
-			(project ""
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/0d6b5693-2a71-4edb-b834-69af52140ea0"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 179.07 127 0)
 		(unit 1)
@@ -3464,7 +3496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.0352 130.81 0)
 			(effects
 				(font
@@ -3600,7 +3632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 120.142 55.88 90)
 			(effects
 				(font
@@ -4339,7 +4371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 122.8852 69.85 0)
 			(effects
 				(font
