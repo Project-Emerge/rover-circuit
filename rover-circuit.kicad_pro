@@ -678,6 +678,10 @@
     [
       "e65ad327-84c4-4dfd-9fcf-1e7540d6db5b",
       "Motion Tracking"
+    ],
+    [
+      "af87f537-344b-4e9a-aa14-a6aa6cb827b3",
+      "UWB Module"
     ]
   ],
   "text_variables": {}
