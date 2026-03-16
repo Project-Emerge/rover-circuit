@@ -526,7 +526,9 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+5V": "rgb(221, 133, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -671,28 +673,16 @@
       "Root"
     ],
     [
-      "b97fe109-99a2-4dfa-a17c-dc37fc9fba40",
-      "Front Wheels"
+      "b45054da-bad8-42d4-bf23-c90e1679d711",
+      "MCU"
     ],
     [
-      "56bb1fec-9afe-4bf7-8010-73f9974635dc",
-      "Rear Wheels"
+      "0e97adee-cbcf-435f-9866-681d41305159",
+      "Rasbpberry PI"
     ],
     [
-      "0d6b5693-2a71-4edb-b834-69af52140ea0",
-      "Power Stage"
-    ],
-    [
-      "d41596c0-af8a-4309-873d-a34cbfae49aa",
-      "Battery Circuit"
-    ],
-    [
-      "e65ad327-84c4-4dfd-9fcf-1e7540d6db5b",
-      "Motion Tracking"
-    ],
-    [
-      "af87f537-344b-4e9a-aa14-a6aa6cb827b3",
-      "UWB Module"
+      "5070e061-e1bc-4e4d-b169-49ea5dd67ecf",
+      "USB"
     ]
   ],
   "text_variables": {}
