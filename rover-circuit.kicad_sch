@@ -833,6 +833,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 209.55 118.11)
+		(size 26.67 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d12ae2b7-4c48-4e18-8e74-760d158fba59")
+		(property "Sheetname" "Battery Recharger"
+			(at 209.55 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "recharger.kicad_sch"
+			(at 209.55 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rover-circuit"
+				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

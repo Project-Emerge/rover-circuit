@@ -683,6 +683,10 @@
     [
       "5070e061-e1bc-4e4d-b169-49ea5dd67ecf",
       "USB"
+    ],
+    [
+      "d12ae2b7-4c48-4e18-8e74-760d158fba59",
+      "Battery Recharger"
     ]
   ],
   "text_variables": {}
