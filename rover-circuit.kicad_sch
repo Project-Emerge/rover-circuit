@@ -111,6 +111,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 175.26 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e54261d-bcb4-4c20-95d6-b90733336128")
+	)
 	(wire
 		(pts
 			(xy 170.18 66.04) (xy 180.34 66.04)
@@ -120,6 +126,26 @@
 			(type default)
 		)
 		(uuid "59739f38-8a15-4a53-b52b-05e71a489797")
+	)
+	(bus
+		(pts
+			(xy 180.34 110.49) (xy 176.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87173fe0-4a0c-42a9-80a0-9952e21bee88")
+	)
+	(bus
+		(pts
+			(xy 175.26 90.17) (xy 180.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6473d83-23f2-4299-a758-14f08126196d")
 	)
 	(bus
 		(pts
@@ -133,13 +159,23 @@
 	)
 	(bus
 		(pts
-			(xy 170.18 90.17) (xy 180.34 90.17)
+			(xy 170.18 90.17) (xy 175.26 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dfa6a53f-4621-4439-bca8-ebf72794ee83")
+	)
+	(bus
+		(pts
+			(xy 176.53 110.49) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec65d9a2-fba7-426a-bdf5-ba092bbb5d12")
 	)
 	(wire
 		(pts
@@ -150,6 +186,16 @@
 			(type default)
 		)
 		(uuid "f995d8fb-7a3c-4ec6-864b-baa701d1ba3d")
+	)
+	(bus
+		(pts
+			(xy 175.26 90.17) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf6e6bd-4648-4bde-9354-4c7ccedf82e4")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -917,6 +963,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{SDA,SCL}" bidirectional
+			(at 180.34 110.49 180)
+			(uuid "eeb171f4-7de8-4183-a499-d112ff57a2c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
