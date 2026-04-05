@@ -696,7 +696,7 @@
         "uuid": "0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW3,C26,#PWR37,#PWR69-71,U10",
     "variants": []
   },
   "sheets": [
@@ -727,6 +727,10 @@
     [
       "553f6c54-0dff-4b00-a83a-c31cb9347f92",
       "IMU"
+    ],
+    [
+      "f4b194fd-8f48-4986-9deb-ce512b0299fe",
+      "Power Rails"
     ]
   ],
   "text_variables": {},
