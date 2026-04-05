@@ -112,10 +112,26 @@
 		)
 	)
 	(junction
+		(at 175.26 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "345994da-a204-4b5d-b27a-cb2960801ae1")
+	)
+	(junction
 		(at 175.26 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e54261d-bcb4-4c20-95d6-b90733336128")
+		(uuid "df0d5ccc-3f73-4865-acca-6e6cc4279f1f")
+	)
+	(bus
+		(pts
+			(xy 175.26 105.41) (xy 175.26 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8d1d3b-4ff1-4627-b08d-605a40250178")
 	)
 	(wire
 		(pts
@@ -129,13 +145,23 @@
 	)
 	(bus
 		(pts
-			(xy 180.34 110.49) (xy 176.53 110.49)
+			(xy 120.65 129.54) (xy 134.62 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87173fe0-4a0c-42a9-80a0-9952e21bee88")
+		(uuid "785c8c89-25a4-44d6-a987-4193d30936d8")
+	)
+	(bus
+		(pts
+			(xy 175.26 120.65) (xy 180.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a7815d-5ff9-46aa-b223-baee757c9c03")
 	)
 	(bus
 		(pts
@@ -169,7 +195,17 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 110.49) (xy 175.26 109.22)
+			(xy 175.26 90.17) (xy 175.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a77ab4-4591-406a-b371-fa7229b7eae1")
+	)
+	(bus
+		(pts
+			(xy 175.26 105.41) (xy 180.34 105.41)
 		)
 		(stroke
 			(width 0)
@@ -186,16 +222,6 @@
 			(type default)
 		)
 		(uuid "f995d8fb-7a3c-4ec6-864b-baa701d1ba3d")
-	)
-	(bus
-		(pts
-			(xy 175.26 90.17) (xy 175.26 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdf6e6bd-4648-4bde-9354-4c7ccedf82e4")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -872,8 +898,64 @@
 		)
 	)
 	(sheet
-		(at 102.87 77.47)
-		(size 17.78 7.62)
+		(at 180.34 116.84)
+		(size 24.13 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1b81d5cb-e963-4a5b-9e03-a4f6deaea479")
+		(property "Sheetname" "Oled Display"
+			(at 180.34 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 180.34 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{SDA,SCL}" bidirectional
+			(at 180.34 120.65 180)
+			(uuid "dec74d5c-6041-4cee-976c-6570c969a2f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "rover-circuit"
+				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 77.47)
+		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -888,7 +970,7 @@
 		)
 		(uuid "5070e061-e1bc-4e4d-b169-49ea5dd67ecf")
 		(property "Sheetname" "USB"
-			(at 102.87 76.7584 0)
+			(at 95.25 76.7584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -899,7 +981,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 102.87 85.6746 0)
+			(at 95.25 85.6746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -928,8 +1010,8 @@
 		)
 	)
 	(sheet
-		(at 180.34 106.68)
-		(size 24.13 12.7)
+		(at 180.34 101.6)
+		(size 24.13 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -944,7 +1026,7 @@
 		)
 		(uuid "553f6c54-0dff-4b00-a83a-c31cb9347f92")
 		(property "Sheetname" "IMU"
-			(at 180.34 105.9684 0)
+			(at 180.34 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -955,7 +1037,7 @@
 			)
 		)
 		(property "Sheetfile" "imu.kicad_sch"
-			(at 180.34 119.9646 0)
+			(at 180.34 109.8046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -966,7 +1048,7 @@
 			)
 		)
 		(pin "{SDA,SCL}" bidirectional
-			(at 180.34 110.49 180)
+			(at 180.34 105.41 180)
 			(uuid "eeb171f4-7de8-4183-a499-d112ff57a2c0")
 			(effects
 				(font
@@ -984,8 +1066,8 @@
 		)
 	)
 	(sheet
-		(at 96.52 106.68)
-		(size 24.13 16.51)
+		(at 95.25 92.71)
+		(size 25.4 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1000,7 +1082,7 @@
 		)
 		(uuid "6fd78103-703b-49c2-b552-015594035fd1")
 		(property "Sheetname" "Motor Driver"
-			(at 96.52 105.9684 0)
+			(at 95.25 91.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1011,7 +1093,7 @@
 			)
 		)
 		(property "Sheetfile" "motor_driver.kicad_sch"
-			(at 96.52 123.7746 0)
+			(at 95.25 109.8046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1022,7 +1104,7 @@
 			)
 		)
 		(pin "LIN1" input
-			(at 120.65 109.22 0)
+			(at 120.65 95.25 0)
 			(uuid "84eaae0a-cc5f-4b69-a360-1e2ad75e36bd")
 			(effects
 				(font
@@ -1032,7 +1114,7 @@
 			)
 		)
 		(pin "LIN2" input
-			(at 120.65 111.76 0)
+			(at 120.65 97.79 0)
 			(uuid "92ab5ff3-87bd-4a84-8491-6022b39d9fe0")
 			(effects
 				(font
@@ -1042,7 +1124,7 @@
 			)
 		)
 		(pin "RIN1" input
-			(at 120.65 114.3 0)
+			(at 120.65 100.33 0)
 			(uuid "2071c08e-f02a-415e-8fa9-82fbf2e4de4c")
 			(effects
 				(font
@@ -1052,7 +1134,7 @@
 			)
 		)
 		(pin "RIN2" input
-			(at 120.65 116.84 0)
+			(at 120.65 102.87 0)
 			(uuid "65dd9b34-2a49-4daa-a370-7876ec673ea0")
 			(effects
 				(font
@@ -1062,7 +1144,7 @@
 			)
 		)
 		(pin "~{SLEEP}" input
-			(at 120.65 120.65 0)
+			(at 120.65 106.68 0)
 			(uuid "3bb1d6ad-4a53-4486-a6fc-4cafd066600d")
 			(effects
 				(font
@@ -1155,6 +1237,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "{MISO MOSI CLK}" bidirectional
+			(at 134.62 129.54 180)
+			(uuid "cf9d871a-b7dc-45ad-841e-0007cc2463a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1252,8 +1344,104 @@
 		)
 	)
 	(sheet
-		(at 35.56 33.02)
-		(size 36.83 17.78)
+		(at 95.25 115.57)
+		(size 25.4 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dfcb9ee6-522b-47f9-a504-b3e6976aa040")
+		(property "Sheetname" "UWB"
+			(at 95.25 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uwb.kicad_sch"
+			(at 95.25 133.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UWB_IRQ" output
+			(at 120.65 119.38 0)
+			(uuid "c49371e6-5943-4610-94aa-8faa514d106e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UWB_RST" input
+			(at 120.65 121.92 0)
+			(uuid "029c8f75-fa1c-4d6f-99ca-7fd131f77a6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UWB_WAKEUP" input
+			(at 120.65 124.46 0)
+			(uuid "28793f2e-d4bc-4ccd-96bb-609cc28adf16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UWB_~{CS}" input
+			(at 120.65 127 0)
+			(uuid "ec9ba7ad-e4b8-41e9-8874-15c04127350b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{MISO MOSI CLK}" bidirectional
+			(at 120.65 129.54 0)
+			(uuid "917d1e43-a51c-4747-ac4d-88be7285c7dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rover-circuit"
+				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 59.69)
+		(size 25.4 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1268,7 +1456,7 @@
 		)
 		(uuid "f4b194fd-8f48-4986-9deb-ce512b0299fe")
 		(property "Sheetname" "Power Rails"
-			(at 35.56 32.3084 0)
+			(at 95.25 58.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1279,7 +1467,7 @@
 			)
 		)
 		(property "Sheetfile" "power_rails.kicad_sch"
-			(at 35.56 51.3846 0)
+			(at 95.25 71.7046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1290,7 +1478,7 @@
 			)
 		)
 		(pin "~{INT}" output
-			(at 72.39 39.37 0)
+			(at 120.65 63.5 0)
 			(uuid "705320c7-917e-4eba-b4cd-5dc0adae78a6")
 			(effects
 				(font
@@ -1300,7 +1488,7 @@
 			)
 		)
 		(pin "~{KILL}" input
-			(at 72.39 44.45 0)
+			(at 120.65 67.31 0)
 			(uuid "c71a6d1b-2243-435d-b26d-43ffb4f85cd9")
 			(effects
 				(font

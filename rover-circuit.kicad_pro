@@ -692,17 +692,17 @@
     "top_level_sheets": [
       {
         "filename": "rover-circuit.kicad_sch",
-        "name": "rover-circuit",
+        "name": "Rover Circuit",
         "uuid": "0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
       }
     ],
-    "used_designators": "SW3,C26,#PWR37,#PWR69-71,U10",
+    "used_designators": "R18-20,DWM1,J3,SW3,D5-6,C26-27,#PWR37,#PWR69-79,U10-11",
     "variants": []
   },
   "sheets": [
     [
       "0461baee-3b25-4e1a-a5c1-d76b4b99c66c",
-      "rover-circuit"
+      "Rover Circuit"
     ],
     [
       "b45054da-bad8-42d4-bf23-c90e1679d711",
@@ -731,6 +731,14 @@
     [
       "f4b194fd-8f48-4986-9deb-ce512b0299fe",
       "Power Rails"
+    ],
+    [
+      "1b81d5cb-e963-4a5b-9e03-a4f6deaea479",
+      "Oled Display"
+    ],
+    [
+      "dfcb9ee6-522b-47f9-a504-b3e6976aa040",
+      "UWB"
     ]
   ],
   "text_variables": {},

@@ -1722,6 +1722,16 @@
 	)
 	(bus
 		(pts
+			(xy 196.85 106.68) (xy 196.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0865d3c7-82f4-47c7-9f8c-c14b4940213c")
+	)
+	(bus
+		(pts
 			(xy 111.76 91.44) (xy 110.49 90.17)
 		)
 		(stroke
@@ -1769,6 +1779,16 @@
 			(type default)
 		)
 		(uuid "46af2c05-e7ab-44d9-b8eb-69cff14ebe29")
+	)
+	(bus
+		(pts
+			(xy 198.12 105.41) (xy 196.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493bc355-16a8-40e3-aaec-6c6727012de0")
 	)
 	(wire
 		(pts
@@ -1972,6 +1992,16 @@
 	)
 	(bus
 		(pts
+			(xy 201.93 105.41) (xy 198.12 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73a2210-fff5-46c3-b03c-57ccd35e88d0")
+	)
+	(bus
+		(pts
 			(xy 167.64 82.55) (xy 167.64 83.82)
 		)
 		(stroke
@@ -2059,6 +2089,17 @@
 			(justify left bottom)
 		)
 		(uuid "e57f741b-f592-4d76-b2cf-9aee7e821a55")
+	)
+	(hierarchical_label "{MISO MOSI CLK}"
+		(shape bidirectional)
+		(at 201.93 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28267842-c107-4ad3-a4a6-480355643568")
 	)
 	(hierarchical_label "{SDA, SCL}"
 		(shape bidirectional)
