@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "3dee4df5-2e82-4070-805f-767d338f1270")
 	(paper "A4")
+	(title_block
+		(title "Dropbot")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -2257,7 +2260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 140.6652 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2280,6 +2283,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 139.7 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 139.7 41.91 0)
 			(hide yes)
 			(show_name no)

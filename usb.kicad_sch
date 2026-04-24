@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "56734e92-7e23-4588-aaa6-9362ee146fbd")
 	(paper "A4")
+	(title_block
+		(title "Dropbot")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names

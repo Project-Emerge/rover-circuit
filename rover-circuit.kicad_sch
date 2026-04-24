@@ -5,7 +5,7 @@
 	(uuid "0461baee-3b25-4e1a-a5c1-d76b4b99c66c")
 	(paper "A4")
 	(title_block
-		(title "Project Venice")
+		(title "Dropbot")
 		(date "2025-06-15")
 		(company "PSLab - Università di Bologna")
 		(comment 4 "Nicolas Farabegoli")
@@ -1103,49 +1103,49 @@
 				(justify left top)
 			)
 		)
-		(pin "LIN1" input
-			(at 120.65 95.25 0)
-			(uuid "84eaae0a-cc5f-4b69-a360-1e2ad75e36bd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LIN2" input
-			(at 120.65 97.79 0)
-			(uuid "92ab5ff3-87bd-4a84-8491-6022b39d9fe0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RIN1" input
-			(at 120.65 100.33 0)
-			(uuid "2071c08e-f02a-415e-8fa9-82fbf2e4de4c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RIN2" input
-			(at 120.65 102.87 0)
-			(uuid "65dd9b34-2a49-4daa-a370-7876ec673ea0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "~{SLEEP}" input
 			(at 120.65 106.68 0)
 			(uuid "3bb1d6ad-4a53-4486-a6fc-4cafd066600d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN1" input
+			(at 120.65 95.25 0)
+			(uuid "560314ea-b7f0-4458-9363-328d611c205e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN2" input
+			(at 120.65 97.79 0)
+			(uuid "5d19e435-5aa9-40c3-9967-0bc30737c817")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BIN2" input
+			(at 120.65 100.33 0)
+			(uuid "dcb444ca-b88b-46df-beac-c025a29ec405")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BIN1" input
+			(at 120.65 102.87 0)
+			(uuid "0c76c01e-63c2-4eed-866b-4c450e5fe100")
 			(effects
 				(font
 					(size 1.27 1.27)
