@@ -2150,7 +2150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 146.812 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -2173,17 +2173,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 148.59 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C27834"
 			(at 148.59 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -2476,7 +2465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 143.002 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -2499,17 +2488,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C27834"
 			(at 144.78 116.84 0)
 			(hide yes)
 			(show_name no)
