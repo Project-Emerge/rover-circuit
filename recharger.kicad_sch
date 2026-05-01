@@ -2072,6 +2072,12 @@
 		(color 0 0 0 0)
 		(uuid "bd26618f-a768-48f8-9bf8-290c559fa48a")
 	)
+	(junction
+		(at 116.84 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc170fa6-88c9-4d34-b033-9827f55bef71")
+	)
 	(bus_entry
 		(at 106.68 93.98)
 		(size 2.54 2.54)
@@ -2372,6 +2378,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 125.73) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e47d609-f4ca-4228-b349-21e454fb3c7d")
+	)
+	(wire
+		(pts
 			(xy 187.96 113.03) (xy 189.23 113.03)
 		)
 		(stroke
@@ -2550,6 +2566,16 @@
 		)
 		(uuid "8f1ddac6-355c-4cc9-958a-ee1333d45df2")
 	)
+	(wire
+		(pts
+			(xy 105.41 114.3) (xy 116.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bbc5b26-49bd-4b7a-9fa2-3986b27787e1")
+	)
 	(bus
 		(pts
 			(xy 106.68 93.98) (xy 106.68 95.25)
@@ -2602,7 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 82.55) (xy 199.39 85.09)
+			(xy 207.01 80.01) (xy 207.01 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2732,6 +2758,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 114.3) (xy 105.41 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2448247-ad6f-4802-b8ae-ba661c71e99b")
+	)
+	(wire
+		(pts
 			(xy 176.53 105.41) (xy 186.69 105.41)
 		)
 		(stroke
@@ -2772,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 92.71) (xy 199.39 95.25)
+			(xy 207.01 90.17) (xy 207.01 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2850,6 +2886,16 @@
 		)
 		(uuid "365247d2-9fa3-411b-a085-6625652230b9")
 	)
+	(label "REGN"
+		(at 119.38 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fc3a953-7c35-448c-9a4d-6637a02da123")
+	)
 	(label "TS"
 		(at 185.42 110.49 0)
 		(effects
@@ -2869,6 +2915,26 @@
 			(justify left bottom)
 		)
 		(uuid "9359d484-1f28-4882-8e36-0b4d46759975")
+	)
+	(label "REGN"
+		(at 110.49 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3184268-00da-4f27-859c-99316081ddae")
+	)
+	(label "REGN"
+		(at 171.45 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f137c311-d471-4381-be16-5e418431b199")
 	)
 	(hierarchical_label "CD"
 		(shape input)
@@ -2916,7 +2982,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 199.39 82.55 0)
+		(at 207.01 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2927,7 +2993,7 @@
 		(fields_autoplaced yes)
 		(uuid "04b82f20-dbc7-482c-9ecd-047baed20866")
 		(property "Reference" "#PWR019"
-			(at 199.39 86.36 0)
+			(at 207.01 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2938,7 +3004,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 199.39 77.47 0)
+			(at 207.01 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2948,7 +3014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 82.55 0)
+			(at 207.01 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2959,7 +3025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 82.55 0)
+			(at 207.01 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2970,7 +3036,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 199.39 82.55 0)
+			(at 207.01 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3024,7 +3090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.6 99.568 90)
 			(hide yes)
 			(show_name no)
@@ -3184,7 +3250,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3277,7 +3343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 117.602 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -3359,7 +3425,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 119.38 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3419,6 +3485,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 105.41 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c5f4fe4-a6bf-430a-9867-a6e50eceac5d")
+		(property "Reference" "#PWR028"
+			(at 105.41 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e73846da-cabb-417e-9caa-8d9c1133d109")
+		)
+		(instances
+			(project "rover-circuit"
+				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/d12ae2b7-4c48-4e18-8e74-760d158fba59"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 142.24 59.69 0)
 		(unit 1)
@@ -3452,7 +3596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.2052 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3502,7 +3646,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 95.25 0)
+		(at 207.01 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3513,7 +3657,7 @@
 		(fields_autoplaced yes)
 		(uuid "404a8164-abf9-4f9d-b5b6-65dfdebe0dee")
 		(property "Reference" "#PWR020"
-			(at 199.39 101.6 0)
+			(at 207.01 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3524,7 +3668,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 100.33 0)
+			(at 207.01 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3534,7 +3678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 95.25 0)
+			(at 207.01 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3545,7 +3689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 95.25 0)
+			(at 207.01 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3556,7 +3700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 95.25 0)
+			(at 207.01 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3612,7 +3756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 167.64 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3683,7 +3827,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "44uF"
+		(property "Value" "22uF"
 			(at 120.65 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3694,7 +3838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 117.8052 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3843,7 +3987,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "Battery Connector"
 			(at 195.58 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3854,7 +3998,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 194.31 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4137,7 +4281,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 199.39 88.9 0)
+		(at 207.01 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4148,7 +4292,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b1c819b-dbe2-4be1-8be6-b6955b88372b")
 		(property "Reference" "C7"
-			(at 203.2 87.6299 0)
+			(at 210.82 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4159,7 +4303,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 203.2 90.1699 0)
+			(at 210.82 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4169,8 +4313,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 200.3552 92.71 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 207.9752 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4181,7 +4325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 88.9 0)
+			(at 207.01 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4192,7 +4336,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 199.39 88.9 0)
+			(at 207.01 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4240,7 +4384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "383"
+		(property "Value" "1.1K"
 			(at 129.54 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4251,7 +4395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.222 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -4612,84 +4756,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 110.49 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96a34707-c0ad-4c2f-96f8-fc4bccdb34f4")
-		(property "Reference" "#PWR021"
-			(at 110.49 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 110.49 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 110.49 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02f6a41a-761a-4673-874a-083eedc33f85")
-		)
-		(instances
-			(project "rover-circuit"
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/d12ae2b7-4c48-4e18-8e74-760d158fba59"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 130.81 80.01 0)
 		(unit 1)
@@ -4801,7 +4867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 177.4952 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4883,7 +4949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 172.4152 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4965,7 +5031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 156.972 127 90)
 			(hide yes)
 			(show_name no)
@@ -5093,6 +5159,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 105.41 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adf05314-27a8-47f9-87c0-32f0209c4639")
+		(property "Reference" "C12"
+			(at 109.22 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 109.22 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 106.3752 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec128787-999c-4dfb-aec4-75ed0662bcf6")
+		)
+		(pin "1"
+			(uuid "1cc6d883-5a45-436d-8752-a42e594120c0")
+		)
+		(instances
+			(project "rover-circuit"
+				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/d12ae2b7-4c48-4e18-8e74-760d158fba59"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 160.02 91.44 270)
 		(mirror x)
 		(unit 1)
@@ -5123,7 +5271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 156.21 90.4748 0)
 			(hide yes)
 			(show_name no)
@@ -5250,84 +5398,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 119.38 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8339f22-31ba-4003-b818-34601c976ff7")
-		(property "Reference" "#PWR010"
-			(at 119.38 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 119.38 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 119.38 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c562e8f0-836e-4149-a889-edc515844762")
-		)
-		(instances
-			(project "rover-circuit"
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/d12ae2b7-4c48-4e18-8e74-760d158fba59"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 158.75 116.84 0)
 		(unit 1)
@@ -5361,7 +5431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 156.972 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -5518,7 +5588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 157.48 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -5587,7 +5657,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 168.148 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5597,7 +5667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.83 105.918 90)
 			(hide yes)
 			(show_name no)
@@ -5679,7 +5749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 108.712 81.28 90)
 			(hide yes)
 			(show_name no)
