@@ -2477,8 +2477,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 166.37 120.65 90)
-		(mirror x)
+		(at 168.91 120.65 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2488,7 +2487,7 @@
 		(dnp no)
 		(uuid "ba28d787-3665-436a-bae4-58e3c4458725")
 		(property "Reference" "M2"
-			(at 168.91 128.27 90)
+			(at 166.37 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2498,7 +2497,7 @@
 			)
 		)
 		(property "Value" "Motor_DC"
-			(at 168.91 125.73 90)
+			(at 166.37 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2507,8 +2506,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 168.656 120.65 0)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 166.624 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2519,7 +2518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.656 120.65 0)
+			(at 166.624 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2530,7 +2529,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 166.37 120.65 0)
+			(at 168.91 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2714,7 +2713,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 166.37 107.95 90)
+		(at 168.91 107.95 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2725,7 +2724,7 @@
 		(fields_autoplaced yes)
 		(uuid "f63cab4b-6518-4a10-a33d-1ae18998110a")
 		(property "Reference" "M1"
-			(at 168.91 100.33 90)
+			(at 166.37 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2735,7 +2734,7 @@
 			)
 		)
 		(property "Value" "Motor_DC"
-			(at 168.91 102.87 90)
+			(at 166.37 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2744,8 +2743,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 168.656 107.95 0)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 166.624 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2756,7 +2755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.656 107.95 0)
+			(at 166.624 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2767,7 +2766,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 166.37 107.95 0)
+			(at 168.91 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
