@@ -3766,7 +3766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0518S"
 			(at 167.64 86.36 0)
 			(hide yes)
 			(show_name no)
