@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.45,
-          "width": 1.0
+          "height": 0.6,
+          "width": 1.325
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -244,6 +244,10 @@
         {
           "diameter": 0.5,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.35
         },
         {
           "diameter": 3.0,
@@ -651,6 +655,14 @@
       {
         "netclass": "PWR_1A",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "PWR_500mA",
+        "pattern": "/Battery Recharger/CBSET_*"
+      },
+      {
+        "netclass": "PWR_2A",
+        "pattern": "VBUS"
       }
     ]
   },
