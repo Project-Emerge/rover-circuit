@@ -225,7 +225,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 181.61 180)
+		(at 157.48 180.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -236,7 +236,7 @@
 		(fields_autoplaced yes)
 		(uuid "006c6622-dd16-47c8-81d9-ef646fc0618e")
 		(property "Reference" "H1"
-			(at 153.67 182.8801 0)
+			(at 154.94 181.6101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -247,7 +247,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 153.67 180.3401 0)
+			(at 154.94 179.0701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -257,8 +257,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580"
-			(at 156.21 181.61 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 157.48 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -269,7 +269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 181.61 0)
+			(at 157.48 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -280,7 +280,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 181.61 0)
+			(at 157.48 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -301,7 +301,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 186.69 180)
+		(at 157.48 190.5 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -310,9 +310,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "39d9cb33-9899-4fdd-8dbd-1d40c8a5fc13")
-		(property "Reference" "H3"
-			(at 153.67 187.9601 0)
+		(uuid "73da5e96-360a-41fa-afbe-148d06a481f8")
+		(property "Reference" "H4"
+			(at 154.94 191.7701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -323,7 +323,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 153.67 185.4201 0)
+			(at 154.94 189.2301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -333,8 +333,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580"
-			(at 156.21 186.69 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 157.48 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -345,7 +345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 186.69 0)
+			(at 157.48 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -356,7 +356,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 186.69 0)
+			(at 157.48 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -369,7 +369,7 @@
 		(instances
 			(project "rover-circuit"
 				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
-					(reference "H3")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -529,7 +529,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 176.53 180)
+		(at 157.48 175.26 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -540,7 +540,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1657165-967f-4430-9978-5ffbdba94eef")
 		(property "Reference" "H2"
-			(at 153.67 177.8001 0)
+			(at 154.94 176.5301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -551,7 +551,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 153.67 175.2601 0)
+			(at 154.94 173.9901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -561,8 +561,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580"
-			(at 156.21 176.53 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 157.48 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -573,7 +573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 176.53 0)
+			(at 157.48 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -584,7 +584,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 176.53 0)
+			(at 157.48 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -605,7 +605,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 191.77 180)
+		(at 157.48 185.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -614,9 +614,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fedea566-3636-402c-8828-de18f4366c48")
-		(property "Reference" "H4"
-			(at 153.67 193.0401 0)
+		(uuid "b64f7b08-06ec-4e87-adee-7668c02bbfcc")
+		(property "Reference" "H3"
+			(at 154.94 186.6901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -627,7 +627,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 153.67 190.5001 0)
+			(at 154.94 184.1501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -637,8 +637,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580"
-			(at 156.21 191.77 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 157.48 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -649,7 +649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 191.77 0)
+			(at 157.48 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -660,7 +660,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 191.77 0)
+			(at 157.48 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -673,7 +673,7 @@
 		(instances
 			(project "rover-circuit"
 				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)

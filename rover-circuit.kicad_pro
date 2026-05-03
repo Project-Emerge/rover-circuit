@@ -653,10 +653,6 @@
         "pattern": "+5V"
       },
       {
-        "netclass": "PWR_500mA",
-        "pattern": "/Battery Recharger/CBSET_*"
-      },
-      {
         "netclass": "PWR_2A",
         "pattern": "VBUS"
       }
