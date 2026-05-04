@@ -80,7 +80,7 @@ Each release automatically includes:
 | Rif.     | Qtà | Funzione                             | Specifica / valore da montare                                       | Package          | Codice JLCPCB/LCSC                     |
 | -------- | --: | ------------------------------------ | ------------------------------------------------------------------- | ---------------- | -------------------------------------- |
 | U1       |   1 | Charger 2S boost + bilanciamento     | TI **BQ25887RGER**, QFN-24-EP 4×4                                   | QFN-24-EP(4×4)   | **C2761614** ([LCSC Electronics][1])   |
-| L1       |   1 | Induttore boost | **1 µH**, molded/shielded, **Irms 12 A**, **Isat 15 A**, **DCR 7.4 mΩ**, ±20% | **SMD 7×6.6 mm** | **C167216**        |
+| L1       |   1 | Induttore boost | **1 µH**, molded/shielded, **Irms 12 A**, **Isat 15 A**, **DCR 7.4 mΩ**, ±20%            | **SMD 7×6.6 mm** | **C167216**                            |
 | C_VBUS   |   1 | Capacitore ingresso VBUS             | **1 µF**, 25 V, X5R/X7R, ≥1 µF vicino al pin VBUS                   | 0603             | **C5673**                              |
 | C_PMID   |   2 | Capacitori nodo PMID                 | **22 µF ciascuno**, 25 V, X5R, ±10%; totale nominale 44 µF          | 1206             | **C12891**                             |
 | C_SNS    |   2 | Capacitori uscita SNS                | **22 µF ciascuno**, 25 V, X5R, ±10%; totale nominale 44 µF          | 1206             | **C12891**                             |
@@ -100,6 +100,27 @@ Each release automatically includes:
 [2]: https://www.lcsc.com/product-detail/C435392.html?utm_source=chatgpt.com "DFE252012F-1R0M=P2 | muRata | Price | In Stock"
 [3]: https://www.ti.com/lit/ds/symlink/bq25887.pdf "BQ25887 I2C Controlled 2-Cell, 2-A Boost-Mode Battery	 Charger With Cell	 Balancing For USB	 Input datasheet (Rev. B)"
 
+### DRV8833 -- Motor Driver
+
+| Rif.    | Qtà | Funzione                         | Specifica / valore da montare                                      | Package           | Codice JLCPCB/LCSC                   |
+| ------- | --: | -------------------------------- | ------------------------------------------------------------------ | ----------------- | ------------------------------------ |
+| U1      |   1 | Driver dual H-bridge             | DRV8833, versione 1.5 A RMS per ponte                              | HTSSOP-16 / PWP   | **DRV8833PWPR / C50506**             |
+| C_VM1   |   1 | Decoupling alimentazione motori  | 10 µF, 25 V, X5R/X7R                                               | 0805              | **CL21A106KAYNNNE / C15850**         |
+| C_VM2   |   1 | Bulk alimentazione motori        | 100 µF, 16 V, low ESR                                              | SMD elettrolitico | **RVE1C101M0605 – C88658**           |
+| C_VINT  |   1 | Condensatore regolatore interno  | 2.2 µF, 16 V                                                       | 0603              | **CL10A225KO8NNNC / C23630**         |
+| C_VCP   |   1 | Condensatore charge pump         | 10 nF, 50 V, X7R, tra VCP e VM                                     | 0603              | **CL10B103KB8NNNC / C1589**          |
+| C_LOGIC |   1 | Decoupling logica                | 100 nF, 50 V, X7R                                                  | 0603              | **CC0603KRX7R9BB104 / C14663**       |
+| R_AISEN |   1 | Sense corrente motore A          | 0.20 Ω, 1%, ≥1 W; limite corrente circa 1 A                        | 2512              | **HoYLR2512-3W-200mR-1% / C5375488** |
+| R_BISEN |   1 | Sense corrente motore B          | 0.20 Ω, 1%, ≥1 W; limite corrente circa 1 A                        | 2512              | **HoYLR2512-3W-200mR-1% / C5375488** |
+| R_FAULT |   1 | Pull-up uscita nFAULT            | 10 kΩ, 1%, verso VCC logica                                        | 0603              | **0603WAF1002T5E / C25804**          |
+| R_SLEEP |   1 | Pull-up nSLEEP                   | 10 kΩ, 1%, verso VCC logica; abilita driver di default             | 0603              | **0603WAF1002T5E / C25804**          |
+| R_AIN1  |   1 | Resistenza serie ingresso logico | 100 Ω, opzionale                                                   | 0603              | **0603WAF1000T5E / C22775**          |
+| R_AIN2  |   1 | Resistenza serie ingresso logico | 100 Ω, opzionale                                                   | 0603              | **0603WAF1000T5E / C22775**          |
+| R_BIN1  |   1 | Resistenza serie ingresso logico | 100 Ω, opzionale                                                   | 0603              | **0603WAF1000T5E / C22775**          |
+| R_BIN2  |   1 | Resistenza serie ingresso logico | 100 Ω, opzionale                                                   | 0603              | **0603WAF1000T5E / C22775**          |
+| D_TVS   |   1 | Protezione transitori su VM      | TVS 7 V, opzionale; utile con cavi lunghi o alimentazione rumorosa | SMB               | **SMBJ7.0A / C151864**               |
+| J_M1    |   1 | Connettore motore A              | 2 pin per motore N20                                               | JST-XH SMD 2.54   | **HX-2.54-2PWT / C5142098**          |
+| J_M2    |   1 | Connettore motore B              | 2 pin per motore N20                                               | JST-XH SMD 2.54   | **HX-2.54-2PWT / C5142098**          |
 
 ---
 
