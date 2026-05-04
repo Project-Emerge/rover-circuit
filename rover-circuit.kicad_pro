@@ -601,7 +601,7 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.35,
+        "clearance": 0.2,
         "name": "PWR_2A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -640,7 +640,8 @@
     "net_colors": {
       "+3V3": "rgb(0, 194, 194)",
       "+5V": "rgb(221, 133, 0)",
-      "+6V": "rgb(0, 132, 0)"
+      "+6V": "rgb(0, 132, 0)",
+      "+BATT": "rgb(194, 194, 0)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [
@@ -806,7 +807,7 @@
         "uuid": "0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
       }
     ],
-    "used_designators": "H3-4",
+    "used_designators": "#PWR27,C11,H3-4",
     "variants": []
   },
   "sheets": [

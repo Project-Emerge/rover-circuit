@@ -1362,6 +1362,12 @@
 		(color 0 0 0 0)
 		(uuid "9c204995-17d0-4f99-a14a-af19cc2007b0")
 	)
+	(junction
+		(at 151.13 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5b3da09-cead-4010-8077-1152994f9880")
+	)
 	(no_connect
 		(at 156.21 105.41)
 		(uuid "5e64bcb5-2f66-4702-a21f-5dac5c8a508d")
@@ -1408,6 +1414,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 77.47) (xy 158.75 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145b9989-6ea7-4d17-b635-bb37345a9c7e")
+	)
+	(wire
+		(pts
 			(xy 156.21 113.03) (xy 175.26 113.03)
 		)
 		(stroke
@@ -1448,6 +1464,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 87.63) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b6a46b-2954-4522-a241-439f5c85d548")
+	)
+	(wire
+		(pts
 			(xy 115.57 74.93) (xy 115.57 77.47)
 		)
 		(stroke
@@ -1485,6 +1511,16 @@
 			(type default)
 		)
 		(uuid "4cd41610-bd2f-4aee-9c90-0939b9ad6e7e")
+	)
+	(wire
+		(pts
+			(xy 158.75 77.47) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f45708b-4a59-45ed-a9e5-65717a7e4b5a")
 	)
 	(wire
 		(pts
@@ -1870,6 +1906,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 158.75 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a53759a-cd35-4dd9-ad46-021d8d2cd67b")
+		(property "Reference" "C11"
+			(at 162.56 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 162.56 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 159.7152 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e38b3acd-02c1-4767-9960-3d452f9c2c0b")
+		)
+		(pin "2"
+			(uuid "1ecd853d-5c07-43f6-a569-62af1efa65ee")
+		)
+		(instances
+			(project "rover-circuit"
+				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/6fd78103-703b-49c2-b552-015594035fd1"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 93.98 0)
 		(unit 1)
@@ -1970,7 +2088,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "100uF"
 			(at 106.68 86.7409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1981,7 +2099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
 			(at 103.8352 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2260,7 +2378,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01uF"
+		(property "Value" "10nF"
 			(at 119.38 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2271,7 +2389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.5352 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2476,6 +2594,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 158.75 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1fcf293-edc0-4889-856d-a3f40c70e1a6")
+		(property "Reference" "#PWR027"
+			(at 158.75 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27b5a9f6-1aaf-4e01-8935-b28eefc062ea")
+		)
+		(instances
+			(project "rover-circuit"
+				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/6fd78103-703b-49c2-b552-015594035fd1"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Motor:Motor_DC")
 		(at 166.37 120.65 90)
 		(mirror x)
@@ -2586,7 +2782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 116.078 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -2823,7 +3019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 104.648 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -2905,7 +3101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 86.6648 0)
 			(hide yes)
 			(show_name no)

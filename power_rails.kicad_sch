@@ -7289,7 +7289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN-8_DDB_LIT"
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm"
 			(at 234.95 88.9 0)
 			(hide yes)
 			(show_name no)
