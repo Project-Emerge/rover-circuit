@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.45,
-          "width": 1.0
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -239,11 +239,11 @@
         },
         {
           "diameter": 0.4,
-          "drill": 0.3
+          "drill": 0.2
         },
         {
           "diameter": 0.5,
-          "drill": 0.3
+          "drill": 0.25
         },
         {
           "diameter": 3.0,
@@ -656,6 +656,14 @@
       {
         "netclass": "PWR_2A",
         "pattern": "VBUS"
+      },
+      {
+        "netclass": "PWR_2A",
+        "pattern": "+6V"
+      },
+      {
+        "netclass": "PWR_500mA",
+        "pattern": "/Battery Recharger/CBSET_*"
       }
     ]
   },
@@ -807,7 +815,7 @@
         "uuid": "0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
       }
     ],
-    "used_designators": "#PWR27,C11,H3-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
