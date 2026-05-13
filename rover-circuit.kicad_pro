@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.825,
-          "width": 0.25
+          "height": 1.6,
+          "width": 0.9
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -549,7 +549,7 @@
         "clearance": 0.5,
         "name": "+BATT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
         "tuning_profile": "",
@@ -557,12 +557,25 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.15,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.13208,
+        "name": "DIFF_90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13208,
+        "tuning_profile": "",
+        "via_diameter": 0.4572,
+        "via_drill": 0.2032
+      },
+      {
+        "clearance": 0.01,
         "name": "Fine Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.05,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -571,7 +584,7 @@
         "clearance": 0.2,
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -582,7 +595,7 @@
         "clearance": 0.2,
         "name": "PWR_100mA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
@@ -593,7 +606,7 @@
         "clearance": 0.25,
         "name": "PWR_1A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
@@ -604,7 +617,7 @@
         "clearance": 0.2,
         "name": "PWR_2A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.5,
         "tuning_profile": "",
@@ -615,7 +628,7 @@
         "clearance": 0.2,
         "name": "PWR_500mA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
@@ -626,7 +639,7 @@
         "clearance": 0.2,
         "name": "Signals",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -664,6 +677,10 @@
       {
         "netclass": "PWR_500mA",
         "pattern": "/Battery Recharger/CBSET_*"
+      },
+      {
+        "netclass": "Fine Signal",
+        "pattern": "/IMU/AS*"
       }
     ]
   },
@@ -815,7 +832,7 @@
         "uuid": "0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C14-15,U1,#PWR13,#PWR42,#PWR84-85,#PWR89-92",
     "variants": []
   },
   "sheets": [
