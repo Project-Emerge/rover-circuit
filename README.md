@@ -1,76 +1,47 @@
 # Rover Circuit
 
-A KiCad PCB project for a rover circuit board.
-
-## Project Structure
-
-- `rover-circuit.kicad_sch` - Main schematic file
-- `rover-circuit.kicad_pcb` - PCB layout file
-- `front_wheels.kicad_sch` - Front wheels schematic
-- `rear_wheels.kicad_sch` - Rear wheels schematic
-- `rover-circuit.step` - 3D model of the circuit board
-- `production/` - Production files (BOM, pick & place, etc.)
-
-## Development Workflow
-
-This project uses automated CI/CD with semantic versioning based on conventional commits.
-
-### Conventional Commits
-
-Please follow the [Conventional Commits](https://www.conventionalcommits.org/) specification for your commit messages:
-
-- `feat:` - New features (triggers minor version bump)
-- `fix:` - Bug fixes (triggers patch version bump)  
-- `docs:` - Documentation changes
-- `style:` - Code style changes (formatting, etc.)
-- `refactor:` - Code refactoring without changing functionality
-- `test:` - Adding or updating tests
-- `chore:` - Maintenance tasks, dependency updates
-- `BREAKING CHANGE:` - Breaking changes (triggers major version bump)
-
-#### Examples
-
-```text
-feat: add power management circuit to main schematic
-fix: correct trace width on high current paths
-docs: update component specifications in README
-chore: update footprint libraries
-```
-
-### CI/CD Pipeline
-
-The GitHub Actions workflow automatically:
-
-1. **On every push/PR:**
-   - Validates KiCad schematic and PCB files
-   - Generates schematic PDFs
-   - Exports 3D models (STEP files)
-   - Creates Gerber files for manufacturing
-
-2. **On main branch:**
-   - Runs semantic-release to determine version
-   - Creates GitHub releases with generated artifacts
-   - Includes schematic PDFs and 3D models as release assets
-
-### Release Artifacts
-
-Each release automatically includes:
-
-- **Schematic PDFs** - Visual documentation of the circuit
-- **3D Models (STEP)** - For mechanical integration
-- **Gerber Files** - For PCB manufacturing
-
-## Getting Started
-
-1. Clone this repository
-2. Open the project in KiCad 8.0+
-3. Make your changes following conventional commit format
-4. Push to trigger the CI/CD pipeline
-
 ## Requirements
 
-- KiCad 8.0 or later
-- Git with conventional commit messages
+---
+
+### General Requirements
+
+### Mechanical Requirements
+
+### Electrical Requirements
+
+### Functional Requirements
+
+
+### 2. General Board Overview
+
+* **Application**: Robot rover controller with battery charging and motor driving capabilities.
+* **Target Enclosure**: Custom 3D-printed case with mounting points for motors, battery, and sensors.
+* **Operating Temperature Range**: -20 °C to +60 °C.
+
+---
+
+### 3. Mechanical Requirements
+
+* **Board Dimensions**: ?? mm × ?? mm (to fit within the enclosure).
+* **Mounting Holes**: 4 holes for M2 screws, located at the two sides of the board.
+* **Thickness**: Standard 1.6 mm PCB thickness.
+* **Keep-out Zones**: 5 mm from the edges for mounting clearance; No components in the center bottom side (battery slot). No components closer than 3 mm to the mounting holes.
+
+---
+
+### 4. Electrical Requirements
+
+#### 4.1 Power Domains
+* **Input Voltage**: Two-cell Li-ion battery (7.4 V nominal) with USB-C charging support.
+* **Internal Voltage Rails**: 3.3 V for logic and sensors, 6 V for motors, and regulated 5 V for external Raspberry Pi connection.
+* **Current Requirements**: Up to 2 A for motors, 1 A for sensors and logic.
+
+#### 4.2 Interfaces
+* **I2C**: For communication with sensors and battery management.
+* **GPIO**: For motor control signals and status LEDs.
+* **USB-C**: For charging and potential data communication with a host computer.
+* **Motor Outputs**: Two H-bridge outputs for controlling two DC motors.
 
 # Components BOM
 
