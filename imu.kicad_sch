@@ -1438,6 +1438,10 @@
 		(uuid "555a2eb4-7bbd-42c1-9f7d-2df9c7ce1fab")
 	)
 	(no_connect
+		(at 132.08 71.12)
+		(uuid "79760667-044d-4567-98ef-9aa4d398cad8")
+	)
+	(no_connect
 		(at 158.75 116.84)
 		(uuid "aa0b7a9e-0870-423e-93c9-881e07eaf2ae")
 	)
@@ -2114,7 +2118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.1452 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2271,7 +2275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MMC5983MA:PQFN50P300X300X100-16N"
+		(property "Footprint" "Package_LGA:LGA-16_3x3mm_P0.5mm"
 			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2841,7 +2845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.4252 85.09 0)
 			(hide yes)
 			(show_name no)
