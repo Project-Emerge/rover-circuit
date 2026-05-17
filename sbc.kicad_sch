@@ -1762,8 +1762,108 @@
 		(uuid "7d648465-23a5-4d6d-b297-ec5bfa3ebd78")
 	)
 	(no_connect
+		(at 101.6 93.98)
+		(uuid "0b3c4af7-8289-4918-a21b-fc2e730f6291")
+	)
+	(no_connect
+		(at 142.24 111.76)
+		(uuid "1627e20a-f994-4124-afa2-34ad3b22e041")
+	)
+	(no_connect
 		(at 127 60.96)
 		(uuid "1ccfa3c9-608e-4745-9e75-de20f9dcccdb")
+	)
+	(no_connect
+		(at 101.6 101.6)
+		(uuid "2a018116-6c55-432a-8adb-f81967cbec3b")
+	)
+	(no_connect
+		(at 142.24 104.14)
+		(uuid "3ff99c55-5753-46e8-a31e-12392332bcfc")
+	)
+	(no_connect
+		(at 101.6 111.76)
+		(uuid "50ffbffc-77b0-4d07-ba44-7fb7f9ff1660")
+	)
+	(no_connect
+		(at 142.24 114.3)
+		(uuid "531fbc21-d454-4346-98ce-395a72a9b732")
+	)
+	(no_connect
+		(at 142.24 96.52)
+		(uuid "60c50da0-4a0b-4d84-8dfa-fb454e0bde61")
+	)
+	(no_connect
+		(at 101.6 83.82)
+		(uuid "60f90a35-580d-4488-8707-8b90f6035873")
+	)
+	(no_connect
+		(at 101.6 78.74)
+		(uuid "6192c4c4-e6f1-42b6-9e67-8f9a0bd61953")
+	)
+	(no_connect
+		(at 142.24 101.6)
+		(uuid "6bdc408d-8edd-4c92-b614-f809c55b3dc8")
+	)
+	(no_connect
+		(at 101.6 88.9)
+		(uuid "6c2d1cd5-ec79-4aa1-adfe-c20a29400f1a")
+	)
+	(no_connect
+		(at 142.24 99.06)
+		(uuid "74207a2d-0fc1-4491-9766-38253ae76c05")
+	)
+	(no_connect
+		(at 101.6 99.06)
+		(uuid "7b79dcb9-2531-41fe-96f7-7647043aafc8")
+	)
+	(no_connect
+		(at 193.04 97.79)
+		(uuid "890beba8-9a01-4171-a351-c9d278ad406f")
+	)
+	(no_connect
+		(at 142.24 91.44)
+		(uuid "95c24d94-8e87-4dd5-afe6-78778f5e3993")
+	)
+	(no_connect
+		(at 142.24 88.9)
+		(uuid "980a7875-5a24-46ed-8fd9-98294a2ba0d2")
+	)
+	(no_connect
+		(at 142.24 71.12)
+		(uuid "9aff9edb-d574-43c6-98f6-c318cde399bc")
+	)
+	(no_connect
+		(at 142.24 86.36)
+		(uuid "abee1bf9-dcfa-4701-bba4-3ee744cf0ed3")
+	)
+	(no_connect
+		(at 142.24 106.68)
+		(uuid "b8ce604b-5036-4ee6-a7a9-e2b468114e62")
+	)
+	(no_connect
+		(at 101.6 109.22)
+		(uuid "c81819a2-024b-47f0-b348-13e750fbf402")
+	)
+	(no_connect
+		(at 101.6 81.28)
+		(uuid "e5c19c92-00da-4e50-b787-b44f2d33edbb")
+	)
+	(no_connect
+		(at 101.6 106.68)
+		(uuid "ebe76787-3745-438b-91df-930d32271a97")
+	)
+	(no_connect
+		(at 142.24 73.66)
+		(uuid "ef9eb6ef-468d-474f-b34a-5d5d1805d102")
+	)
+	(no_connect
+		(at 101.6 104.14)
+		(uuid "fa789c17-ec40-408c-9757-8e0e9e33eed9")
+	)
+	(no_connect
+		(at 101.6 91.44)
+		(uuid "fdc0d9f9-5152-4574-92b9-63862abfce51")
 	)
 	(bus_entry
 		(at 212.09 100.33)

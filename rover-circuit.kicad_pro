@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.45,
-          "width": 1.0
+          "height": 1.24,
+          "width": 0.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.1,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -315,6 +331,14 @@
       ],
       [
         "pin_to_pin|533400|482600|c845c05f-138d-4b35-b618-96755b843471|c1630528-4d67-4f63-9b38-3f46d709fc1d|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1397000|1244600|278d317e-6328-4af4-b126-d62ecab79c2e|00000000-0000-0000-0000-000000000000|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/dfcb9ee6-522b-47f9-a504-b3e6976aa040|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/dfcb9ee6-522b-47f9-a504-b3e6976aa040|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1485900|927100|536b5d4b-1678-4a7a-a2e5-61a6d830c64a|00000000-0000-0000-0000-000000000000|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/6fd78103-703b-49c2-b552-015594035fd1|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/6fd78103-703b-49c2-b552-015594035fd1|",
         ""
       ]
     ],
@@ -857,7 +881,7 @@
         "uuid": "0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
       }
     ],
-    "used_designators": "J4,C14-15,U1,#PWR1,#PWR13,#PWR42-43,#PWR84-85,#PWR89-92",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

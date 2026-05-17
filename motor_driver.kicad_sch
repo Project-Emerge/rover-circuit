@@ -1762,16 +1762,6 @@
 		)
 		(uuid "e9459471-fc22-4b68-81a8-cf93de0b47eb")
 	)
-	(label "SLEEP"
-		(at 124.46 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f881bc37-4644-4b48-b3ef-cca23cad9d2a")
-	)
 	(hierarchical_label "BIN2"
 		(shape input)
 		(at 124.46 118.11 180)
