@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.6,
-          "width": 0.9
+          "height": 1.45,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -60,7 +60,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|152020038|124655887|ef1e8d19-c82f-421f-a533-8d1688c4ccf4|946179cb-f549-49d8-a905-a65cecfd1993",
+          ""
+        ],
+        [
+          "copper_edge_clearance|152850038|128782759|4c3047b8-98fb-499d-b1d1-9346aef8ef66|7f5490a8-181c-4560-a461-617a5acaf8a8",
+          ""
+        ],
+        [
+          "copper_edge_clearance|161490038|125532759|5712d3fd-070e-4a62-8c72-43b2e6e0df7f|051c48c3-dbbb-4ab3-a830-ddb9feccc9f8",
+          ""
+        ],
+        [
+          "copper_edge_clearance|161490038|128782759|5712d3fd-070e-4a62-8c72-43b2e6e0df7f|a67faeb8-0f9f-44b8-97f1-5ec3187e9e44",
+          ""
+        ],
+        [
+          "starved_thermal|132754784|81415002|857d2465-56b9-4b8c-a95e-dc3b3d921e50|7d6192bb-22ea-4739-bce4-20758773733b|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -144,7 +165,7 @@
         "min_text_thickness": 0.01,
         "min_through_hole_diameter": 0.508,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.0,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -244,6 +265,10 @@
         {
           "diameter": 0.5,
           "drill": 0.25
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         },
         {
           "diameter": 3.0,
@@ -832,7 +857,7 @@
         "uuid": "0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
       }
     ],
-    "used_designators": "C14-15,U1,#PWR13,#PWR42,#PWR84-85,#PWR89-92",
+    "used_designators": "J4,C14-15,U1,#PWR1,#PWR13,#PWR42-43,#PWR84-85,#PWR89-92",
     "variants": []
   },
   "sheets": [
