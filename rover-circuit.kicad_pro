@@ -730,6 +730,10 @@
       {
         "netclass": "Fine Signal",
         "pattern": "/IMU/AS*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Battery Recharger/(SDA|SCL)"
       }
     ]
   },
