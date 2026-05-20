@@ -1984,20 +1984,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "G-Switch" (at 0 0 0)
+		(property "Manufacturer" "G-Switch"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GT-USB-7010ASV" (at 0 0 0)
+		(property "MPN" "GT-USB-7010ASV"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "S1"
@@ -2199,28 +2205,37 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL" (at 0 0 0)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF5101TCE" (at 0 0 0)
+		(property "MPN" "0402WGF5101TCE"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "LCSC" "C25905" (at 0 0 0)
+		(property "LCSC" "C25905"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2538,28 +2553,37 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL" (at 0 0 0)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF5101TCE" (at 0 0 0)
+		(property "MPN" "0402WGF5101TCE"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "LCSC" "C25905" (at 0 0 0)
+		(property "LCSC" "C25905"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2653,20 +2677,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI" (at 0 0 0)
+		(property "Manufacturer" "TI"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "TPD2EUSB30ADRTR" (at 0 0 0)
+		(property "MPN" "TPD2EUSB30ADRTR"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"

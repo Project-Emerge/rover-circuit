@@ -2287,7 +2287,7 @@
 	)
 	(hierarchical_label "~{KILL}"
 		(shape output)
-		(at 163.83 100.33 0)
+		(at 163.83 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2309,7 +2309,7 @@
 	)
 	(hierarchical_label "~{INT}"
 		(shape input)
-		(at 163.83 97.79 0)
+		(at 163.83 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2496,20 +2496,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO" (at 0 0 0)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "CC0805KRX7R9BB104" (at 0 0 0)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2839,20 +2845,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "OMRON" (at 0 0 0)
+		(property "Manufacturer" "OMRON"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "B3U-1000P" (at 0 0 0)
+		(property "MPN" "B3U-1000P"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3081,28 +3093,37 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" "ESP32-C6-WROOM-1-N8" (at 0 0 0)
+		(property "MPN" "ESP32-C6-WROOM-1-N8"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ESPRESSIF" (at 0 0 0)
+		(property "Manufacturer" "ESPRESSIF"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "LCSC" "C5366877" (at 0 0 0)
+		(property "LCSC" "C5366877"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "29_5"
@@ -3381,20 +3402,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "OMRON" (at 0 0 0)
+		(property "Manufacturer" "OMRON"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "B3U-1000P" (at 0 0 0)
+		(property "MPN" "B3U-1000P"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"

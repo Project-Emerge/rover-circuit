@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.24,
-          "width": 0.6
+          "height": 0.25,
+          "width": 0.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -321,18 +321,6 @@
   },
   "erc": {
     "erc_exclusions": [
-      [
-        "lib_symbol_issues|647700|457200|f032382a-6829-4085-ad52-b8f14733087a|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "multiple_net_names|2146300|508000|5ad04d07-080a-4730-bf6a-ae193e413e9d|23897d15-ab00-45a7-895e-9978cc2b8a5c|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c",
-        ""
-      ],
-      [
-        "pin_to_pin|533400|482600|c845c05f-138d-4b35-b618-96755b843471|c1630528-4d67-4f63-9b38-3f46d709fc1d|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c",
-        ""
-      ],
       [
         "power_pin_not_driven|1397000|1244600|278d317e-6328-4af4-b126-d62ecab79c2e|00000000-0000-0000-0000-000000000000|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/dfcb9ee6-522b-47f9-a504-b3e6976aa040|/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/dfcb9ee6-522b-47f9-a504-b3e6976aa040|",
         ""
@@ -885,7 +873,7 @@
         "uuid": "0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW4,C31-32,#PWR2,#PWR64-66,#PWR93-94,U8,U12,J7-9",
     "variants": []
   },
   "sheets": [

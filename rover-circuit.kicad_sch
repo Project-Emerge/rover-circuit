@@ -1026,26 +1026,6 @@
 		)
 		(uuid "7b51e442-064d-41ec-8bf9-4bee394e17e1")
 	)
-	(wire
-		(pts
-			(xy 107.95 58.42) (xy 121.92 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bb4ff18-f27d-41f2-9301-ac0bae74a87e")
-	)
-	(wire
-		(pts
-			(xy 107.95 54.61) (xy 121.92 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87329d7f-b4b9-4c05-9fee-0b8675e4a9b5")
-	)
 	(bus
 		(pts
 			(xy 162.56 100.33) (xy 167.64 100.33)
@@ -1106,6 +1086,16 @@
 		)
 		(uuid "ac1d860f-b05b-4d91-a62b-a16898c9565d")
 	)
+	(wire
+		(pts
+			(xy 107.95 58.42) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3966e0d-19a3-4112-b431-024d8ab477e4")
+	)
 	(bus
 		(pts
 			(xy 163.83 129.54) (xy 162.56 128.27)
@@ -1145,6 +1135,16 @@
 			(type default)
 		)
 		(uuid "d2cf31c5-84d0-4e2c-ae8c-ff062624a117")
+	)
+	(wire
+		(pts
+			(xy 107.95 54.61) (xy 121.92 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8603950-d502-46c6-ac9c-b10b539b8481")
 	)
 	(wire
 		(pts
@@ -1429,28 +1429,37 @@
 				)
 			)
 		)
-		(property "Manufacturer" "JST" (at 0 0 0)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "S4B-PH-SM4-TB(LF)(SN)" (at 0 0 0)
+		(property "MPN" "S4B-PH-SM4-TB(LF)(SN)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "LCSC" "C265102" (at 0 0 0)
+		(property "LCSC" "C265102"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -1849,28 +1858,37 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL" (at 0 0 0)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAJ0472T5E" (at 0 0 0)
+		(property "MPN" "0603WAJ0472T5E"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "LCSC" "C25999" (at 0 0 0)
+		(property "LCSC" "C25999"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2031,28 +2049,37 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL" (at 0 0 0)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAJ0472T5E" (at 0 0 0)
+		(property "MPN" "0603WAJ0472T5E"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "LCSC" "C25999" (at 0 0 0)
+		(property "LCSC" "C25999"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3154,9 +3181,9 @@
 				(justify left top)
 			)
 		)
-		(pin "~{INT}" output
-			(at 107.95 54.61 0)
-			(uuid "705320c7-917e-4eba-b4cd-5dc0adae78a6")
+		(pin "HOLD" input
+			(at 107.95 58.42 0)
+			(uuid "db645de4-e1e1-4746-9bb4-1b7baa552db2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3164,9 +3191,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{KILL}" input
-			(at 107.95 58.42 0)
-			(uuid "c71a6d1b-2243-435d-b26d-43ffb4f85cd9")
+		(pin "PB_OUT" output
+			(at 107.95 54.61 0)
+			(uuid "6521f4e1-8ef6-41b4-8c5c-3855c82af313")
 			(effects
 				(font
 					(size 1.27 1.27)

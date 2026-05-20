@@ -2411,28 +2411,37 @@
 				)
 			)
 		)
-		(property "Manufacturer" "XFCN" (at 0 0 0)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "PZ254V-12-14P" (at 0 0 0)
+		(property "MPN" "PZ254V-12-14P"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "LCSC" "C492424" (at 0 0 0)
+		(property "LCSC" "C492424"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "14"
@@ -2786,28 +2795,37 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Hong Cheng" (at 0 0 0)
+		(property "Manufacturer" "Hong Cheng"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "HC-PM254-8.5H-2x20PS" (at 0 0 0)
+		(property "MPN" "HC-PM254-8.5H-2x20PS"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "LCSC" "C22436166" (at 0 0 0)
+		(property "LCSC" "C22436166"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "32"
