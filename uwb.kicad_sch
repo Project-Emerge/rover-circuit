@@ -2641,28 +2641,37 @@
 				)
 			)
 		)
-		(property "LCSC" "C95238" (at 0 0 0)
+		(property "LCSC" "C95238"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "DWM1000" (at 0 0 0)
+		(property "MPN" "DWM1000"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer" "DecaWave" (at 0 0 0)
+		(property "Manufacturer" "DecaWave"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "9"

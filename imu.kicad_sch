@@ -2475,28 +2475,37 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC" "C404329" (at 0 0 0)
+		(property "LCSC" "C404329"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "MMC5983MA" (at 0 0 0)
+		(property "MPN" "MMC5983MA"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MEMSIC" (at 0 0 0)
+		(property "Manufacturer" "MEMSIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "13"
@@ -3736,28 +3745,37 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC" "C2836813" (at 0 0 0)
+		(property "LCSC" "C2836813"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "BMI270" (at 0 0 0)
+		(property "MPN" "BMI270"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bosch Sensortec" (at 0 0 0)
+		(property "Manufacturer" "Bosch Sensortec"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "8"

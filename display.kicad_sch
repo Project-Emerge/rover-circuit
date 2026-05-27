@@ -685,28 +685,37 @@
 				)
 			)
 		)
-		(property "LCSC" "C2718488" (at 0 0 0)
+		(property "LCSC" "C2718488"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "2.54-1*4P" (at 0 0 0)
+		(property "MPN" "2.54-1*4P"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer" "BOOMELE(Boom Precision Elec)" (at 0 0 0)
+		(property "Manufacturer" "BOOMELE(Boom Precision Elec)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
