@@ -2618,7 +2618,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.decawave.com/sites/default/files/resources/dwm1000-datasheet-v1.3.pdf"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_1809291612_DecaWave-DWM1000_C95238.pdf"
 			(at 147.32 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -2639,6 +2639,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C95238" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DWM1000" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DecaWave" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "9"
