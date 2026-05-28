@@ -3006,7 +3006,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3017,7 +3017,7 @@
 				)
 			)
 		)
-		(property "MPN" "PT1206FR-7W0R2L"
+		(property "MPN" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3028,7 +3028,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C309533"
+		(property "LCSC" "C5127778"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3314,7 +3314,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3325,7 +3325,7 @@
 				)
 			)
 		)
-		(property "MPN" "PT1206FR-7W0R2L"
+		(property "MPN" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3336,7 +3336,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C309533"
+		(property "LCSC" "C5127778"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

@@ -560,6 +560,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -1890,6 +2013,12 @@
 		(uuid "17105066-f7e6-4628-bfea-b4cbaacc2a01")
 	)
 	(junction
+		(at 181.61 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3318ffd8-df62-4e26-a341-0b082a7f35ae")
+	)
+	(junction
 		(at 158.75 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2387,6 +2516,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 104.14) (xy 186.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e7d32c-d55d-49c4-94ca-48fbd487f7e8")
+	)
+	(wire
+		(pts
 			(xy 152.4 81.28) (xy 167.64 81.28)
 		)
 		(stroke
@@ -2527,6 +2666,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 96.52) (xy 181.61 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51dc291-d346-483e-a732-a8224143dd6e")
+	)
+	(wire
+		(pts
 			(xy 152.4 116.84) (xy 154.94 116.84)
 		)
 		(stroke
@@ -2607,7 +2756,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 104.14) (xy 186.69 104.14)
+			(xy 176.53 104.14) (xy 181.61 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2909,7 +3058,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/6c6fce4367275d84ec6a99bf09f1250f.pdf?productCode=C265102"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-B4B-PH-SM4-TB-LF-SN_C160354.pdf"
 			(at 194.31 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2931,7 +3080,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C160354"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2942,7 +3091,7 @@
 				)
 			)
 		)
-		(property "MPN" "S4B-PH-SM4-TB(LF)(SN)"
+		(property "MPN" "B4B-PH-SM4-TB(LF)(SN)"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4545,7 +4694,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/7bcffd7e105d4d878e7542545928cdd2.pdf?productCode=C84416"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C962136"
 			(at 207.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4567,7 +4716,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4578,7 +4727,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10A106KO8NQNC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4589,7 +4738,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C962136"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5928,6 +6077,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 181.61 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbc90f13-07bc-4121-8038-25eb268ffcc8")
+		(property "Reference" "TP6"
+			(at 184.15 91.9479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Batt"
+			(at 184.15 94.4879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 186.69 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 181.61 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82ec542f-d7fe-44de-8584-74c49efa319b")
+		)
+		(instances
+			(project "rover-circuit"
+				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/d12ae2b7-4c48-4e18-8e74-760d158fba59"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 158.75 116.84 0)
 		(unit 1)
@@ -6184,7 +6412,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6195,7 +6423,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC2512F10R0TS"
+		(property "MPN" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6206,7 +6434,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2934046"
+		(property "LCSC" "C1870255"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

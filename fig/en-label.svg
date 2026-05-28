@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3.3mm"
+   height="1.5mm"
+   viewBox="0 0 3.3 1.5"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="en-label.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="65.509764"
+     inkscape:cx="2.0531291"
+     inkscape:cy="4.5718376"
+     inkscape:window-width="3440"
+     inkscape:window-height="1358"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.52916668,0,1 @ F,0,0,1,0,0.52916668,0,1"
+       radius="2"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="M 0,0 V 0.97100016 A 0.52916668,0.52916668 0 0 0 0.52916667,1.5001668 H 2.7708903 A 0.52916668,0.52916668 0 0 0 3.300057,0.97100016 V 0 Z M 0.8604126,0.22840983 H 1.4205851 V 0.41341146 H 1.0536825 V 0.65887451 H 1.4050822 V 0.84387614 H 1.0536825 V 1.0867554 H 1.4205851 V 1.2712402 H 0.8604126 Z m 0.7338053,0 h 0.2201416 l 0.432015,0.75912679 V 0.22840983 H 2.4396444 V 1.2712402 H 2.2236369 L 1.7874878,0.51366374 V 1.2712402 H 1.5942179 Z"
+       style="stroke-width:0.15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5"
+       id="path2" />
+  </g>
+</svg>
