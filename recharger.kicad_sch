@@ -2898,7 +2898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical"
 			(at 194.31 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4534,7 +4534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 207.9752 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4567,7 +4567,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "muRata"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4578,7 +4578,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR61E106KA73L"
+		(property "MPN" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4589,7 +4589,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
