@@ -1510,7 +1510,7 @@
 		(uuid "b2e8e7ce-3be3-4355-80bb-f0f93e5fff0a")
 	)
 	(bus_entry
-		(at 102.87 92.71)
+		(at 100.33 92.71)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1528,7 +1528,7 @@
 		(uuid "4940ba8a-383b-4f85-9716-648b03ef6b61")
 	)
 	(bus_entry
-		(at 102.87 87.63)
+		(at 100.33 87.63)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1555,7 +1555,7 @@
 		(uuid "7ceac60c-8fec-4d30-a2ca-f2f238a49fcc")
 	)
 	(bus_entry
-		(at 102.87 90.17)
+		(at 100.33 90.17)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1574,7 +1574,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 85.09) (xy 102.87 92.71)
+			(xy 100.33 85.09) (xy 100.33 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1674,7 +1674,7 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 83.82) (xy 102.87 85.09)
+			(xy 99.06 83.82) (xy 100.33 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1714,7 +1714,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 95.25) (xy 120.65 95.25)
+			(xy 102.87 95.25) (xy 120.65 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1794,7 +1794,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 90.17) (xy 120.65 90.17)
+			(xy 102.87 90.17) (xy 120.65 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1844,7 +1844,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 92.71) (xy 120.65 92.71)
+			(xy 102.87 92.71) (xy 120.65 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2014,7 +2014,7 @@
 	)
 	(bus
 		(pts
-			(xy 97.79 83.82) (xy 101.6 83.82)
+			(xy 95.25 83.82) (xy 99.06 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2144,7 +2144,7 @@
 	)
 	(hierarchical_label "{MISO MOSI CLK}"
 		(shape bidirectional)
-		(at 97.79 83.82 180)
+		(at 95.25 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2441,7 +2441,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 0805 X7R MLCC"
 			(at 142.24 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)

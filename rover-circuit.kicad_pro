@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 5.5,
-          "width": 1.0
+          "height": 2.54,
+          "width": 0.76
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -91,10 +91,6 @@
         ],
         [
           "copper_edge_clearance|161490038|128782759|6421e3d6-9de8-411d-86ee-c04d49d015c7|a67faeb8-0f9f-44b8-97f1-5ec3187e9e44",
-          ""
-        ],
-        [
-          "starved_thermal|132754784|81415002|857d2465-56b9-4b8c-a95e-dc3b3d921e50|7d6192bb-22ea-4739-bce4-20758773733b|F.Cu",
           ""
         ]
       ],
@@ -873,7 +869,7 @@
         "uuid": "0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
       }
     ],
-    "used_designators": "TP6,#FLG4",
+    "used_designators": "C31,#PWR66,JP1,R21",
     "variants": []
   },
   "sheets": [

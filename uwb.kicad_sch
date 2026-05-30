@@ -2207,7 +2207,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2218,7 +2218,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0603F1002TS"
+		(property "MPN" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2229,7 +2229,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2906982"
+		(property "LCSC" "C15401"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2641,7 +2641,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C95238"
+		(property "LCSC" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

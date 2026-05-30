@@ -2019,6 +2019,12 @@
 		(uuid "3318ffd8-df62-4e26-a341-0b082a7f35ae")
 	)
 	(junction
+		(at 99.06 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39726058-bc1f-4fe7-b6ce-c277d60b86e8")
+	)
+	(junction
 		(at 158.75 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2061,10 +2067,6 @@
 	(no_connect
 		(at 132.08 106.68)
 		(uuid "d149f419-02f1-4dbe-95bc-609368f48c4b")
-	)
-	(no_connect
-		(at 132.08 104.14)
-		(uuid "ef5acf25-9c65-48b2-b7aa-49bfef594c12")
 	)
 	(bus_entry
 		(at 106.68 93.98)
@@ -2166,7 +2168,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 101.6) (xy 100.33 101.6)
+			(xy 93.98 101.6) (xy 99.06 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2183,6 +2185,16 @@
 			(type default)
 		)
 		(uuid "1d7bf046-ba66-4d95-ba2e-7a2b9647f808")
+	)
+	(wire
+		(pts
+			(xy 121.92 104.14) (xy 132.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9a0d69-7b9d-434d-9837-8f429f00390c")
 	)
 	(wire
 		(pts
@@ -2363,6 +2375,16 @@
 			(type default)
 		)
 		(uuid "5391d5ca-1979-4653-9d88-7d2b7980a3ea")
+	)
+	(wire
+		(pts
+			(xy 99.06 104.14) (xy 99.06 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574a38c7-edf3-4939-8cd2-b8414e05604a")
 	)
 	(bus
 		(pts
@@ -2546,6 +2568,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 101.6) (xy 100.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b92ee2-bb22-417c-8508-8d630914e89a")
+	)
+	(wire
+		(pts
 			(xy 105.41 114.3) (xy 116.84 114.3)
 		)
 		(stroke
@@ -2583,6 +2615,16 @@
 			(type default)
 		)
 		(uuid "9e19c6e0-588b-421b-ad33-3e45127b9f8e")
+	)
+	(wire
+		(pts
+			(xy 114.3 104.14) (xy 99.06 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ab4d2b-8a7c-4e5f-8290-c531e5e5899a")
 	)
 	(wire
 		(pts
@@ -3202,7 +3244,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3213,7 +3255,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0603F1002TS"
+		(property "MPN" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3224,7 +3266,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2906982"
+		(property "LCSC" "C15401"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4081,7 +4123,7 @@
 				)
 			)
 		)
-		(property "MPN" "FXL0630-1R0-M"
+		(property "MPN" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4092,7 +4134,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C167216"
+		(property "LCSC" "C475532"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4672,7 +4714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "22uF"
 			(at 210.82 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4716,7 +4758,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4727,7 +4769,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A106KO8NQNC"
+		(property "MPN" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4738,7 +4780,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C962136"
+		(property "LCSC" "C29519229"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4874,6 +4916,119 @@
 			(project "rover-circuit"
 				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/d12ae2b7-4c48-4e18-8e74-760d158fba59"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b816c6f-39dc-4cf6-afe4-03a515cfcd3a")
+		(property "Reference" "R21"
+			(at 118.11 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 118.11 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 118.11 105.918 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b3641306390dfb6f98ec07837c926b58.pdf?productCode=C2906982"
+			(at 118.11 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.11 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 13.97 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 13.97 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15401"
+			(at 13.97 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a53fdd08-0cf1-42e1-be57-083a0d22bcb0")
+		)
+		(pin "2"
+			(uuid "2d1fa400-bafd-4831-a880-19e50c6d36cc")
+		)
+		(instances
+			(project "rover-circuit"
+				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/d12ae2b7-4c48-4e18-8e74-760d158fba59"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -6434,7 +6589,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1870255"
+		(property "LCSC" "C840605"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

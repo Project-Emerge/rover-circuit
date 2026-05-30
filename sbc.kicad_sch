@@ -2368,7 +2368,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x07_Odd_Even"
+		(property "Value" "Expansion Header"
 			(at 186.69 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2751,7 +2751,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Raspberry_Pi_2_3"
+		(property "Value" "Raspberry Pi Hat Connector"
 			(at 124.0633 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
