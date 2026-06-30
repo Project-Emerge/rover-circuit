@@ -3244,7 +3244,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3255,7 +3255,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3359,7 +3359,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3370,7 +3370,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A105KA8NNNC"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3485,7 +3485,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "XINGLIGHT"
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3496,7 +3496,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1608SYGC-06"
+		(property "MPN" "150060VS75000"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3600,7 +3600,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3611,7 +3611,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2201T5E"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3726,7 +3726,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Hubei KENTO Elec"
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3737,7 +3737,7 @@
 				)
 			)
 		)
-		(property "MPN" "KT-0603R"
+		(property "MPN" "150060RS75000"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3919,7 +3919,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3930,7 +3930,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A105KA8NNNC"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4227,7 +4227,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "muRata"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4238,7 +4238,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM31CR61E226KE15L"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4758,7 +4758,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4769,7 +4769,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM188C61E226ME01D"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4873,7 +4873,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4884,7 +4884,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1101T5E"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4986,7 +4986,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Generic"
 			(at 13.97 2.54 0)
 			(hide yes)
 			(show_name no)
@@ -4997,7 +4997,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GPN"
 			(at 13.97 2.54 0)
 			(hide yes)
 			(show_name no)
@@ -5491,7 +5491,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5502,7 +5502,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31A106KBHNNNE"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5606,7 +5606,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5617,7 +5617,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A475KA8NQNC"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5721,7 +5721,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5732,7 +5732,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF3012T5E"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5914,7 +5914,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "muRata"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5925,7 +5925,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM31CR61E226KE15L"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6105,7 +6105,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6116,7 +6116,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B473KB8NNNC"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6377,7 +6377,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6388,7 +6388,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF5231T5E"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6567,7 +6567,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Bourns"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6578,7 +6578,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CRM2512-FX-10R0ELF"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6679,7 +6679,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6690,7 +6690,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0603F3000TS"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6794,7 +6794,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6805,7 +6805,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2201T5E"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

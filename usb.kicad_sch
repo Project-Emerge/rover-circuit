@@ -2392,7 +2392,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2403,7 +2403,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF5101TCE"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2514,6 +2514,22 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Murata" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BLM31PG500SN1L" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2831,7 +2847,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2842,7 +2858,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF5101TCE"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

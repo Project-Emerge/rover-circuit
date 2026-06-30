@@ -5169,7 +5169,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5180,7 +5180,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A226KOQNNNE"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5293,6 +5293,22 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Generic" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GPN" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5884,7 +5900,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5895,7 +5911,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A226KOQNNNE"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6077,7 +6093,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6088,7 +6104,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF6492T5E"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6192,7 +6208,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6203,7 +6219,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A226KOQNNNE"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6305,7 +6321,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6316,7 +6332,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6859,7 +6875,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6870,7 +6886,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -7390,7 +7406,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -7401,7 +7417,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A226KOQNNNE"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -7697,7 +7713,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "muRata"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -7708,7 +7724,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR61E106KA73L"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8046,7 +8062,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8057,7 +8073,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A226KOQNNNE"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8161,7 +8177,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "muRata"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8172,7 +8188,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR61E106KA73L"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8545,7 +8561,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8556,7 +8572,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9197,7 +9213,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GPN"
 			(at -7.62 -3.81 0)
 			(hide yes)
 			(show_name no)
@@ -9208,7 +9224,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Generic"
 			(at -7.62 -3.81 0)
 			(hide yes)
 			(show_name no)
@@ -9301,7 +9317,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9312,7 +9328,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A226KOQNNNE"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9492,7 +9508,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9503,7 +9519,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1003T5E"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9616,7 +9632,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Hubei KENTO Elec"
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9627,7 +9643,7 @@
 				)
 			)
 		)
-		(property "MPN" "KT-0603R"
+		(property "MPN" "150060RS75000"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9731,7 +9747,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "muRata"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9742,7 +9758,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR61E106KA73L"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9857,7 +9873,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A105KA8NNNC"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9868,7 +9884,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

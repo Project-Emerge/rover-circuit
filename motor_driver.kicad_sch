@@ -1993,7 +1993,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "muRata"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2004,7 +2004,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR61E106KA73L"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2186,7 +2186,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KNSCHA"
+		(property "Manufacturer" "Panasonic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2197,7 +2197,7 @@
 				)
 			)
 		)
-		(property "MPN" "RVT100UF16V67RV0016"
+		(property "MPN" "EEE-1CA101SP"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2542,7 +2542,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2553,7 +2553,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B103KB8NNNC"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3006,7 +3006,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Panasonic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3017,7 +3017,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ERJ-8BWFR200V"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3314,7 +3314,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Panasonic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3325,7 +3325,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ERJ-8BWFR200V"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3429,7 +3429,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3440,7 +3440,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A225KO8NNNC"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

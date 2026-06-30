@@ -2366,7 +2366,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2377,7 +2377,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAJ0472T5E"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2633,7 +2633,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2644,7 +2644,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAJ0472T5E"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

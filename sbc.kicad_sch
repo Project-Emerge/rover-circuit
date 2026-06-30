@@ -2411,7 +2411,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "XFCN"
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2422,7 +2422,7 @@
 				)
 			)
 		)
-		(property "MPN" "PZ254V-12-14P"
+		(property "MPN" "61201421621"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2795,7 +2795,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Hong Cheng"
+		(property "Manufacturer" "3M"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2806,7 +2806,7 @@
 				)
 			)
 		)
-		(property "MPN" "HC-PM254-8.5H-2x20PS"
+		(property "MPN" "953240-2000-AR-PR"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

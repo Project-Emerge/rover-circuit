@@ -1858,7 +1858,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "XINGLIGHT"
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -1869,7 +1869,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1608UBC-04"
+		(property "MPN" "150060BS75000"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2207,7 +2207,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2218,7 +2218,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2322,7 +2322,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2333,7 +2333,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0805KRX7R9BB104"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2446,7 +2446,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "XINGLIGHT"
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2457,7 +2457,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1608UBC-04"
+		(property "MPN" "150060BS75000"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2820,7 +2820,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2831,7 +2831,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF4700T5E"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3011,7 +3011,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "Generic"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3022,7 +3022,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF4700T5E"
+		(property "MPN" "GPN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

@@ -696,7 +696,7 @@
 				)
 			)
 		)
-		(property "MPN" "2.54-1*4P"
+		(property "MPN" "PPTC041LFBN-RC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -707,7 +707,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "BOOMELE(Boom Precision Elec)"
+		(property "Manufacturer" "Sullins Connector Solutions"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
