@@ -2218,7 +2218,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPR060310K"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2333,7 +2333,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPC0805104"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2831,7 +2831,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPR0603470R"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3022,7 +3022,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPR0603470R"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

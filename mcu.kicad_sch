@@ -2507,7 +2507,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPC0805104"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

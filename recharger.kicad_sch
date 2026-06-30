@@ -3255,7 +3255,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPR060310K"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3370,7 +3370,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPC0603105"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3611,7 +3611,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPR060322"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3930,7 +3930,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPC0603105"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4238,7 +4238,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPC1206226"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4884,7 +4884,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPR060311"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4997,7 +4997,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPR060310K"
 			(at 13.97 2.54 0)
 			(hide yes)
 			(show_name no)
@@ -5502,7 +5502,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPC1206106"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5617,7 +5617,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPC0603475"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5732,7 +5732,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPR0603301"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5925,7 +5925,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPC1206226"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6116,7 +6116,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPC0603473"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6388,7 +6388,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPR0603523"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6690,7 +6690,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPR0603300R"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6805,7 +6805,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPN"
+		(property "MPN" "GPR060322"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
