@@ -1,0 +1,33 @@
+** Drc report for rover-circuit.kicad_pcb **
+** Created on 2026-06-30T18:20:22 **
+** Report includes: Errors, Warnings **
+
+** Found 1 DRC violations **
+[clearance]: Clearance violation (board minimum clearance 0,1250 mm; actual 0,1128 mm)
+    Local override; error
+    @(138.4627 mm, 78.9570 mm): Pad 2 [Net-(U3-VCP)] of C9 on F.Cu
+    @(138.5072 mm, 78.1442 mm): Via [/MCU/BIN2] on F.Cu - B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Via is not connected or connected on only one layer
+    - Track has unconnected end
+    - Board edge clearance violation
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Duplicate footprints
+    - Missing footprint
+    - Extra footprint
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clearance
+    - Silkscreen clipped by board edge
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+    - Footprint doesn't match copy in library
+
+** End of Report **

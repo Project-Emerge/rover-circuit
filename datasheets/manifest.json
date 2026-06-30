@@ -1,0 +1,865 @@
+{
+  "schematic": "power_rails.kicad_sch",
+  "last_sync": "2026-05-30T14:23:33.001342+00:00",
+  "parts": {
+    "CC0805KRX7R9BB104": {
+      "file": "CC0805KRX7R9BB104_Unpolarized_capacitor.pdf",
+      "manufacturer": "YAGEO",
+      "description": "Unpolarized capacitor",
+      "value": "0.1uF",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C49678",
+      "downloaded_date": "2026-05-22T15:37:52.811520+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "C27"
+      ],
+      "size_bytes": 1131214,
+      "verification": "likely"
+    },
+    "RVT100UF16V67RV0016": {
+      "file": "RVT100UF16V67RV0016_Polarized_capacitor.pdf",
+      "manufacturer": "KNSCHA",
+      "description": "Polarized capacitor",
+      "value": "100uF",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/8c49e8bd16b39be69adf5fe39a667c1c.pdf?productCode=C2887276",
+      "downloaded_date": "2026-05-22T15:37:51.274205+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "C10"
+      ],
+      "size_bytes": 378761,
+      "verification": "verified"
+    },
+    "GRM21BR61E106KA73L": {
+      "file": "GRM21BR61E106KA73L_Unpolarized_capacitor.pdf",
+      "manufacturer": "muRata",
+      "description": "Unpolarized capacitor",
+      "value": "10uF",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/7bcffd7e105d4d878e7542545928cdd2.pdf?productCode=C84416",
+      "downloaded_date": "2026-05-22T15:37:51.274429+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "C11",
+        "C18",
+        "C25",
+        "C22"
+      ],
+      "size_bytes": 7370280,
+      "verification": "unverified"
+    },
+    "CL10A105KA8NNNC": {
+      "file": "CL10A105KA8NNNC_Unpolarized_capacitor.pdf",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "description": "Unpolarized capacitor",
+      "value": "1uF",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C5673",
+      "downloaded_date": "2026-05-22T15:37:51.559061+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "C16",
+        "C2",
+        "C26",
+        "C32"
+      ],
+      "size_bytes": 7856403,
+      "verification": "likely"
+    },
+    "CL21A226KOQNNNE": {
+      "file": "CL21A226KOQNNNE_Unpolarized_capacitor.pdf",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "description": "Unpolarized capacitor",
+      "value": "22uF",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C296720",
+      "downloaded_date": "2026-05-22T15:37:52.454827+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "C21",
+        "C24",
+        "C20",
+        "C28",
+        "C23",
+        "C17"
+      ],
+      "size_bytes": 7856403,
+      "verification": "likely"
+    },
+    "CL10A106KO8NQNC": {
+      "file": "CL10A106KO8NQNC_Unpolarized_capacitor.pdf",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "description": "Unpolarized capacitor",
+      "value": "10uF",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C962136",
+      "downloaded_date": "2026-05-22T15:37:51.483693+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "C15",
+        "C14"
+      ],
+      "size_bytes": 7856403,
+      "verification": "likely"
+    },
+    "CC0603KRX7R9BB104": {
+      "file": "CC0603KRX7R9BB104_Unpolarized_capacitor.pdf",
+      "manufacturer": "YAGEO",
+      "description": "Unpolarized capacitor",
+      "value": "100nF",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C14663",
+      "downloaded_date": "2026-05-22T15:37:53.733676+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "C30",
+        "C29",
+        "C13",
+        "C19"
+      ],
+      "size_bytes": 1131214,
+      "verification": "likely"
+    },
+    "GRM31CR61E226KE15L": {
+      "file": "GRM31CR61E226KE15L_Unpolarized_capacitor.pdf",
+      "manufacturer": "muRata",
+      "description": "Unpolarized capacitor",
+      "value": "22uF",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/a4d1e2744bd5d44ba57842651a3fd598.pdf?productCode=C77091",
+      "downloaded_date": "2026-05-22T15:37:53.085858+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "C3",
+        "C12"
+      ],
+      "size_bytes": 10764016,
+      "verification": "likely"
+    },
+    "CL10A475KA8NQNC": {
+      "file": "CL10A475KA8NQNC_Unpolarized_capacitor.pdf",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "description": "Unpolarized capacitor",
+      "value": "4.7uF",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/61ea68bfd9114bb188d3b5500037ea97.pdf?productCode=C69335",
+      "downloaded_date": "2026-05-22T15:37:54.909497+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "C6"
+      ],
+      "size_bytes": 383250,
+      "verification": "verified"
+    },
+    "CL10B473KB8NNNC": {
+      "file": "CL10B473KB8NNNC_Unpolarized_capacitor.pdf",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "description": "Unpolarized capacitor",
+      "value": "47nF",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1622",
+      "downloaded_date": "2026-05-22T15:37:54.018458+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "C4"
+      ],
+      "size_bytes": 7856403,
+      "verification": "likely"
+    },
+    "CL10A225KO8NNNC": {
+      "file": "CL10A225KO8NNNC_Unpolarized_capacitor.pdf",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "description": "Unpolarized capacitor",
+      "value": "2.2uF",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C23630",
+      "downloaded_date": "2026-05-22T15:37:55.136900+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "C8"
+      ],
+      "size_bytes": 7856403,
+      "verification": "likely"
+    },
+    "CL10B103KB8NNNC": {
+      "file": "CL10B103KB8NNNC_Unpolarized_capacitor.pdf",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "description": "Unpolarized capacitor",
+      "value": "10nF",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1589",
+      "downloaded_date": "2026-05-22T15:37:55.505700+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "C9"
+      ],
+      "size_bytes": 7856403,
+      "verification": "likely"
+    },
+    "KT-0603R": {
+      "file": "KT-0603R_Light_emitting_diode.pdf",
+      "manufacturer": "Hubei KENTO Elec",
+      "description": "Light emitting diode",
+      "value": "LED",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/011ec3e8cb1e825f6961d29bc4db4c7a.pdf?productCode=C2286",
+      "downloaded_date": "2026-05-22T15:37:56.826453+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "D3"
+      ],
+      "size_bytes": 610865,
+      "verification": "unverified"
+    },
+    "XL-1608SYGC-06": {
+      "file": "XL-1608SYGC-06_Light_emitting_diode.pdf",
+      "manufacturer": "XINGLIGHT",
+      "description": "Light emitting diode",
+      "value": "GRN",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/db39074692074ba57d43d76e9fc6dbf2.pdf?productCode=C965805",
+      "downloaded_date": "2026-05-22T15:37:56.602441+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "D2"
+      ],
+      "size_bytes": 1577978,
+      "verification": "verified"
+    },
+    "CL31A106KBHNNNE": {
+      "file": "CL31A106KBHNNNE_Unpolarized_capacitor.pdf",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "description": "Unpolarized capacitor",
+      "value": "10uF",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C13585",
+      "downloaded_date": "2026-05-22T15:37:54.111404+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "C5"
+      ],
+      "size_bytes": 7856403,
+      "verification": "likely"
+    },
+    "S4B-PH-SM4-TB(LF)(SN)": {
+      "file": "S4B-PH-SM4-TB(LF)(SN)_Generic_connector_single_row_01x04_script_generated.pdf",
+      "manufacturer": "JST",
+      "description": "Generic connector, single row, 01x04, script generated",
+      "value": "Conn_01x04_Socket",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/6c6fce4367275d84ec6a99bf09f1250f.pdf?productCode=C265102",
+      "downloaded_date": "2026-05-22T15:37:57.062936+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "J4"
+      ],
+      "size_bytes": 118956,
+      "verification": "unverified"
+    },
+    "XL-1608UBC-04": {
+      "file": "XL-1608UBC-04_Light_emitting_diode.pdf",
+      "manufacturer": "XINGLIGHT",
+      "description": "Light emitting diode",
+      "value": "BLUE",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/399b5621ad7d893d62c6cc75a71fb1c5.pdf?productCode=C965807",
+      "downloaded_date": "2026-05-22T15:37:56.958090+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "D5",
+        "D6"
+      ],
+      "size_bytes": 1640566,
+      "verification": "unverified"
+    },
+    "PZ254V-12-14P": {
+      "file": "PZ254V-12-14P_Generic_connector_double_row_02x07_odd_even_pin_numbering_scheme_(row_1.pdf",
+      "manufacturer": "XFCN",
+      "description": "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "value": "Conn_02x07_Odd_Even",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/7e4d55c01d5aeb1046c811fdaf9e5359.pdf?productCode=C492424",
+      "downloaded_date": "2026-05-22T15:37:57.397639+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "J6"
+      ],
+      "size_bytes": 85841,
+      "verification": "unverified"
+    },
+    "FXL0630-1R0-M": {
+      "file": "FXL0630-1R0-M_Inductor.pdf",
+      "manufacturer": "cjiang",
+      "description": "Inductor",
+      "value": "1uH",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/9072344370debcf88f3b085e450e71ce.pdf?productCode=C167216",
+      "downloaded_date": "2026-05-22T15:37:57.719138+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "L1"
+      ],
+      "size_bytes": 615354,
+      "verification": "likely"
+    },
+    "HC-PM254-8.5H-2x20PS": {
+      "manufacturer": "Hong Cheng",
+      "description": "expansion header for Raspberry Pi 2 & 3",
+      "value": "Raspberry Pi Hat Connector",
+      "references": [
+        "J5"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-05-30T14:22:47.838303+00:00"
+    },
+    "LPS3015-222MRC": {
+      "file": "LPS3015-222MRC_Inductor.pdf",
+      "manufacturer": "Coilcraft",
+      "description": "Inductor",
+      "value": "2.2uH",
+      "datasheet_url": "https://www.coilcraft.com/getmedia/5d262731-85ef-4348-8ab4-1044b4fc3cb8/lps3015.pdf",
+      "downloaded_date": "2026-05-22T15:37:58.220363+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "L2"
+      ],
+      "size_bytes": 334250,
+      "verification": "likely"
+    },
+    "LVS505040-4R7M-N": {
+      "file": "LVS505040-4R7M-N_Inductor.pdf",
+      "manufacturer": "Chilisin",
+      "description": "Inductor",
+      "value": "4.7uH",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0d1498ced19f4071a9355b8b218e1611.pdf?productCode=C108284",
+      "downloaded_date": "2026-05-22T15:37:59.476279+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "L3"
+      ],
+      "size_bytes": 662379,
+      "verification": "unverified"
+    },
+    "0603WAF2201T5E": {
+      "file": "0603WAF2201T5E_Resistor.pdf",
+      "manufacturer": "UNI-ROYAL",
+      "description": "Resistor",
+      "value": "2.2k",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C4190",
+      "downloaded_date": "2026-05-22T15:37:59.944816+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R1",
+        "R8"
+      ],
+      "size_bytes": 467557,
+      "verification": "likely"
+    },
+    "CMLW5040S100MST": {
+      "file": "CMLW5040S100MST_Inductor.pdf",
+      "manufacturer": "Cybermax",
+      "description": "Inductor",
+      "value": "10uH",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/c2cd2f89d8e6ec13c124f4b84d620e9d.pdf?productCode=C431344",
+      "downloaded_date": "2026-05-22T15:37:59.812276+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "L4"
+      ],
+      "size_bytes": 349607,
+      "verification": "verified"
+    },
+    "0603WAF6492T5E": {
+      "file": "0603WAF6492T5E_Resistor.pdf",
+      "manufacturer": "UNI-ROYAL",
+      "description": "Resistor",
+      "value": "64.9k",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C14891",
+      "downloaded_date": "2026-05-22T15:38:00.125002+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R11"
+      ],
+      "size_bytes": 467557,
+      "verification": "likely"
+    },
+    "0402WGF5101TCE": {
+      "file": "0402WGF5101TCE_Resistor.pdf",
+      "manufacturer": "UNI-ROYAL",
+      "description": "Resistor",
+      "value": "5.1K",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C25905",
+      "downloaded_date": "2026-05-22T15:38:00.268307+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R14",
+        "R13"
+      ],
+      "size_bytes": 467557,
+      "verification": "likely"
+    },
+    "0603WAF1003T5E": {
+      "file": "0603WAF1003T5E_Resistor.pdf",
+      "manufacturer": "UNI-ROYAL",
+      "description": "Resistor",
+      "value": "100K",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C25803",
+      "downloaded_date": "2026-05-22T15:38:00.444420+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R15"
+      ],
+      "size_bytes": 467557,
+      "verification": "likely"
+    },
+    "0603WAJ0472T5E": {
+      "file": "0603WAJ0472T5E_Resistor.pdf",
+      "manufacturer": "UNI-ROYAL",
+      "description": "Resistor",
+      "value": "4.7k",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C25999",
+      "downloaded_date": "2026-05-22T15:38:00.566714+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R17",
+        "R16"
+      ],
+      "size_bytes": 467557,
+      "verification": "likely"
+    },
+    "0603WAF4700T5E": {
+      "file": "0603WAF4700T5E_Resistor.pdf",
+      "manufacturer": "UNI-ROYAL",
+      "description": "Resistor",
+      "value": "470",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23179",
+      "downloaded_date": "2026-05-22T15:38:00.740243+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R19",
+        "R20"
+      ],
+      "size_bytes": 467557,
+      "verification": "likely"
+    },
+    "0603WAF1101T5E": {
+      "file": "0603WAF1101T5E_Resistor.pdf",
+      "manufacturer": "UNI-ROYAL",
+      "description": "Resistor",
+      "value": "1.1K",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C22764",
+      "downloaded_date": "2026-05-22T15:38:00.877784+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R2"
+      ],
+      "size_bytes": 467557,
+      "verification": "likely"
+    },
+    "FRC0603F1002TS": {
+      "file": "FRC0603F1002TS_Resistor.pdf",
+      "manufacturer": "FOJAN",
+      "description": "Resistor",
+      "value": "10k",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/b3641306390dfb6f98ec07837c926b58.pdf?productCode=C2906982",
+      "downloaded_date": "2026-05-22T15:38:01.045130+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R18",
+        "R12"
+      ],
+      "size_bytes": 959959,
+      "verification": "likely"
+    },
+    "FRC0603F3000TS": {
+      "file": "FRC0603F3000TS_Resistor.pdf",
+      "manufacturer": "FOJAN",
+      "description": "Resistor",
+      "value": "300",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/b3641306390dfb6f98ec07837c926b58.pdf?productCode=C2930092",
+      "downloaded_date": "2026-05-22T15:38:01.189794+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R4"
+      ],
+      "size_bytes": 959959,
+      "verification": "likely"
+    },
+    "FRC2512F10R0TS": {
+      "file": "FRC2512F10R0TS_Resistor.pdf",
+      "manufacturer": "FOJAN",
+      "description": "Resistor",
+      "value": "10",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/b3641306390dfb6f98ec07837c926b58.pdf?productCode=C2934046",
+      "downloaded_date": "2026-05-22T15:38:01.402976+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R5"
+      ],
+      "size_bytes": 959959,
+      "verification": "likely"
+    },
+    "0603WAF5231T5E": {
+      "file": "0603WAF5231T5E_Resistor.pdf",
+      "manufacturer": "UNI-ROYAL",
+      "description": "Resistor",
+      "value": "5.23k",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23068",
+      "downloaded_date": "2026-05-22T15:38:01.586663+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R6"
+      ],
+      "size_bytes": 467557,
+      "verification": "likely"
+    },
+    "0603WAF3012T5E": {
+      "file": "0603WAF3012T5E_Resistor.pdf",
+      "manufacturer": "UNI-ROYAL",
+      "description": "Resistor",
+      "value": "30.1k",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23000",
+      "downloaded_date": "2026-05-22T15:38:01.793169+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R7"
+      ],
+      "size_bytes": 467557,
+      "verification": "likely"
+    },
+    "PT1206FR-7W0R2L": {
+      "file": "PT1206FR-7W0R2L_Resistor.pdf",
+      "manufacturer": "YAGEO",
+      "description": "Resistor",
+      "value": "200m",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/d24f9498a378892db8b98c9d196cf45b.pdf?productCode=C309533",
+      "downloaded_date": "2026-05-22T15:38:01.922849+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R9",
+        "R10"
+      ],
+      "size_bytes": 373763,
+      "verification": "likely"
+    },
+    "B3U-1000P": {
+      "file": "B3U-1000P_Push_button_switch_generic_two_pins.pdf",
+      "manufacturer": "OMRON",
+      "description": "Push button switch, generic, two pins",
+      "value": "~{PB}",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/5613ec928e7c35b77f993ac0df056a32.pdf?productCode=C231329",
+      "downloaded_date": "2026-05-22T15:38:02.774117+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "SW4"
+      ],
+      "size_bytes": 691251,
+      "verification": "verified"
+    },
+    "MMC5983MA": {
+      "manufacturer": "MEMSIC",
+      "description": "MMC5983 series Magnetic, Magnetometer Sensor Evaluation Board",
+      "value": "MMC5983MA",
+      "references": [
+        "U1"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-05-30T14:22:51.585052+00:00"
+    },
+    "BMI270": {
+      "manufacturer": "Bosch Sensortec",
+      "description": "Accelerometer, Gyroscope, 6 Axis Sensor I2C, SPI Output",
+      "value": "BMI270",
+      "references": [
+        "U11"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-05-30T14:22:51.700454+00:00"
+    },
+    "GT-USB-7010ASV": {
+      "manufacturer": "G-Switch",
+      "description": "USB 2.0-only 14P Type-C Receptacle connector",
+      "value": "USB C Connector",
+      "references": [
+        "J2"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-05-30T14:22:45.208706+00:00"
+    },
+    "BQ25887RGER": {
+      "file": "BQ25887RGER_I2C_Controlled_2-Cell_(Li-Ion_Li-Polymer)_2A_boost-mode_battery_charger.pdf",
+      "manufacturer": "TI",
+      "description": "I2C Controlled 2-Cell (Li-Ion / Li-Polymer), 2A boost-mode battery charger with cell balancing for USB input, 3.9..6.2V VBUS, 3.4..4.6V charge voltage regulation range (per cell), 1.5 MHz, VQFN-24",
+      "value": "BQ25887RGE",
+      "datasheet_url": "https://www.ti.com/lit/ds/symlink/bq25887.pdf",
+      "downloaded_date": "2026-05-22T15:38:03.579922+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U2"
+      ],
+      "size_bytes": 3952753,
+      "verification": "verified"
+    },
+    "DRV8833PWPR": {
+      "file": "DRV8833PWPR_Dual_H-Bridge_Motor_Driver_HTSSOP-16.pdf",
+      "manufacturer": "TI",
+      "description": "Dual H-Bridge Motor Driver, HTSSOP-16",
+      "value": "DRV8833PWP",
+      "datasheet_url": "http://www.ti.com/lit/ds/symlink/drv8833.pdf",
+      "downloaded_date": "2026-05-22T15:38:03.779034+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U3"
+      ],
+      "size_bytes": 976140,
+      "verification": "verified"
+    },
+    "ESP32-C6-WROOM-1-N8": {
+      "file": "ESP32-C6-WROOM-1-N8_Multiprotocol_Modules_ESP32-C6_module_Wi-Fi_6_in_2.4_GHz_band_Bluetooth_5.pdf",
+      "manufacturer": "ESPRESSIF",
+      "description": "Multiprotocol Modules ESP32-C6 module, Wi-Fi 6 in 2.4 GHz band, Bluetooth 5, Zigbee 3.0 and Thread. ESP34-WROOM Compatible - ENGINEERING SAMPLE",
+      "value": "ESP32-C6-WROOM-1-N8",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/914ba3f9643762e2fb21b3ff300ff859.pdf?productCode=C5366877",
+      "downloaded_date": "2026-05-22T15:38:04.365683+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U6"
+      ],
+      "size_bytes": 1182093,
+      "verification": "likely"
+    },
+    "TPD2EUSB30ADRTR": {
+      "file": "TPD2EUSB30ADRTR_2-Channel_ESD_Protection_for_Super-Speed_USB_3.0_Interface_DRT-3.pdf",
+      "manufacturer": "TI",
+      "description": "2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3",
+      "value": "TPD2EUSB30",
+      "datasheet_url": "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf",
+      "downloaded_date": "2026-05-22T15:38:03.833058+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U4"
+      ],
+      "size_bytes": 2257950,
+      "verification": "likely"
+    },
+    "TPS62162DSGR": {
+      "file": "TPS62162DSGR_1A_Step-Down_Converter_with_DCS-Control_fixed_3.3V_output_3-17V_input.pdf",
+      "manufacturer": "TI",
+      "description": "1A Step-Down Converter with DCS-Control, fixed 3.3V output, 3-17V input voltage, WSON-8",
+      "value": "TPS62162DSG",
+      "datasheet_url": "http://www.ti.com/lit/ds/symlink/tps62160.pdf",
+      "downloaded_date": "2026-05-22T15:38:04.830049+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U9"
+      ],
+      "size_bytes": 2784755,
+      "verification": "likely"
+    },
+    "AP63205WU-7": {
+      "file": "AP63205WU-7_2A_1.1MHz_Buck_DC_DC_Converter_fixed_5.0V_output_voltage_TSOT-23-6.pdf",
+      "manufacturer": "DIODES",
+      "description": "2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6",
+      "value": "AP63205WU",
+      "datasheet_url": "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf",
+      "downloaded_date": "2026-05-22T15:38:04.695483+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U7"
+      ],
+      "size_bytes": 1226090,
+      "verification": "likely"
+    },
+    "AP63200WU-7": {
+      "file": "AP63200WU-7_2A_500kHz_Buck_DC_DC_Converter_adjustable_output_voltage_TSOT-23-6.pdf",
+      "manufacturer": "DIODES",
+      "description": "2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6",
+      "value": "AP63200WU",
+      "datasheet_url": "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf",
+      "downloaded_date": "2026-05-22T15:38:04.048510+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U5"
+      ],
+      "size_bytes": 1226090,
+      "verification": "likely"
+    },
+    "C29519229": {
+      "file": "C29519229_Unpolarized_capacitor.pdf",
+      "manufacturer": "",
+      "description": "Unpolarized capacitor",
+      "value": "22uF",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C962136",
+      "downloaded_date": "2026-05-30T14:22:45.208004+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "C7"
+      ],
+      "size_bytes": 7856403,
+      "verification": "unverified"
+    },
+    "DWM1000": {
+      "manufacturer": "DecaWave",
+      "description": "Ultra wide band RF module With ranging location capabilities",
+      "value": "DWM1000",
+      "references": [
+        "DWM1"
+      ],
+      "status": "not_found",
+      "error": "No LCSC results for 'C95238' or 'DWM1000'",
+      "last_attempt": "2026-05-30T14:22:45.208380+00:00"
+    },
+    "2.54-1*4P": {
+      "manufacturer": "BOOMELE(Boom Precision Elec)",
+      "description": "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "value": "Conn_01x04",
+      "references": [
+        "J3"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-05-30T14:22:46.214194+00:00"
+    },
+    "S2B-PH-SM4-TB(LF)(SN)": {
+      "manufacturer": "JST",
+      "description": "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "value": "Left Motor",
+      "references": [
+        "J8"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-05-30T14:22:49.729783+00:00"
+    },
+    "B4B-PH-SM4-TB(LF)(SN)": {
+      "manufacturer": "JST",
+      "description": "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "value": "Battery Connector",
+      "references": [
+        "J9"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-05-30T14:22:50.350649+00:00"
+    },
+    "C475532": {
+      "file": "C475532_Inductor.pdf",
+      "manufacturer": "cjiang",
+      "description": "Inductor",
+      "value": "1uH",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/9072344370debcf88f3b085e450e71ce.pdf?productCode=C167216",
+      "downloaded_date": "2026-05-30T14:22:50.378472+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "L1"
+      ],
+      "size_bytes": 615354,
+      "verification": "likely"
+    },
+    "C15401": {
+      "file": "C15401_Resistor.pdf",
+      "manufacturer": "",
+      "description": "Resistor",
+      "value": "10k",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/b3641306390dfb6f98ec07837c926b58.pdf?productCode=C2906982",
+      "downloaded_date": "2026-05-30T14:22:50.871444+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R3",
+        "R21"
+      ],
+      "size_bytes": 959959,
+      "verification": "unverified"
+    },
+    "C840605": {
+      "file": "C840605_Resistor.pdf",
+      "manufacturer": "",
+      "description": "Resistor",
+      "value": "10",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/b3641306390dfb6f98ec07837c926b58.pdf?productCode=C2934046",
+      "downloaded_date": "2026-05-30T14:22:51.167121+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R5"
+      ],
+      "size_bytes": 959959,
+      "verification": "unverified"
+    },
+    "C5127778": {
+      "file": "C5127778_Resistor.pdf",
+      "manufacturer": "",
+      "description": "Resistor",
+      "value": "200m",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/d24f9498a378892db8b98c9d196cf45b.pdf?productCode=C309533",
+      "downloaded_date": "2026-05-30T14:22:51.328220+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "R9",
+        "R10"
+      ],
+      "size_bytes": 373763,
+      "verification": "unverified"
+    },
+    "MCP1799T-5002H/TT": {
+      "file": "MCP1799T-5002H_TT_80_mA_High-Voltage_Automotive_LDO_5V_output_SOT-23.pdf",
+      "manufacturer": "Microchip Technology",
+      "description": "80 mA High-Voltage Automotive LDO, 5V output, SOT-23",
+      "value": "MCP1799T-5002H/TT",
+      "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP1799-Data-Sheet-20006248A.pdf",
+      "downloaded_date": "2026-05-30T14:22:51.976464+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U12"
+      ],
+      "size_bytes": 1142454,
+      "verification": "likely"
+    },
+    "STM6601CM2DDM6F": {
+      "manufacturer": "STMicroelectronics",
+      "description": "Smart push-button on/off controller, power-on lockout, Low Power, 1.6-5.5V, TDFN12",
+      "value": "STM6601CM2DDM6F",
+      "references": [
+        "U8"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-05-30T14:22:52.205771+00:00"
+    }
+  }
+}

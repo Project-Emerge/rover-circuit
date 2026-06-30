@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.95,
-          "width": 0.9
+          "drill": 0.25,
+          "height": 0.4,
+          "width": 0.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -339,726 +339,6 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.3,
-        "name": "Board_0-+BATT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2032,
-        "diff_pair_gap": 0.1524,
-        "diff_pair_width": 0.13208,
-        "name": "Board_0-DIFF_90",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13208,
-        "tuning_profile": "",
-        "via_diameter": 0.4572,
-        "via_drill": 0.2032
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.01,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Board_0-Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "clearance": 0.01,
-        "name": "Board_0-Fine Signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.05,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_0-I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_0-PWR_100mA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.25,
-        "name": "Board_0-PWR_1A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_0-PWR_2A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_0-PWR_500mA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 0.7,
-        "via_drill": 0.35
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_0-Signals",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.3,
-        "name": "Board_1-+BATT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2032,
-        "diff_pair_gap": 0.1524,
-        "diff_pair_width": 0.13208,
-        "name": "Board_1-DIFF_90",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13208,
-        "tuning_profile": "",
-        "via_diameter": 0.4572,
-        "via_drill": 0.2032
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.01,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Board_1-Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "clearance": 0.01,
-        "name": "Board_1-Fine Signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.05,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_1-I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_1-PWR_100mA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.25,
-        "name": "Board_1-PWR_1A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_1-PWR_2A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_1-PWR_500mA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 0.7,
-        "via_drill": 0.35
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_1-Signals",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.3,
-        "name": "Board_2-+BATT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2032,
-        "diff_pair_gap": 0.1524,
-        "diff_pair_width": 0.13208,
-        "name": "Board_2-DIFF_90",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13208,
-        "tuning_profile": "",
-        "via_diameter": 0.4572,
-        "via_drill": 0.2032
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.01,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Board_2-Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "clearance": 0.01,
-        "name": "Board_2-Fine Signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.05,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_2-I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_2-PWR_100mA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.25,
-        "name": "Board_2-PWR_1A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_2-PWR_2A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_2-PWR_500mA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 0.7,
-        "via_drill": 0.35
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_2-Signals",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.3,
-        "name": "Board_3-+BATT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2032,
-        "diff_pair_gap": 0.1524,
-        "diff_pair_width": 0.13208,
-        "name": "Board_3-DIFF_90",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13208,
-        "tuning_profile": "",
-        "via_diameter": 0.4572,
-        "via_drill": 0.2032
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.01,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Board_3-Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "clearance": 0.01,
-        "name": "Board_3-Fine Signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.05,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_3-I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_3-PWR_100mA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.25,
-        "name": "Board_3-PWR_1A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_3-PWR_2A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_3-PWR_500mA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 0.7,
-        "via_drill": 0.35
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_3-Signals",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.3,
-        "name": "Board_4-+BATT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2032,
-        "diff_pair_gap": 0.1524,
-        "diff_pair_width": 0.13208,
-        "name": "Board_4-DIFF_90",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13208,
-        "tuning_profile": "",
-        "via_diameter": 0.4572,
-        "via_drill": 0.2032
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.01,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Board_4-Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "clearance": 0.01,
-        "name": "Board_4-Fine Signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.05,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_4-I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_4-PWR_100mA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.25,
-        "name": "Board_4-PWR_1A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_4-PWR_2A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_4-PWR_500mA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 0.7,
-        "via_drill": 0.35
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_4-Signals",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.3,
-        "name": "Board_5-+BATT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2032,
-        "diff_pair_gap": 0.1524,
-        "diff_pair_width": 0.13208,
-        "name": "Board_5-DIFF_90",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13208,
-        "tuning_profile": "",
-        "via_diameter": 0.4572,
-        "via_drill": 0.2032
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.01,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Board_5-Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "clearance": 0.01,
-        "name": "Board_5-Fine Signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.05,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_5-I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_5-PWR_100mA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.25,
-        "name": "Board_5-PWR_1A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_5-PWR_2A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_5-PWR_500mA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 0.7,
-        "via_drill": 0.35
-      },
-      {
-        "clearance": 0.2,
-        "name": "Board_5-Signals",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
         "clearance": 0.2032,
         "diff_pair_gap": 0.1524,
         "diff_pair_width": 0.13208,
@@ -1147,333 +427,737 @@
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.01,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.3,
+        "name": "Board_0-+BATT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.13208,
+        "name": "Board_0-DIFF_90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13208,
+        "tuning_profile": "",
+        "via_diameter": 0.4572,
+        "via_drill": 0.2032
+      },
+      {
+        "clearance": 0.01,
+        "name": "Board_0-Fine Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.05,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_0-I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_0-PWR_100mA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.25,
+        "name": "Board_0-PWR_1A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_0-PWR_2A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_0-PWR_500mA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_0-Signals",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.01,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_1-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.3,
+        "name": "Board_1-+BATT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.13208,
+        "name": "Board_1-DIFF_90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13208,
+        "tuning_profile": "",
+        "via_diameter": 0.4572,
+        "via_drill": 0.2032
+      },
+      {
+        "clearance": 0.01,
+        "name": "Board_1-Fine Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.05,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_1-I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_1-PWR_100mA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.25,
+        "name": "Board_1-PWR_1A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_1-PWR_2A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_1-PWR_500mA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_1-Signals",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.01,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_2-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.3,
+        "name": "Board_2-+BATT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.13208,
+        "name": "Board_2-DIFF_90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13208,
+        "tuning_profile": "",
+        "via_diameter": 0.4572,
+        "via_drill": 0.2032
+      },
+      {
+        "clearance": 0.01,
+        "name": "Board_2-Fine Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.05,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_2-I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_2-PWR_100mA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.25,
+        "name": "Board_2-PWR_1A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_2-PWR_2A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_2-PWR_500mA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_2-Signals",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.01,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_3-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.3,
+        "name": "Board_3-+BATT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.13208,
+        "name": "Board_3-DIFF_90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13208,
+        "tuning_profile": "",
+        "via_diameter": 0.4572,
+        "via_drill": 0.2032
+      },
+      {
+        "clearance": 0.01,
+        "name": "Board_3-Fine Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.05,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_3-I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_3-PWR_100mA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.25,
+        "name": "Board_3-PWR_1A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_3-PWR_2A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_3-PWR_500mA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_3-Signals",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.01,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_4-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.3,
+        "name": "Board_4-+BATT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.13208,
+        "name": "Board_4-DIFF_90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13208,
+        "tuning_profile": "",
+        "via_diameter": 0.4572,
+        "via_drill": 0.2032
+      },
+      {
+        "clearance": 0.01,
+        "name": "Board_4-Fine Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.05,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_4-I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_4-PWR_100mA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.25,
+        "name": "Board_4-PWR_1A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_4-PWR_2A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_4-PWR_500mA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_4-Signals",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.01,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_5-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.3,
+        "name": "Board_5-+BATT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.13208,
+        "name": "Board_5-DIFF_90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13208,
+        "tuning_profile": "",
+        "via_diameter": 0.4572,
+        "via_drill": 0.2032
+      },
+      {
+        "clearance": 0.01,
+        "name": "Board_5-Fine Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.05,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_5-I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_5-PWR_100mA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.25,
+        "name": "Board_5-PWR_1A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_5-PWR_2A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_5-PWR_500mA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35
+      },
+      {
+        "clearance": 0.2,
+        "name": "Board_5-Signals",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(D5-A)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U5-SW)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "slash"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J5-GPIO24-Pad18)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U1-CAP)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U3-BISEN)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/BIN2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/Motor Driver/BOUT2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/UWB_IRQ"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-NC-Pad7)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J5-3V3-Pad1)_1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J8-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-INT-Pad15)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U11-INT1-Pad4)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U2-ILIM)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J5-GPIO17-Pad11)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J5-GPIO26-Pad37)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J6-Pin_10-Pad10)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/CLK"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-+3V3"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(D1-K)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J5-GPIO16-Pad36)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U8-C_SRD-Pad5)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J5-GPIO27-Pad13)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J8-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U5-FB)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/MOSI"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U11-ASDX-Pad2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U3-AISEN)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J5-GPIO22-Pad15)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U8-~{VCC}_LO-Pad7)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U11-INT2-Pad9)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(D3-K)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/AIN2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-NC-Pad12)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J7-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-NC-Pad6)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U7-BST)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U11-OSDO-Pad11)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(DWM1-EXTON-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-NC-Pad14)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J9-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J5-GPIO25-Pad22)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-CD-Pad3)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U8-Vref)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U3-VCP)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/TX0"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U2-~{INT})"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(DWM1-GPIO7-Pad4)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/BIN1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U5-BST)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(D3-A)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/USB1.D+"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J2-CC1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/EN"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/Motor Driver/AOUT2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-GND"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U2-STAT)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U11-OSCB-Pad10)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U8-~{SR})"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J9-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(FB1-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U8-~{PB})"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/Power Rails/EN"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-NC-Pad3)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U8-~{INT}-Pad11)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/USB1.D-"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/IO18"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J5-3V3-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(C12-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/Battery Recharger/TS"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J5-GPIO23-Pad16)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U11-ASCX-Pad3)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U6-NC-Pad22)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U2-BTST)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/Battery Recharger/REGN"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U9-SW)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U7-SW)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/AIN1"
+        "pattern": "Board_0-unconnected-(J5-GCLK2{slash}GPIO6-Pad31)"
       },
       {
         "netclass": "Board_0-Default",
@@ -1481,27 +1165,11 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-NC-Pad8)"
+        "pattern": "Board_0-GND"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U12-VO)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/RX0"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/Motor Driver/AOUT1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U2-~{PG})"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/~{INT}"
+        "pattern": "Board_0-/MCU/IO18"
       },
       {
         "netclass": "Board_0-Default",
@@ -1509,59 +1177,7 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(D2-K)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/UWB_WUP"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/IO9"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U2-PSEL)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-SPI_SDO-Pad5)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(D6-A)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J7-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J2-CC2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U8-~{RST}-Pad10)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/Motor Driver/BOUT1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U3-VINT)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/MISO"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/UWB_RST"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U3-~{FAULT}-Pad8)"
+        "pattern": "Board_0-unconnected-(J5-~{CE1}{slash}GPIO7-Pad26)"
       },
       {
         "netclass": "Board_0-Default",
@@ -1569,7 +1185,11 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MCU/IO19"
+        "pattern": "Board_0-Net-(D2-K)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U8-C_SRD-Pad5)"
       },
       {
         "netclass": "Board_0-Default",
@@ -1577,7 +1197,483 @@
       },
       {
         "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U2-~{PG})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-GCLK0{slash}GPIO4-Pad7)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(DWM1-GPIO4{slash}EXTPA-Pad11)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J8-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Power Rails/EN"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U8-~{SR})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U5-BST)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J5-SDA{slash}GPIO2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/EN"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/USB1.D+"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U11-ASDX-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Battery Recharger/TS"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/MOSI"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(DWM1-GPIO0{slash}RXOKLED-Pad15)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-SCLK0{slash}GPIO11-Pad23)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(DWM1-GPIO2{slash}RXLED)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(DWM1-GPIO5{slash}EXTTXE{slash}SPIPOL-Pad10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Motor Driver/BOUT1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-GPIO25-Pad22)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C12-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-GPIO24-Pad18)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-NC-Pad14)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U8-~{RST}-Pad10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-GPIO20{slash}MOSI1-Pad38)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U8-Vref)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J6-Pin_10-Pad10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U1-CAP)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J8-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-3V3-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U2-BTST)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/RX0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(DWM1-EXTON-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Motor Driver/AOUT2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(DWM1-GPIO6{slash}EXTRXE{slash}SPIHA-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-NC-Pad6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-GPIO23-Pad16)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U11-OSCB-Pad10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U11-OSDO-Pad11)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/TX0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-NC-Pad8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-GPIO17-Pad11)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U7-BST)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U8-~{PB})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U3-VINT)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(DWM1-GPIO1{slash}SFDLED-Pad14)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-GPIO27-Pad13)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/CLK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-NC-Pad12)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-~{FAULT}-Pad8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U2-STAT)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D3-K)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U3-VCP)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-+3V3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/MISO"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J7-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U11-ASCX-Pad3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-PWM1{slash}GPIO13-Pad33)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J9-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U11-INT2-Pad9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D3-A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/AIN1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D1-K)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-PWM0{slash}GPIO12-Pad32)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-SPI_SDO-Pad5)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-MOSI0{slash}GPIO10-Pad19)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U2-~{INT})"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-GPIO19{slash}MISO1-Pad35)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U2-ILIM)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-GPIO26-Pad37)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/UWB_RST"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-INT-Pad15)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U3-AISEN)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-MISO0{slash}GPIO9-Pad21)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Motor Driver/BOUT2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/~{INT}"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(DWM1-GPIO3{slash}TXLED)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J7-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-GPIO18{slash}PWM0-Pad12)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/UWB_IRQ"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/USB1.D-"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/UWB_WUP"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U11-INT1-Pad4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/AIN2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-GPIO21{slash}SCLK1-Pad40)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U7-SW)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J9-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J5-SCL{slash}GPIO3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-GPIO16-Pad36)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U5-FB)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-3V3-Pad1)_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U9-SW)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U12-VO)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U8-~{INT}-Pad11)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Motor Driver/AOUT1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-ID_SC{slash}GPIO1-Pad28)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D5-A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J2-CC1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U5-SW)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(DWM1-GPIO7-Pad4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/IO19"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U3-BISEN)"
+      },
+      {
+        "netclass": "Board_0-Default",
         "pattern": "Board_0-/MCU/~{KILL}"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-NC-Pad3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J2-CC2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/BIN1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/Battery Recharger/REGN"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U8-~{VCC}_LO-Pad7)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-~{CE0}{slash}GPIO8-Pad24)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-ID_SD{slash}GPIO0-Pad27)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D6-A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/IO9"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U6-NC-Pad22)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2-CD-Pad3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-GPIO22-Pad15)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U2-PSEL)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J5-GCLK1{slash}GPIO5-Pad29)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/BIN2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-NC-Pad7)"
       },
       {
         "netclass": "Board_0-PWR_2A",
@@ -1609,11 +1705,95 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/BIN2"
+        "pattern": "Board_1-Net-(DWM1-GPIO3{slash}TXLED)"
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U2-CD-Pad3)"
+        "pattern": "Board_1-unconnected-(J7-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/IO19"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/MISO"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-3V3-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U2-STAT)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Motor Driver/BOUT2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GCLK2{slash}GPIO6-Pad31)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U2-ILIM)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C12-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U1-NC-Pad14)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GPIO16-Pad36)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Power Rails/EN"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GPIO18{slash}PWM0-Pad12)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U8-C_SRD-Pad5)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J7-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(D1-K)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(DWM1-EXTON-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GPIO26-Pad37)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U1-NC-Pad7)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/UWB_RST"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(DWM1-GPIO7-Pad4)"
       },
       {
         "netclass": "Board_1-Default",
@@ -1621,11 +1801,103 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "slash"
+        "pattern": "Board_1-unconnected-(J9-MountPin-PadMP)_1"
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-/Motor Driver/AOUT2"
+        "pattern": "Board_1-unconnected-(J5-3V3-Pad1)_1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U8-~{VCC}_LO-Pad7)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GPIO20{slash}MOSI1-Pad38)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/UWB_IRQ"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(DWM1-GPIO5{slash}EXTTXE{slash}SPIPOL-Pad10)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U1-NC-Pad6)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U5-SW)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U7-BST)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J8-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J5-SCL{slash}GPIO3)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U11-OSCB-Pad10)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/UWB_WUP"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/~{KILL}"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-~{FAULT}-Pad8)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(DWM1-GPIO4{slash}EXTPA-Pad11)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/UWB_~{CS}"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U9-SW)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U8-~{PB})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U2-~{PG})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J5-SDA{slash}GPIO2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(DWM1-GPIO1{slash}SFDLED-Pad14)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U2-BTST)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J8-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Battery Recharger/REGN"
       },
       {
         "netclass": "Board_1-Default",
@@ -1637,99 +1909,7 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U8-~{VCC}_LO-Pad7)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U12-VO)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J5-GPIO25-Pad22)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J5-GPIO24-Pad18)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/MISO"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/USB1.D-"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/~{INT}"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/~{KILL}"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J5-3V3-Pad1)_1"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(DWM1-EXTON-Pad1)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U5-FB)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U2-~{PG})"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/IO9"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J5-GPIO26-Pad37)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(D1-K)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/Battery Recharger/REGN"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-+3V3"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U2-BTST)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U8-C_SRD-Pad5)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/IO19"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(D5-A)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U2-ILIM)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U3-AISEN)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J8-MountPin-PadMP)_1"
+        "pattern": "Board_1-Net-(D3-K)"
       },
       {
         "netclass": "Board_1-Default",
@@ -1737,11 +1917,7 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-/Motor Driver/BOUT1"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J5-3V3-Pad1)"
+        "pattern": "Board_1-/Motor Driver/AOUT1"
       },
       {
         "netclass": "Board_1-Default",
@@ -1749,31 +1925,7 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(C4-Pad1)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U11-INT1-Pad4)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U3-VCP)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(D3-K)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J7-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U1-NC-Pad14)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U8-~{PB})"
+        "pattern": "Board_1-/MCU/BIN2"
       },
       {
         "netclass": "Board_1-Default",
@@ -1781,171 +1933,11 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(C12-Pad1)"
+        "pattern": "Board_1-unconnected-(J5-MOSI0{slash}GPIO10-Pad19)"
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/CLK"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U7-BST)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U11-OSCB-Pad10)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J6-Pin_10-Pad10)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J5-GPIO27-Pad13)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J2-CC1)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/Motor Driver/BOUT2"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U1-CAP)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J2-CC2)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(DWM1-GPIO7-Pad4)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U3-~{FAULT}-Pad8)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U1-NC-Pad6)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J5-GPIO16-Pad36)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/TX0"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/AIN1"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U8-~{SR})"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/BIN1"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/RX0"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-GND"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/UWB_IRQ"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J7-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/UWB_RST"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U5-BST)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J9-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J5-GPIO23-Pad16)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U11-ASDX-Pad2)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U2-MID)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U11-OSDO-Pad11)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U8-~{INT}-Pad11)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J5-GPIO17-Pad11)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U7-SW)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U3-BISEN)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U6-NC-Pad22)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/AIN2"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/EN"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U11-INT2-Pad9)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/Battery Recharger/TS"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U3-VINT)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J9-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/UWB_WUP"
+        "pattern": "Board_1-/Motor Driver/BOUT1"
       },
       {
         "netclass": "Board_1-Default",
@@ -1953,67 +1945,19 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/~{SLEEP}"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/UWB_~{CS}"
-      },
-      {
-        "netclass": "Board_1-Default",
         "pattern": "Board_1-/MCU/MOSI"
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U2-STAT)"
+        "pattern": "Board_1-Net-(U1-CAP)"
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U9-SW)"
+        "pattern": "Board_1-/MCU/BIN1"
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-/Power Rails/EN"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U1-NC-Pad8)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U5-SW)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/IO18"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U1-NC-Pad7)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U1-NC-Pad12)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MCU/USB1.D+"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J5-GPIO22-Pad15)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/Motor Driver/AOUT1"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U2-PSEL)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(J8-MountPin-PadMP)"
+        "pattern": "Board_1-Net-(U12-VO)"
       },
       {
         "netclass": "Board_1-Default",
@@ -2021,7 +1965,63 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(D2-K)"
+        "pattern": "Board_1-/MCU/RX0"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/EN"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J6-Pin_10-Pad10)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U8-~{INT}-Pad11)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/USB1.D-"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/~{SLEEP}"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/IO9"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-ID_SC{slash}GPIO1-Pad28)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GCLK0{slash}GPIO4-Pad7)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GPIO23-Pad16)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2-CD-Pad3)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U5-FB)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-~{CE1}{slash}GPIO7-Pad26)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GPIO27-Pad13)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U3-AISEN)"
       },
       {
         "netclass": "Board_1-Default",
@@ -2029,7 +2029,199 @@
       },
       {
         "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-ID_SD{slash}GPIO0-Pad27)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/AIN2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GPIO24-Pad18)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-GND"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U7-SW)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U6-NC-Pad22)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U8-~{SR})"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/IO18"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J2-CC2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U2-MID)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U11-INT1-Pad4)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U11-OSDO-Pad11)"
+      },
+      {
+        "netclass": "Board_1-Default",
         "pattern": "Board_1-unconnected-(U1-SPI_SDO-Pad5)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U1-NC-Pad8)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(D5-A)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(DWM1-GPIO2{slash}RXLED)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GPIO22-Pad15)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U11-ASDX-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U3-VCP)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/CLK"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U5-BST)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Battery Recharger/TS"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GPIO17-Pad11)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-PWM1{slash}GPIO13-Pad33)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-PWM0{slash}GPIO12-Pad32)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GPIO21{slash}SCLK1-Pad40)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-~{CE0}{slash}GPIO8-Pad24)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/Motor Driver/AOUT2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-MISO0{slash}GPIO9-Pad21)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U3-VINT)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J9-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C4-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(DWM1-GPIO0{slash}RXOKLED-Pad15)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/~{INT}"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(D2-K)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U2-PSEL)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U11-INT2-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GPIO19{slash}MISO1-Pad35)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U3-BISEN)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/AIN1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J2-CC1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-SCLK0{slash}GPIO11-Pad23)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-+3V3"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GCLK1{slash}GPIO5-Pad29)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/USB1.D+"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U1-NC-Pad12)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/TX0"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(DWM1-GPIO6{slash}EXTRXE{slash}SPIHA-Pad9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J5-GPIO25-Pad22)"
       },
       {
         "netclass": "Board_1-PWR_2A",
@@ -2061,119 +2253,7 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U2-MID)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U6-NC-Pad22)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J9-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/IO19"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U8-Vref)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J5-GPIO27-Pad13)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(C4-Pad1)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "slash"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/CLK"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J5-3V3-Pad1)_1"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U11-INT1-Pad4)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(D3-A)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/USB1.D+"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/Motor Driver/AOUT1"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J7-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/TX0"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/USB1.D-"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J8-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/AIN1"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U3-AISEN)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U11-OSDO-Pad11)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/Motor Driver/BOUT1"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U3-VCP)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U1-NC-Pad3)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U1-NC-Pad7)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U1-SPI_SDO-Pad5)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/UWB_RST"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U11-ASDX-Pad2)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/Motor Driver/BOUT2"
+        "pattern": "Board_2-unconnected-(J5-3V3-Pad1)"
       },
       {
         "netclass": "Board_2-Default",
@@ -2181,19 +2261,19 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U11-INT2-Pad9)"
+        "pattern": "Board_2-Net-(U1-CAP)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/Battery Recharger/REGN"
+        "pattern": "Board_2-unconnected-(U1-SPI_SDO-Pad5)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U1-NC-Pad14)"
+        "pattern": "Board_2-unconnected-(U1-NC-Pad7)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J7-MountPin-PadMP)"
+        "pattern": "Board_2-unconnected-(DWM1-GPIO0{slash}RXOKLED-Pad15)"
       },
       {
         "netclass": "Board_2-Default",
@@ -2201,27 +2281,23 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/~{KILL}"
+        "pattern": "Board_2-/MCU/RX0"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J5-GPIO26-Pad37)"
+        "pattern": "Board_2-unconnected-(U11-INT1-Pad4)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U5-BST)"
+        "pattern": "Board_2-/MCU/CLK"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U2-~{INT})"
+        "pattern": "Board_2-unconnected-(J5-GPIO21{slash}SCLK1-Pad40)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J5-3V3-Pad1)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U3-BISEN)"
+        "pattern": "Board_2-Net-(D3-K)"
       },
       {
         "netclass": "Board_2-Default",
@@ -2229,131 +2305,19 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/UWB_~{CS}"
+        "pattern": "Board_2-unconnected-(J5-GPIO22-Pad15)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(C5-Pad1)"
+        "pattern": "Board_2-unconnected-(J5-~{CE1}{slash}GPIO7-Pad26)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U2-~{PG})"
+        "pattern": "Board_2-/MCU/UWB_WUP"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J5-GPIO17-Pad11)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-+3V3"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U1-NC-Pad6)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U3-~{FAULT}-Pad8)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J5-GPIO25-Pad22)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/AIN2"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(D2-K)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J5-GPIO23-Pad16)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J6-Pin_10-Pad10)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/Battery Recharger/TS"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(D5-A)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U2-PSEL)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J5-GPIO16-Pad36)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/BIN1"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/Motor Driver/AOUT2"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J5-GPIO24-Pad18)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U11-ASCX-Pad3)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/EN"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U8-~{INT}-Pad11)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U12-VO)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U2-STAT)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U7-SW)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/RX0"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U9-SW)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J8-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U8-C_SRD-Pad5)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U1-NC-Pad12)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-GND"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U5-SW)"
+        "pattern": "Board_2-Net-(U3-VINT)"
       },
       {
         "netclass": "Board_2-Default",
@@ -2361,7 +2325,47 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/~{INT}"
+        "pattern": "Board_2-unconnected-(DWM1-GPIO5{slash}EXTTXE{slash}SPIPOL-Pad10)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U11-INT2-Pad9)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(J5-SCL{slash}GPIO3)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U3-AISEN)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/Power Rails/EN"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(DWM1-GPIO4{slash}EXTPA-Pad11)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J8-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(D1-K)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(DWM1-GPIO1{slash}SFDLED-Pad14)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/Motor Driver/BOUT1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(DWM1-EXTON-Pad1)"
       },
       {
         "netclass": "Board_2-Default",
@@ -2369,11 +2373,143 @@
       },
       {
         "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-SCLK0{slash}GPIO11-Pad23)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/Battery Recharger/REGN"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-GPIO19{slash}MISO1-Pad35)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U11-ASDX-Pad2)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U11-ASCX-Pad3)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(DWM1-GPIO6{slash}EXTRXE{slash}SPIHA-Pad9)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U2-BTST)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-PWM0{slash}GPIO12-Pad32)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U1-INT-Pad15)"
+      },
+      {
+        "netclass": "Board_2-Default",
         "pattern": "Board_2-unconnected-(U8-~{VCC}_LO-Pad7)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/Power Rails/EN"
+        "pattern": "Board_2-Net-(U8-~{SR})"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(C4-Pad1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-GPIO23-Pad16)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J8-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U2-~{PG})"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/TX0"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U2-ILIM)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U5-SW)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(DWM1-GPIO2{slash}RXLED)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(D2-K)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J6-Pin_10-Pad10)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-~{FAULT}-Pad8)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J9-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/EN"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U6-NC-Pad22)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U7-SW)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/Motor Driver/BOUT2"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(DWM1-GPIO7-Pad4)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-GCLK0{slash}GPIO4-Pad7)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U8-~{PB})"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J9-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U8-C_SRD-Pad5)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/BIN2"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/IO19"
       },
       {
         "netclass": "Board_2-Default",
@@ -2385,63 +2521,15 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U2-ILIM)"
+        "pattern": "Board_2-unconnected-(J7-MountPin-PadMP)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U8-~{PB})"
+        "pattern": "Board_2-unconnected-(U11-OSDO-Pad11)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(D1-K)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/MISO"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U1-CAP)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(C12-Pad1)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U3-VINT)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J5-GPIO22-Pad15)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(DWM1-EXTON-Pad1)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U2-CD-Pad3)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U5-FB)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/IO18"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(J9-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/UWB_WUP"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/BIN2"
+        "pattern": "Board_2-unconnected-(U1-NC-Pad3)"
       },
       {
         "netclass": "Board_2-Default",
@@ -2449,31 +2537,123 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U2-BTST)"
+        "pattern": "Board_2-/MCU/UWB_IRQ"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(D3-K)"
+        "pattern": "Board_2-/MCU/USB1.D+"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U8-~{SR})"
+        "pattern": "Board_2-/MCU/UWB_RST"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/MOSI"
+        "pattern": "Board_2-/MCU/~{INT}"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U1-INT-Pad15)"
+        "pattern": "Board_2-/MCU/BIN1"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(D6-A)"
+        "pattern": "Board_2-/MCU/MISO"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(DWM1-GPIO7-Pad4)"
+        "pattern": "Board_2-unconnected-(J5-PWM1{slash}GPIO13-Pad33)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-GPIO25-Pad22)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-GPIO17-Pad11)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U9-SW)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U8-~{INT}-Pad11)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-GCLK1{slash}GPIO5-Pad29)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U1-NC-Pad12)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-ID_SC{slash}GPIO1-Pad28)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/Motor Driver/AOUT2"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2-CD-Pad3)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-GPIO27-Pad13)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(DWM1-GPIO3{slash}TXLED)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/USB1.D-"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-MISO0{slash}GPIO9-Pad21)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U5-FB)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U2-~{INT})"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-GPIO18{slash}PWM0-Pad12)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U2-MID)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U2-STAT)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U12-VO)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-MOSI0{slash}GPIO10-Pad19)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U5-BST)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(D5-A)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-3V3-Pad1)_1"
       },
       {
         "netclass": "Board_2-Default",
@@ -2481,7 +2661,115 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MCU/UWB_IRQ"
+        "pattern": "Board_2-unconnected-(J5-GPIO24-Pad18)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-GPIO20{slash}MOSI1-Pad38)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-+3V3"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-GND"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/IO18"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/Motor Driver/AOUT1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/Battery Recharger/TS"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U3-BISEN)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/UWB_~{CS}"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/AIN1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U2-PSEL)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U1-NC-Pad6)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-GCLK2{slash}GPIO6-Pad31)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(D6-A)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-~{CE0}{slash}GPIO8-Pad24)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(J5-SDA{slash}GPIO2)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J7-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(D3-A)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-GPIO16-Pad36)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-GPIO26-Pad37)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U1-NC-Pad14)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U3-VCP)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(C12-Pad1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/MOSI"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/~{KILL}"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U8-Vref)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/AIN2"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J5-ID_SD{slash}GPIO0-Pad27)"
       },
       {
         "netclass": "Board_2-PWR_2A",
@@ -2513,87 +2801,15 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/Battery Recharger/TS"
+        "pattern": "Board_3-unconnected-(U1-NC-Pad7)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/Motor Driver/BOUT1"
+        "pattern": "Board_3-unconnected-(J5-GPIO19{slash}MISO1-Pad35)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/MOSI"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(D5-A)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U11-INT1-Pad4)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U5-BST)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "slash"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J9-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U11-OSDO-Pad11)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J5-GPIO23-Pad16)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U1-INT-Pad15)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(D1-K)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(D6-A)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/Battery Recharger/REGN"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J6-Pin_10-Pad10)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/~{KILL}"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/EN"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U2-STAT)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/BIN1"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U2-~{INT})"
+        "pattern": "Board_3-unconnected-(J5-GCLK1{slash}GPIO5-Pad29)"
       },
       {
         "netclass": "Board_3-Default",
@@ -2601,31 +2817,11 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U1-NC-Pad8)"
+        "pattern": "Board_3-Net-(D6-A)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U5-SW)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U2-MID)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(FB1-Pad1)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J5-GPIO26-Pad37)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/TX0"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U8-Vref)"
+        "pattern": "Board_3-unconnected-(J5-MOSI0{slash}GPIO10-Pad19)"
       },
       {
         "netclass": "Board_3-Default",
@@ -2633,87 +2829,7 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J5-GPIO22-Pad15)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/UWB_RST"
-      },
-      {
-        "netclass": "Board_3-Default",
         "pattern": "Board_3-/MCU/RX0"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U1-CAP)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(C12-Pad1)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/UWB_WUP"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J8-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U8-~{RST}-Pad10)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U1-NC-Pad3)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U8-~{VCC}_LO-Pad7)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J5-GPIO16-Pad36)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/Power Rails/EN"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/~{INT}"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U1-NC-Pad7)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U9-SW)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J7-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J5-GPIO25-Pad22)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/Motor Driver/BOUT2"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J5-3V3-Pad1)_1"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U8-~{INT}-Pad11)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/UWB_~{CS}"
       },
       {
         "netclass": "Board_3-Default",
@@ -2721,31 +2837,47 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U2-BTST)"
+        "pattern": "Board_3-Net-(DWM1-GPIO2{slash}RXLED)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(D3-A)"
+        "pattern": "Board_3-unconnected-(DWM1-GPIO6{slash}EXTRXE{slash}SPIHA-Pad9)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J5-GPIO17-Pad11)"
+        "pattern": "Board_3-unconnected-(J5-GPIO18{slash}PWM0-Pad12)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/AIN2"
+        "pattern": "Board_3-Net-(D1-K)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J5-GPIO27-Pad13)"
+        "pattern": "Board_3-unconnected-(J5-SCLK0{slash}GPIO11-Pad23)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(J2-CC2)"
+        "pattern": "Board_3-Net-(C12-Pad1)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/BIN2"
+        "pattern": "Board_3-Net-(J5-SCL{slash}GPIO3)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U5-SW)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(DWM1-GPIO4{slash}EXTPA-Pad11)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(D3-K)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J8-MountPin-PadMP)"
       },
       {
         "netclass": "Board_3-Default",
@@ -2753,15 +2885,31 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U11-ASDX-Pad2)"
+        "pattern": "Board_3-Net-(U2-~{INT})"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J5-GPIO24-Pad18)"
+        "pattern": "Board_3-unconnected-(J5-GPIO17-Pad11)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U12-VO)"
+        "pattern": "Board_3-/MCU/USB1.D+"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(DWM1-GPIO7-Pad4)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U9-SW)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U8-~{VCC}_LO-Pad7)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-GPIO27-Pad13)"
       },
       {
         "netclass": "Board_3-Default",
@@ -2773,11 +2921,7 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/Motor Driver/AOUT1"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(J2-CC1)"
+        "pattern": "Board_3-Net-(C5-Pad1)"
       },
       {
         "netclass": "Board_3-Default",
@@ -2785,11 +2929,15 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/MISO"
+        "pattern": "Board_3-unconnected-(DWM1-GPIO5{slash}EXTTXE{slash}SPIPOL-Pad10)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-+3V3"
+        "pattern": "Board_3-unconnected-(J7-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J7-MountPin-PadMP)_1"
       },
       {
         "netclass": "Board_3-Default",
@@ -2797,35 +2945,67 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U3-AISEN)"
+        "pattern": "Board_3-Net-(DWM1-GPIO3{slash}TXLED)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U11-ASCX-Pad3)"
+        "pattern": "Board_3-unconnected-(U11-ASDX-Pad2)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U8-~{SR})"
+        "pattern": "Board_3-/Power Rails/EN"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/Motor Driver/AOUT2"
+        "pattern": "Board_3-Net-(J2-CC2)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/IO9"
+        "pattern": "Board_3-unconnected-(J5-GCLK2{slash}GPIO6-Pad31)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/AIN1"
+        "pattern": "Board_3-unconnected-(J5-MISO0{slash}GPIO9-Pad21)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J8-MountPin-PadMP)_1"
+        "pattern": "Board_3-Net-(U2-PSEL)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U8-C_SRD-Pad5)"
+        "pattern": "Board_3-unconnected-(U1-NC-Pad8)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-GCLK0{slash}GPIO4-Pad7)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U1-NC-Pad14)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/Battery Recharger/TS"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/USB1.D-"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U11-OSDO-Pad11)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/BIN2"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U2-STAT)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J9-MountPin-PadMP)_1"
       },
       {
         "netclass": "Board_3-Default",
@@ -2833,15 +3013,11 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U3-~{FAULT}-Pad8)"
+        "pattern": "Board_3-/MCU/IO19"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(DWM1-EXTON-Pad1)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U3-BISEN)"
+        "pattern": "Board_3-Net-(FB1-Pad1)"
       },
       {
         "netclass": "Board_3-Default",
@@ -2849,7 +3025,71 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/IO19"
+        "pattern": "Board_3-unconnected-(J5-GPIO21{slash}SCLK1-Pad40)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U6-NC-Pad22)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U5-BST)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/Motor Driver/AOUT2"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(DWM1-GPIO1{slash}SFDLED-Pad14)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U1-CAP)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U8-~{RST}-Pad10)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J8-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U12-VO)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U8-Vref)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U3-AISEN)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-3V3-Pad1)_1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(J5-SDA{slash}GPIO2)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-ID_SC{slash}GPIO1-Pad28)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U2-MID)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/~{INT}"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U11-INT2-Pad9)"
       },
       {
         "netclass": "Board_3-Default",
@@ -2857,7 +3097,187 @@
       },
       {
         "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/~{KILL}"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/MISO"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/AIN1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/UWB_WUP"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-GPIO25-Pad22)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J6-Pin_10-Pad10)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-GPIO16-Pad36)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/MOSI"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/Motor Driver/AOUT1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(DWM1-EXTON-Pad1)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/EN"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U1-NC-Pad3)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U8-~{INT}-Pad11)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(D2-K)"
+      },
+      {
+        "netclass": "Board_3-Default",
         "pattern": "Board_3-Net-(U7-BST)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/Motor Driver/BOUT2"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-~{CE1}{slash}GPIO7-Pad26)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(J2-CC1)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U2-BTST)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U11-INT1-Pad4)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-ID_SD{slash}GPIO0-Pad27)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-GND"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U11-OSCB-Pad10)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/Motor Driver/BOUT1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U3-BISEN)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/BIN1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/UWB_RST"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U5-FB)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(D3-A)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-GPIO22-Pad15)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U8-C_SRD-Pad5)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U11-ASCX-Pad3)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(D5-A)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-~{FAULT}-Pad8)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/AIN2"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(DWM1-GPIO0{slash}RXOKLED-Pad15)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-PWM0{slash}GPIO12-Pad32)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/UWB_~{CS}"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-PWM1{slash}GPIO13-Pad33)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-GPIO23-Pad16)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U2-ILIM)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U1-NC-Pad6)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-GPIO20{slash}MOSI1-Pad38)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U3-VINT)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-GPIO24-Pad18)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-GPIO26-Pad37)"
       },
       {
         "netclass": "Board_3-Default",
@@ -2869,51 +3289,7 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U6-NC-Pad22)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(J7-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-GND"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(DWM1-GPIO7-Pad4)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(D2-K)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U3-VINT)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U1-NC-Pad14)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U2-PSEL)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/USB1.D-"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U1-NC-Pad6)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U11-OSCB-Pad10)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(D3-K)"
+        "pattern": "Board_3-+3V3"
       },
       {
         "netclass": "Board_3-Default",
@@ -2921,19 +3297,27 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U5-FB)"
+        "pattern": "Board_3-/Battery Recharger/REGN"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U11-INT2-Pad9)"
+        "pattern": "Board_3-/MCU/IO9"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U2-ILIM)"
+        "pattern": "Board_3-unconnected-(U1-INT-Pad15)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MCU/USB1.D+"
+        "pattern": "Board_3-/MCU/TX0"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J5-~{CE0}{slash}GPIO8-Pad24)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U8-~{SR})"
       },
       {
         "netclass": "Board_3-PWR_2A",
@@ -2965,59 +3349,35 @@
       },
       {
         "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/~{KILL}"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-GPIO27-Pad13)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(D3-A)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/USB1.D-"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U1-INT-Pad15)"
+      },
+      {
+        "netclass": "Board_4-Default",
         "pattern": "Board_4-/MCU/MISO"
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/IO9"
+        "pattern": "Board_4-Net-(DWM1-GPIO2{slash}RXLED)"
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "slash"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U2-~{INT})"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J5-3V3-Pad1)_1"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(D5-A)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J5-GPIO23-Pad16)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U8-~{RST}-Pad10)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U3-VINT)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J9-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J5-GPIO26-Pad37)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U2-~{PG})"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(DWM1-GPIO7-Pad4)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J5-3V3-Pad1)"
+        "pattern": "Board_4-Net-(U5-BST)"
       },
       {
         "netclass": "Board_4-Default",
@@ -3025,11 +3385,35 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U3-AISEN)"
+        "pattern": "Board_4-unconnected-(U3-~{FAULT}-Pad8)"
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J9-MountPin-PadMP)"
+        "pattern": "Board_4-Net-(U5-FB)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2-CD-Pad3)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U2-ILIM)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-ID_SC{slash}GPIO1-Pad28)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U3-VINT)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U5-SW)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(DWM1-GPIO0{slash}RXOKLED-Pad15)"
       },
       {
         "netclass": "Board_4-Default",
@@ -3037,19 +3421,131 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/BIN2"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J7-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_4-Default",
         "pattern": "Board_4-Net-(D2-K)"
       },
       {
         "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-GPIO23-Pad16)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U1-NC-Pad14)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J9-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(DWM1-GPIO1{slash}SFDLED-Pad14)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-3V3-Pad1)_1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-GPIO22-Pad15)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U2-MID)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-PWM0{slash}GPIO12-Pad32)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-GPIO26-Pad37)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(C4-Pad1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(DWM1-GPIO7-Pad4)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U11-INT2-Pad9)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U6-NC-Pad22)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U8-~{PB})"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-MOSI0{slash}GPIO10-Pad19)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/Battery Recharger/REGN"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-GPIO17-Pad11)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U12-VO)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U8-~{SR})"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J6-Pin_10-Pad10)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(DWM1-GPIO4{slash}EXTPA-Pad11)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J9-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_4-Default",
         "pattern": "Board_4-unconnected-(J8-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U8-~{RST}-Pad10)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U11-INT1-Pad4)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U2-~{INT})"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U3-VCP)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U1-SPI_SDO-Pad5)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U2-BTST)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U11-ASCX-Pad3)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U9-SW)"
       },
       {
         "netclass": "Board_4-Default",
@@ -3061,75 +3557,11 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J2-CC1)"
+        "pattern": "Board_4-/MCU/BIN2"
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/UWB_~{CS}"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/Motor Driver/BOUT2"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U11-ASCX-Pad3)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-+3V3"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U11-ASDX-Pad2)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J5-GPIO27-Pad13)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U2-CD-Pad3)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U8-~{PB})"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/~{KILL}"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U2-MID)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U5-BST)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/TX0"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(FB1-Pad1)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J5-GPIO16-Pad36)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-GND"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J5-GPIO17-Pad11)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U8-~{VCC}_LO-Pad7)"
+        "pattern": "Board_4-unconnected-(J7-MountPin-PadMP)_1"
       },
       {
         "netclass": "Board_4-Default",
@@ -3137,19 +3569,7 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U5-FB)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/Power Rails/EN"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(C12-Pad1)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J7-MountPin-PadMP)"
+        "pattern": "Board_4-/MCU/IO19"
       },
       {
         "netclass": "Board_4-Default",
@@ -3157,15 +3577,11 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J5-GPIO22-Pad15)"
+        "pattern": "Board_4-/MCU/UWB_RST"
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U2-BTST)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U1-SPI_SDO-Pad5)"
+        "pattern": "Board_4-unconnected-(J5-GPIO18{slash}PWM0-Pad12)"
       },
       {
         "netclass": "Board_4-Default",
@@ -3173,31 +3589,11 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U1-CAP)"
+        "pattern": "Board_4-unconnected-(J5-SCLK0{slash}GPIO11-Pad23)"
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U7-SW)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(D3-A)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U1-NC-Pad6)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J5-GPIO25-Pad22)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/IO19"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(D3-K)"
+        "pattern": "Board_4-Net-(U2-PSEL)"
       },
       {
         "netclass": "Board_4-Default",
@@ -3205,39 +3601,11 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/UWB_IRQ"
+        "pattern": "Board_4-unconnected-(DWM1-GPIO5{slash}EXTTXE{slash}SPIPOL-Pad10)"
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/USB1.D+"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J2-CC2)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U11-INT2-Pad9)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(C4-Pad1)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U6-NC-Pad22)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U2-STAT)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U11-INT1-Pad4)"
+        "pattern": "Board_4-unconnected-(J7-MountPin-PadMP)"
       },
       {
         "netclass": "Board_4-Default",
@@ -3245,131 +3613,7 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/Motor Driver/AOUT2"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(D6-A)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/USB1.D-"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/Battery Recharger/REGN"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U12-VO)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U2-ILIM)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J6-Pin_10-Pad10)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/MOSI"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/AIN1"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U9-SW)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/Motor Driver/BOUT1"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U3-~{FAULT}-Pad8)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/UWB_WUP"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J8-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U5-SW)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U1-INT-Pad15)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/IO18"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/Battery Recharger/TS"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U1-NC-Pad8)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/CLK"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(DWM1-EXTON-Pad1)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U8-C_SRD-Pad5)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/~{INT}"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/BIN1"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/~{SLEEP}"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U8-~{SR})"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U1-NC-Pad12)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U8-~{INT}-Pad11)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(J5-GPIO24-Pad18)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(D1-K)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MCU/UWB_RST"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U1-NC-Pad14)"
+        "pattern": "Board_4-unconnected-(J5-GPIO16-Pad36)"
       },
       {
         "netclass": "Board_4-Default",
@@ -3377,15 +3621,251 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U3-VCP)"
-      },
-      {
-        "netclass": "Board_4-Default",
         "pattern": "Board_4-Net-(U3-BISEN)"
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U2-PSEL)"
+        "pattern": "Board_4-Net-(U3-AISEN)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-+3V3"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/~{SLEEP}"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-PWM1{slash}GPIO13-Pad33)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/UWB_WUP"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/Battery Recharger/TS"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/Motor Driver/AOUT2"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U1-NC-Pad6)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/IO18"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-3V3-Pad1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(D1-K)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U7-SW)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-GCLK1{slash}GPIO5-Pad29)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/USB1.D+"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J2-CC1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U2-~{PG})"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J5-SCL{slash}GPIO3)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-GPIO19{slash}MISO1-Pad35)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-GPIO20{slash}MOSI1-Pad38)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-~{CE1}{slash}GPIO7-Pad26)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/Power Rails/EN"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-GPIO25-Pad22)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J2-CC2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-GCLK0{slash}GPIO4-Pad7)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U8-C_SRD-Pad5)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(D6-A)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(C12-Pad1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U1-CAP)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(DWM1-GPIO6{slash}EXTRXE{slash}SPIHA-Pad9)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-MISO0{slash}GPIO9-Pad21)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-GPIO24-Pad18)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-ID_SD{slash}GPIO0-Pad27)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(D5-A)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(DWM1-EXTON-Pad1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-GCLK2{slash}GPIO6-Pad31)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/~{INT}"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U1-NC-Pad12)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J5-SDA{slash}GPIO2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-~{CE0}{slash}GPIO8-Pad24)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U8-~{INT}-Pad11)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-GND"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U11-ASDX-Pad2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U8-~{VCC}_LO-Pad7)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/MOSI"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J8-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(DWM1-GPIO3{slash}TXLED)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/AIN1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J5-GPIO21{slash}SCLK1-Pad40)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(D3-K)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U1-NC-Pad8)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/UWB_~{CS}"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U2-STAT)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/BIN1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/Motor Driver/BOUT2"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/IO9"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/Motor Driver/BOUT1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/TX0"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/CLK"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/UWB_IRQ"
       },
       {
         "netclass": "Board_4-PWR_2A",
@@ -3417,27 +3897,11 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/BIN2"
+        "pattern": "Board_5-Net-(U7-BST)"
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J5-3V3-Pad1)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(D6-A)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/AIN1"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/IO18"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "slash"
+        "pattern": "Board_5-unconnected-(J5-GPIO18{slash}PWM0-Pad12)"
       },
       {
         "netclass": "Board_5-Default",
@@ -3445,135 +3909,11 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U11-OSCB-Pad10)"
+        "pattern": "Board_5-unconnected-(U3-~{FAULT}-Pad8)"
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U11-ASCX-Pad3)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J9-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/UWB_WUP"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(DWM1-GPIO7-Pad4)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U1-CAP)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J5-GPIO27-Pad13)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/MOSI"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/Motor Driver/BOUT2"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U2-ILIM)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U8-~{PB})"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U8-~{VCC}_LO-Pad7)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U2-PSEL)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U5-FB)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U3-BISEN)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(C4-Pad1)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(D2-K)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U2-CD-Pad3)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U1-NC-Pad12)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U8-~{SR})"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/MISO"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/CLK"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J5-GPIO17-Pad11)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U2-~{PG})"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-GND"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U2-MID)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J8-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/~{INT}"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U8-~{RST}-Pad10)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J9-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J5-GPIO24-Pad18)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/USB1.D+"
+        "pattern": "Board_5-unconnected-(J5-GPIO21{slash}SCLK1-Pad40)"
       },
       {
         "netclass": "Board_5-Default",
@@ -3581,11 +3921,27 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-/Battery Recharger/TS"
+        "pattern": "Board_5-Net-(J5-SDA{slash}GPIO2)"
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J2-CC1)"
+        "pattern": "Board_5-/MCU/MISO"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U8-~{SR})"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-GCLK1{slash}GPIO5-Pad29)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-PWM1{slash}GPIO13-Pad33)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U1-INT-Pad15)"
       },
       {
         "netclass": "Board_5-Default",
@@ -3593,7 +3949,359 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U3-~{FAULT}-Pad8)"
+        "pattern": "Board_5-Net-(U2-~{PG})"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(D3-A)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U3-VCP)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U3-AISEN)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(D6-A)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(DWM1-GPIO4{slash}EXTPA-Pad11)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(DWM1-EXTON-Pad1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-GPIO24-Pad18)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/TX0"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J6-Pin_10-Pad10)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U1-SPI_SDO-Pad5)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/~{KILL}"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U2-BTST)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/Battery Recharger/REGN"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-GPIO26-Pad37)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(C12-Pad1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(DWM1-GPIO5{slash}EXTTXE{slash}SPIPOL-Pad10)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J8-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/USB1.D+"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/UWB_RST"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J8-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/UWB_IRQ"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U3-VINT)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-GPIO23-Pad16)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/USB1.D-"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U12-VO)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/Motor Driver/BOUT2"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2-CD-Pad3)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(C4-Pad1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-~{CE1}{slash}GPIO7-Pad26)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(D5-A)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-MOSI0{slash}GPIO10-Pad19)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J7-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U11-OSCB-Pad10)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U1-CAP)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U2-PSEL)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U7-SW)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(D3-K)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U2-ILIM)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(DWM1-GPIO7-Pad4)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U8-~{VCC}_LO-Pad7)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U8-~{PB})"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/MOSI"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/IO19"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-GCLK2{slash}GPIO6-Pad31)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U1-NC-Pad7)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U2-~{INT})"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(DWM1-GPIO2{slash}RXLED)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U1-NC-Pad14)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(D2-K)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/UWB_~{CS}"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(J2-CC2)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U3-BISEN)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-~{CE0}{slash}GPIO8-Pad24)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U5-SW)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U6-NC-Pad22)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U2-STAT)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-GPIO27-Pad13)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-MISO0{slash}GPIO9-Pad21)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/~{INT}"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/BIN1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-ID_SC{slash}GPIO1-Pad28)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-GCLK0{slash}GPIO4-Pad7)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U11-INT1-Pad4)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-SCLK0{slash}GPIO11-Pad23)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U1-NC-Pad12)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U1-NC-Pad6)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U9-SW)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-PWM0{slash}GPIO12-Pad32)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J9-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U8-~{INT}-Pad11)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-3V3-Pad1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/IO18"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/Battery Recharger/TS"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/BIN2"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-GPIO22-Pad15)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/~{SLEEP}"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/AIN1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/Motor Driver/AOUT1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(J2-CC1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/EN"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-+3V3"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-GPIO25-Pad22)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/Motor Driver/AOUT2"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(DWM1-GPIO0{slash}RXOKLED-Pad15)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-GPIO19{slash}MISO1-Pad35)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U8-~{RST}-Pad10)"
       },
       {
         "netclass": "Board_5-Default",
@@ -3601,7 +4309,87 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U3-VCP)"
+        "pattern": "Board_5-unconnected-(J7-MountPin-PadMP)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(DWM1-GPIO3{slash}TXLED)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-GND"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(J5-SCL{slash}GPIO3)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/Power Rails/EN"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(DWM1-GPIO1{slash}SFDLED-Pad14)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/IO9"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-ID_SD{slash}GPIO0-Pad27)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-GPIO17-Pad11)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-GPIO20{slash}MOSI1-Pad38)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U8-Vref)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U2-MID)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/Motor Driver/BOUT1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J5-GPIO16-Pad36)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(DWM1-GPIO6{slash}EXTRXE{slash}SPIHA-Pad9)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/CLK"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J9-MountPin-PadMP)_1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U11-ASCX-Pad3)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(D1-K)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U11-ASDX-Pad2)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U1-NC-Pad8)"
       },
       {
         "netclass": "Board_5-Default",
@@ -3613,159 +4401,7 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-/Motor Driver/BOUT1"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/UWB_IRQ"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(DWM1-EXTON-Pad1)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/~{KILL}"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U2-~{INT})"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/AIN2"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U11-INT1-Pad4)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(D3-A)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J8-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/UWB_RST"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/USB1.D-"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U1-NC-Pad6)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(FB1-Pad1)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U7-SW)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U1-NC-Pad14)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/TX0"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U7-BST)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J5-GPIO26-Pad37)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U9-SW)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/Battery Recharger/REGN"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/Motor Driver/AOUT2"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U8-Vref)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(D1-K)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U3-VINT)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(C12-Pad1)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J2-CC2)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U6-NC-Pad22)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U5-SW)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J7-MountPin-PadMP)_1"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U11-ASDX-Pad2)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/Power Rails/EN"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/BIN1"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(D5-A)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U12-VO)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J7-MountPin-PadMP)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/~{SLEEP}"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/UWB_~{CS}"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U3-AISEN)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U2-STAT)"
+        "pattern": "Board_5-Net-(U5-FB)"
       },
       {
         "netclass": "Board_5-Default",
@@ -3773,71 +4409,11 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-+3V3"
+        "pattern": "Board_5-/MCU/AIN2"
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U1-NC-Pad7)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J5-GPIO16-Pad36)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U1-INT-Pad15)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J5-GPIO23-Pad16)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J5-GPIO25-Pad22)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(D3-K)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U1-NC-Pad8)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U8-~{INT}-Pad11)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J6-Pin_10-Pad10)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(J5-GPIO22-Pad15)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/Motor Driver/AOUT1"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/IO9"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/EN"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U2-BTST)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MCU/IO19"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-unconnected-(U1-SPI_SDO-Pad5)"
+        "pattern": "Board_5-/MCU/UWB_WUP"
       },
       {
         "netclass": "Board_5-PWR_2A",

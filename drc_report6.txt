@@ -1,0 +1,125 @@
+** Drc report for rover-circuit.kicad_pcb **
+** Created on 2026-06-30T18:19:58 **
+** Report includes: Errors, Warnings **
+
+** Found 24 DRC violations **
+[clearance]: Clearance violation (netclass 'I2C' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'I2C'; error
+    @(178.3344 mm, 93.3334 mm): Via [/Battery Recharger/SDA] on F.Cu - B.Cu
+    @(200.7665 mm, 43.1430 mm): Zone [GND] on F.Cu, priority 2
+[clearance]: Clearance violation (netclass 'I2C' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'I2C'; error
+    @(178.3344 mm, 93.3334 mm): Via [/Battery Recharger/SDA] on F.Cu - B.Cu
+    @(112.6716 mm, 44.7432 mm): Zone [GND] on B.Cu, priority 1
+[clearance]: Clearance violation (netclass 'I2C' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'I2C'; error
+    @(132.4620 mm, 76.3662 mm): Via [/Battery Recharger/SDA] on F.Cu - B.Cu
+    @(112.6716 mm, 44.7432 mm): Zone [GND] on B.Cu, priority 1
+[clearance]: Clearance violation (netclass 'PWR_2A' clearance 0,2000 mm; actual 0,1902 mm)
+    Rule: netclass 'PWR_2A'; error
+    @(133.4439 mm, 81.7071 mm): Via [GND] on F.Cu - B.Cu
+    @(151.8669 mm, 120.8916 mm): Zone [VBUS] on B.Cu, priority 8
+[clearance]: Clearance violation (netclass 'I2C' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'I2C'; error
+    @(151.6040 mm, 68.6446 mm): Via [/Battery Recharger/SDA] on F.Cu - B.Cu
+    @(200.7665 mm, 43.1430 mm): Zone [GND] on F.Cu, priority 2
+[clearance]: Clearance violation (netclass 'I2C' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'I2C'; error
+    @(151.6040 mm, 68.6446 mm): Via [/Battery Recharger/SDA] on F.Cu - B.Cu
+    @(112.6716 mm, 44.7432 mm): Zone [GND] on B.Cu, priority 1
+[clearance]: Clearance violation (netclass 'PWR_2A' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'PWR_2A'; error
+    @(140.6662 mm, 87.2882 mm): Via [+6V] on F.Cu - B.Cu
+    @(200.7665 mm, 43.1430 mm): Zone [GND] on F.Cu, priority 2
+[clearance]: Clearance violation (netclass 'I2C' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'I2C'; error
+    @(159.3098 mm, 85.8150 mm): Via [/Battery Recharger/SCL] on F.Cu - B.Cu
+    @(112.6716 mm, 44.7432 mm): Zone [GND] on B.Cu, priority 1
+[clearance]: Clearance violation (netclass 'I2C' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'I2C'; error
+    @(160.1480 mm, 85.7896 mm): Via [/Battery Recharger/SDA] on F.Cu - B.Cu
+    @(200.7665 mm, 43.1430 mm): Zone [GND] on F.Cu, priority 2
+[clearance]: Clearance violation (netclass 'I2C' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'I2C'; error
+    @(132.4620 mm, 75.6296 mm): Via [/Battery Recharger/SCL] on F.Cu - B.Cu
+    @(112.6716 mm, 44.7432 mm): Zone [GND] on B.Cu, priority 1
+[clearance]: Clearance violation (netclass 'PWR_2A' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'PWR_2A'; error
+    @(140.6662 mm, 87.2882 mm): Via [+6V] on F.Cu - B.Cu
+    @(112.6716 mm, 44.7432 mm): Zone [GND] on B.Cu, priority 1
+[clearance]: Clearance violation (netclass 'I2C' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'I2C'; error
+    @(160.1480 mm, 85.7896 mm): Via [/Battery Recharger/SDA] on F.Cu - B.Cu
+    @(112.6716 mm, 44.7432 mm): Zone [GND] on B.Cu, priority 1
+[clearance]: Clearance violation (netclass 'PWR_2A' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'PWR_2A'; error
+    @(151.0802 mm, 86.4500 mm): Via [+6V] on F.Cu - B.Cu
+    @(112.6716 mm, 44.7432 mm): Zone [GND] on B.Cu, priority 1
+[clearance]: Clearance violation (netclass 'I2C' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'I2C'; error
+    @(150.8770 mm, 68.6446 mm): Via [/Battery Recharger/SCL] on F.Cu - B.Cu
+    @(200.7665 mm, 43.1430 mm): Zone [GND] on F.Cu, priority 2
+[clearance]: Clearance violation (board minimum clearance 0,1250 mm; actual 0,1128 mm)
+    Local override; error
+    @(138.4627 mm, 78.9570 mm): Pad 2 [Net-(U3-VCP)] of C9 on F.Cu
+    @(138.5072 mm, 78.1442 mm): Via [/MCU/BIN2] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'I2C' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'I2C'; error
+    @(150.8770 mm, 68.6446 mm): Via [/Battery Recharger/SCL] on F.Cu - B.Cu
+    @(112.6716 mm, 44.7432 mm): Zone [GND] on B.Cu, priority 1
+[clearance]: Clearance violation (netclass 'PWR_1A' clearance 0,2500 mm; actual 0,2255 mm)
+    Rule: netclass 'PWR_1A'; error
+    @(127.3312 mm, 98.5150 mm): Via [+5V] on F.Cu - B.Cu
+    @(112.6716 mm, 44.7432 mm): Zone [GND] on B.Cu, priority 1
+[clearance]: Clearance violation (netclass 'PWR_2A' clearance 0,2000 mm; actual 0,1902 mm)
+    Rule: netclass 'PWR_2A'; error
+    @(133.4439 mm, 82.1643 mm): Via [GND] on F.Cu - B.Cu
+    @(151.8669 mm, 120.8916 mm): Zone [VBUS] on B.Cu, priority 8
+[clearance]: Clearance violation (netclass 'PWR_2A' clearance 0,2000 mm; actual 0,1814 mm)
+    Rule: netclass 'PWR_2A'; error
+    @(145.0350 mm, 91.1236 mm): Via [/Power Rails/EN] on F.Cu - B.Cu
+    @(130.2022 mm, 82.2500 mm): Zone [+BATT] on F.Cu, priority 15
+[clearance]: Clearance violation (netclass 'PWR_2A' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'PWR_2A'; error
+    @(146.1780 mm, 77.4076 mm): Via [/MCU/~{SLEEP}] on F.Cu - B.Cu
+    @(150.2420 mm, 75.7820 mm): Zone [+6V] on F.Cu, priority 12
+[clearance]: Clearance violation (netclass 'I2C' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'I2C'; error
+    @(177.5978 mm, 93.3334 mm): Via [/Battery Recharger/SCL] on F.Cu - B.Cu
+    @(200.7665 mm, 43.1430 mm): Zone [GND] on F.Cu, priority 2
+[clearance]: Clearance violation (netclass 'PWR_1A' clearance 0,2500 mm; actual 0,2255 mm)
+    Rule: netclass 'PWR_1A'; error
+    @(134.8496 mm, 96.8386 mm): Via [+5V] on F.Cu - B.Cu
+    @(200.7665 mm, 43.1430 mm): Zone [GND] on F.Cu, priority 2
+[clearance]: Clearance violation (netclass 'I2C' clearance 0,2000 mm; actual 0,1755 mm)
+    Rule: netclass 'I2C'; error
+    @(177.5978 mm, 93.3334 mm): Via [/Battery Recharger/SCL] on F.Cu - B.Cu
+    @(112.6716 mm, 44.7432 mm): Zone [GND] on B.Cu, priority 1
+[clearance]: Clearance violation (netclass 'PWR_1A' clearance 0,2500 mm; actual 0,2255 mm)
+    Rule: netclass 'PWR_1A'; error
+    @(134.8496 mm, 96.8386 mm): Via [+5V] on F.Cu - B.Cu
+    @(112.6716 mm, 44.7432 mm): Zone [GND] on B.Cu, priority 1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Via is not connected or connected on only one layer
+    - Track has unconnected end
+    - Board edge clearance violation
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Duplicate footprints
+    - Missing footprint
+    - Extra footprint
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clearance
+    - Silkscreen clipped by board edge
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+    - Footprint doesn't match copy in library
+
+** End of Report **

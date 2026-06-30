@@ -73,7 +73,7 @@
 (rule "Board_0-Annular ring width (via and PTH)"
 	(layer outer)
 	(condition "A.isPlated()")
-	(constraint annular_width (min 0.075mm))
+	(constraint annular_width (min 0.125mm))
 )
 
 (rule "Board_0-Clearance: hole to hole (perimeter), different nets"
@@ -185,7 +185,7 @@
 (rule "Board_1-Annular ring width (via and PTH)"
 	(layer outer)
 	(condition "A.isPlated()")
-	(constraint annular_width (min 0.075mm))
+	(constraint annular_width (min 0.125mm))
 )
 
 (rule "Board_1-Clearance: hole to hole (perimeter), different nets"
@@ -297,7 +297,7 @@
 (rule "Board_2-Annular ring width (via and PTH)"
 	(layer outer)
 	(condition "A.isPlated()")
-	(constraint annular_width (min 0.075mm))
+	(constraint annular_width (min 0.125mm))
 )
 
 (rule "Board_2-Clearance: hole to hole (perimeter), different nets"
@@ -409,7 +409,7 @@
 (rule "Board_3-Annular ring width (via and PTH)"
 	(layer outer)
 	(condition "A.isPlated()")
-	(constraint annular_width (min 0.075mm))
+	(constraint annular_width (min 0.125mm))
 )
 
 (rule "Board_3-Clearance: hole to hole (perimeter), different nets"
@@ -521,7 +521,7 @@
 (rule "Board_4-Annular ring width (via and PTH)"
 	(layer outer)
 	(condition "A.isPlated()")
-	(constraint annular_width (min 0.075mm))
+	(constraint annular_width (min 0.125mm))
 )
 
 (rule "Board_4-Clearance: hole to hole (perimeter), different nets"
@@ -633,7 +633,7 @@
 (rule "Board_5-Annular ring width (via and PTH)"
 	(layer outer)
 	(condition "A.isPlated()")
-	(constraint annular_width (min 0.075mm))
+	(constraint annular_width (min 0.125mm))
 )
 
 (rule "Board_5-Clearance: hole to hole (perimeter), different nets"
