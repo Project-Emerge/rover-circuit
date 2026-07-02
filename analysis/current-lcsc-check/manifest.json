@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "project": "rover-circuit.kicad_pro",
+  "current": "2026-05-28_2049",
+  "runs": {
+    "2026-05-28_2049": {
+      "source_hashes": {
+        "rover-circuit.kicad_sch": "sha256:a58398d96f132a9007e5cc52637b359cf44b0842af33b79256c4f39e204cc1aa",
+        "rover-circuit.kicad_pcb": "sha256:d63420fb86f89b25b9b3e30a39d268a7016a9b613a6b0c2a14a1c9c5f8e11d62"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py rover-circuit.kicad_sch"
+      },
+      "generated": "2026-05-28T20:49:35+02:00",
+      "pinned": false
+    }
+  }
+}

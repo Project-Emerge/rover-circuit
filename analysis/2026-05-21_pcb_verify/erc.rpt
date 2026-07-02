@@ -1,0 +1,31 @@
+ERC report (2026-05-21T18:33:02, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+
+***** Sheet /MCU/
+
+***** Sheet /Rasbpberry PI/
+
+***** Sheet /USB/
+
+***** Sheet /Battery Recharger/
+
+***** Sheet /Motor Driver/
+
+***** Sheet /IMU/
+
+***** Sheet /Power Rails/
+
+***** Sheet /Oled Display/
+
+***** Sheet /UWB/
+
+ ** ERC messages: 0  Errors 0  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Symbol doesn't match copy in library
+    - Footprint link issue
