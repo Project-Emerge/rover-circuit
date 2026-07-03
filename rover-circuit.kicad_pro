@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.254,
-          "corner_smoothing": 2,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -960,7 +960,7 @@
         "uuid": "0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
       }
     ],
-    "used_designators": "#PWR69,TP7-11",
+    "used_designators": "C33,#PWR71,#PWR95,R21",
     "variants": []
   },
   "sheets": [
