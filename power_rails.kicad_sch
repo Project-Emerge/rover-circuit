@@ -7741,7 +7741,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C326595"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8205,7 +8205,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C326595"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9775,7 +9775,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C326595"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

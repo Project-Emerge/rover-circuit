@@ -2019,12 +2019,6 @@
 		(uuid "3318ffd8-df62-4e26-a341-0b082a7f35ae")
 	)
 	(junction
-		(at 99.06 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39726058-bc1f-4fe7-b6ce-c277d60b86e8")
-	)
-	(junction
 		(at 158.75 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2061,12 +2055,12 @@
 		(uuid "dc170fa6-88c9-4d34-b033-9827f55bef71")
 	)
 	(no_connect
-		(at 194.31 99.06)
-		(uuid "27d5abab-eac1-464e-8a03-a739a413b45e")
+		(at 132.08 106.68)
+		(uuid "1a03e0e6-dfc0-4aff-8eb0-2e1689fbda01")
 	)
 	(no_connect
-		(at 132.08 106.68)
-		(uuid "d149f419-02f1-4dbe-95bc-609368f48c4b")
+		(at 194.31 99.06)
+		(uuid "27d5abab-eac1-464e-8a03-a739a413b45e")
 	)
 	(bus_entry
 		(at 106.68 93.98)
@@ -2168,16 +2162,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 101.6) (xy 99.06 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cbe2884-395d-4a91-9839-bb12d3fae1b5")
-	)
-	(wire
-		(pts
 			(xy 119.38 86.36) (xy 132.08 86.36)
 		)
 		(stroke
@@ -2185,16 +2169,6 @@
 			(type default)
 		)
 		(uuid "1d7bf046-ba66-4d95-ba2e-7a2b9647f808")
-	)
-	(wire
-		(pts
-			(xy 121.92 104.14) (xy 132.08 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f9a0d69-7b9d-434d-9837-8f429f00390c")
 	)
 	(wire
 		(pts
@@ -2235,6 +2209,16 @@
 			(type default)
 		)
 		(uuid "2b162de5-4da9-4594-9a30-b197e3b61b48")
+	)
+	(wire
+		(pts
+			(xy 132.08 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5c227a-0d7a-49e7-9de5-0a4b55ef87af")
 	)
 	(wire
 		(pts
@@ -2375,16 +2359,6 @@
 			(type default)
 		)
 		(uuid "5391d5ca-1979-4653-9d88-7d2b7980a3ea")
-	)
-	(wire
-		(pts
-			(xy 99.06 104.14) (xy 99.06 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "574a38c7-edf3-4939-8cd2-b8414e05604a")
 	)
 	(bus
 		(pts
@@ -2528,6 +2502,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 104.14) (xy 127 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862300e5-7d27-46c0-a7ee-a96072493dc1")
+	)
+	(wire
+		(pts
 			(xy 116.84 125.73) (xy 116.84 127)
 		)
 		(stroke
@@ -2568,7 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 101.6) (xy 100.33 101.6)
+			(xy 93.98 101.6) (xy 100.33 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2615,16 +2599,6 @@
 			(type default)
 		)
 		(uuid "9e19c6e0-588b-421b-ad33-3e45127b9f8e")
-	)
-	(wire
-		(pts
-			(xy 114.3 104.14) (xy 99.06 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0ab4d2b-8a7c-4e5f-8290-c531e5e5899a")
 	)
 	(wire
 		(pts
@@ -4249,7 +4223,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77091"
+		(property "LCSC" "C53084537"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4692,6 +4666,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 127 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "840792e2-88dd-48dc-a873-ab3573ee4a90")
+		(property "Reference" "#PWR069"
+			(at 127 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a607b7db-47f6-4513-9ec4-3521dd9a6085")
+		)
+		(instances
+			(project "rover-circuit"
+				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/d12ae2b7-4c48-4e18-8e74-760d158fba59"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 207.01 86.36 0)
 		(unit 1)
@@ -4780,7 +4832,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29519229"
+		(property "LCSC" "C86295"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4916,119 +4968,6 @@
 			(project "rover-circuit"
 				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/d12ae2b7-4c48-4e18-8e74-760d158fba59"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 104.14 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b816c6f-39dc-4cf6-afe4-03a515cfcd3a")
-		(property "Reference" "R21"
-			(at 118.11 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 118.11 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 118.11 105.918 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b3641306390dfb6f98ec07837c926b58.pdf?productCode=C2906982"
-			(at 118.11 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Generic"
-			(at 13.97 2.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GPR060310K"
-			(at 13.97 2.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15401"
-			(at 13.97 2.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a53fdd08-0cf1-42e1-be57-083a0d22bcb0")
-		)
-		(pin "2"
-			(uuid "2d1fa400-bafd-4831-a880-19e50c6d36cc")
-		)
-		(instances
-			(project "rover-circuit"
-				(path "/0461baee-3b25-4e1a-a5c1-d76b4b99c66c/d12ae2b7-4c48-4e18-8e74-760d158fba59"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5936,7 +5875,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77091"
+		(property "LCSC" "C53084537"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
