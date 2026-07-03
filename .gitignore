@@ -67,3 +67,6 @@ gerbers/
 # Log files
 *.log
 
+analysis/*
+jlcpcb/*
+
