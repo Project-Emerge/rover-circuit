@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
     
       - name: Run KiCad actions
-        uses: actions-for-kicad/kicad-actions@v1-k9.0
+        uses: actions-for-kicad/kicad-actions@v2.4-k10.0
         with:
           schematic_file_name: ./rover-circuit.kicad_sch
           # symbol_libraries: "symbol-library=./symbol-library.kicad_sym"
