@@ -1,4 +1,4 @@
-# Rover Circuit
+# Dropbot Circuit Board
 
 ![3D View of the Board](fig/3d_board.png)
 
