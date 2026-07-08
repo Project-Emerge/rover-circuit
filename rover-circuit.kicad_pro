@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "net_conflict|157170038|128107759|281e9b49-65f2-4054-b21a-de3c49d8fa89|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -960,7 +965,7 @@
         "uuid": "0461baee-3b25-4e1a-a5c1-d76b4b99c66c"
       }
     ],
-    "used_designators": "C33,#PWR71,#PWR95,R21",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
