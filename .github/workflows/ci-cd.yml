@@ -52,6 +52,12 @@ jobs:
           name: Image-render
           path: ./rover-circuit-pcb-render.png
 
+      - name: Upload STEP file
+        uses: actions/upload-artifact@v4
+        with:
+          name: STEP
+          path: ./rover-circuit.step
+
   release:
     name: Create Release
     runs-on: ubuntu-latest
@@ -84,17 +90,30 @@ jobs:
           tag_name: ${{ steps.create_tag.outputs.tag_name }}
           name: Rover Circuit ${{ steps.create_tag.outputs.tag_name }}
           body: |
-            Automated release of Rover Circuit PCB design
+            ## Hardware Release: Rover Circuit
             
-            This release contains:
-            - 📋 **rover-circuit-schematic.pdf** - Schematic PDF for documentation
-            - 🔧 **rover-circuit-gerbers.zip** - Gerber files and drill files for PCB manufacturing
-            - 🖼️ **rover-circuit-pcb-render.png** - PCB render image for visualization
+            This is an automated release containing manufacturing files, 3D models, and documentation generated from commit ${{ github.sha }}.
             
-            Generated from commit: ${{ github.sha }}
+            ### 📂 Release Assets
+            
+            * 🔧 **Manufacturing Files** (`rover-circuit-gerbers.zip`)
+              Standard Gerber and EXCELLON drill files ready for PCB fabrication.
+            
+            * 📐 **Mechanical CAD** (`rover-circuit.step`)
+              3D STEP model for mechanical integration, interference checking, and enclosure design.
+            
+            * 📄 **Schematic** (`rover-circuit-schematic.pdf`)
+              Complete circuit schematic for reference, review, and debugging.
+            
+            * 🖼️ **Board Render** (`rover-circuit-pcb-render.png`)
+              High-resolution 3D render of the assembled printed circuit board.
+            
+            ---
+            *Generated automatically by KiCad CI/CD Workflow*
           files: |
             ./artifacts/Schematic/rover-circuit-schematic.pdf
             ./rover-circuit-gerbers.zip
             ./artifacts/Image-render/rover-circuit-pcb-render.png
+            ./artifacts/STEP/rover-circuit.step
           draft: false
           prerelease: false
