@@ -22,18 +22,23 @@ jobs:
           # symbol_libraries: "symbol-library=./symbol-library.kicad_sym"
           run_erc: false
           schematic_output_pdf: true
+          schematic_output_pdf_file_name: rover-circuit-schematic.pdf
     
           pcb_file_name: ./rover-circuit.kicad_pcb
           # footprint_libraries: "footprint-library=./footprint-library.pretty"
           run_drc: true
           pcb_output_gerbers_and_drill: true
           pcb_output_image: true
+          pcb_output_image_file_name: rover-circuit-pcb-render.png
+
+          pcb_output_step: true
+          pcb_output_step_file_name: rover-circuit.step
     
       - name: Upload schematic
         uses: actions/upload-artifact@v4
         with:
           name: Schematic
-          path: ./schematic.pdf
+          path: ./rover-circuit-schematic.pdf
     
       - name: Upload gerbers and drill file
         uses: actions/upload-artifact@v4
@@ -44,8 +49,8 @@ jobs:
       - name: Upload image render
         uses: actions/upload-artifact@v4
         with:
-          name: Image render
-          path: ./pcb.png
+          name: Image-render
+          path: ./rover-circuit-pcb-render.png
 
   release:
     name: Create Release
@@ -88,8 +93,8 @@ jobs:
             
             Generated from commit: ${{ github.sha }}
           files: |
-            ./artifacts/Schematic/schematic.pdf
+            ./artifacts/Schematic/rover-circuit-schematic.pdf
             ./rover-circuit-gerbers.zip
-            ./artifacts/Image render/pcb.png
+            ./artifacts/Image-render/rover-circuit-pcb-render.png
           draft: false
           prerelease: false
