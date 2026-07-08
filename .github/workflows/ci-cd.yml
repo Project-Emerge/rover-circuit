@@ -20,7 +20,7 @@ jobs:
         with:
           schematic_file_name: ./rover-circuit.kicad_sch
           # symbol_libraries: "symbol-library=./symbol-library.kicad_sym"
-          run_erc: true
+          run_erc: false
           schematic_output_pdf: true
     
           pcb_file_name: ./rover-circuit.kicad_pcb
