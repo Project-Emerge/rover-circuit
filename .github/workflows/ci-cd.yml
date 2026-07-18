@@ -85,7 +85,7 @@ jobs:
           zip -r ../../rover-circuit-gerbers.zip .
       
       - name: Create release with artifacts
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ steps.create_tag.outputs.tag_name }}
           name: Rover Circuit ${{ steps.create_tag.outputs.tag_name }}
