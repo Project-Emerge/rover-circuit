@@ -1,19 +1,41 @@
 {
   "version": 1,
   "project": "rover-circuit.kicad_pro",
-  "current": "2026-07-03_1454",
+  "current": "2026-07-18_0923",
   "runs": {
     "2026-07-03_1454": {
       "source_hashes": {
-        "rover-circuit.kicad_sch": "sha256:6739e66e7adc12c5f463ca8cf5f685a508c02f098c849a33776e87fb63437960"
+        "rover-circuit.kicad_sch": "sha256:6739e66e7adc12c5f463ca8cf5f685a508c02f098c849a33776e87fb63437960",
+        "rover-circuit.kicad_pcb": "sha256:bfafc9ed5707fffd510f32e69b629a21b0d9d4f13ee8104b13e49009bdb4f1f4",
+        "schematic.json": "sha256:ae85725a37e85ffa4713f2eb35444f33b84307a32a11086474be0b19c2770a87",
+        "pcb.json": "sha256:8ae238f7c56dbb6e947af66bc5cd3edc1e7bcb23a485ec873ab28fbedb36951d"
       },
       "outputs": {
-        "schematic": "schematic.json"
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json"
       },
       "scripts": {
         "schematic": "analyze_schematic.py rover-circuit.kicad_sch"
       },
-      "generated": "2026-07-03T14:54:56+02:00",
+      "generated": "2026-07-18T08:28:57+02:00",
+      "pinned": false
+    },
+    "2026-07-18_0923": {
+      "source_hashes": {
+        "rover-circuit.kicad_sch": "sha256:6739e66e7adc12c5f463ca8cf5f685a508c02f098c849a33776e87fb63437960"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py rover-circuit.kicad_sch"
+      },
+      "generated": "2026-07-18T09:23:13+02:00",
       "pinned": false
     }
   }
