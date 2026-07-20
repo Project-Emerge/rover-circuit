@@ -35,25 +35,25 @@ jobs:
           pcb_output_step_file_name: rover-circuit.step
     
       - name: Upload schematic
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: Schematic
           path: ./rover-circuit-schematic.pdf
     
       - name: Upload gerbers and drill file
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: Gerbers
           path: ./gerbers
     
       - name: Upload image render
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: Image-render
           path: ./rover-circuit-pcb-render.png
 
       - name: Upload STEP file
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: STEP
           path: ./rover-circuit.step
