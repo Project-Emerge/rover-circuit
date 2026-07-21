@@ -2776,7 +2776,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 0805 X7R MLCC"
+		(property "Value" "0.1uF"
 			(at 142.24 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2820,7 +2820,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C326595"
+		(property "LCSC" "C49678"
 			(at 138.43 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -2842,7 +2842,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPC0805104"
+		(property "MPN" ""
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
